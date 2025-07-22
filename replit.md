@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a luxury resort website for Lago Bravo World Resort, built as a modern full-stack web application. The application features a React frontend with a luxury resort theme, an Express.js backend API, and uses Drizzle ORM for database operations with PostgreSQL. The site includes sections for accommodations, weddings, casino, dining, nightlife, events, and contact forms.
+This is a luxury resort website for Lago Bravo World Resort, built as a modern full-stack web application. The application features a React frontend with a luxury resort theme, an Express.js backend API, and uses Drizzle ORM for database operations with PostgreSQL. The site includes sections for accommodations, weddings, casino, dining, nightlife, events, and contact forms. The website prominently features the authentic Lago Bravo logo throughout the design and is now connected to a fully functional PostgreSQL database for persistent data storage.
 
 ## User Preferences
 
@@ -23,7 +23,8 @@ Preferred communication style: Simple, everyday language.
 - **Framework**: Express.js with TypeScript
 - **Runtime**: Node.js with ES modules
 - **Database ORM**: Drizzle ORM with PostgreSQL dialect
-- **Database Provider**: Neon Database (serverless PostgreSQL)
+- **Database Provider**: PostgreSQL with connection pooling
+- **Database Storage**: DatabaseStorage class replacing MemStorage for persistent data
 - **Validation**: Zod for request/response validation
 - **Development**: Hot reload with Vite integration
 
@@ -94,4 +95,11 @@ The application uses three main database tables:
 - Database schema changes are pushed using `drizzle-kit push`
 - TypeScript checking available via `npm run check`
 
-The application is designed as a luxury resort booking platform with a focus on user experience, type safety, and maintainable architecture. The monorepo structure keeps frontend, backend, and shared schemas in sync while allowing for independent scaling of different components.
+## Recent Changes (January 2025)
+
+- **Database Migration**: Successfully migrated from in-memory storage to PostgreSQL database
+- **Logo Integration**: Updated all components to display the authentic Lago Bravo logo (PNG format)
+- **Database Schema**: Created and deployed tables for reservations, wedding inquiries, and newsletter subscriptions
+- **Storage Layer**: Implemented DatabaseStorage class with full CRUD operations using Drizzle ORM
+
+The application is designed as a luxury resort booking platform with a focus on user experience, type safety, and maintainable architecture. The monorepo structure keeps frontend, backend, and shared schemas in sync while allowing for independent scaling of different components. All data is now persisted in PostgreSQL for production-ready operations.

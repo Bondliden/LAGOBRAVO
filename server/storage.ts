@@ -12,6 +12,8 @@ import {
   type Newsletter,
   type InsertNewsletter
 } from "@shared/schema";
+import { db } from "./db";
+import { eq } from "drizzle-orm";
 
 export interface IStorage {
   // User methods
@@ -129,4 +131,73 @@ export class MemStorage implements IStorage {
   }
 }
 
-export const storage = new MemStorage();
+// rewrite MemStorage to DatabaseStorage
+export class DatabaseStorage implements IStorage {
+  async getUser(id: number): Promise<User | undefined> {
+    const [user] = await db.select().from(users).where(eq(users.id, id));
+    return user || undefined;
+  }
+
+  async getUserByUsername(username: string): Promise<User | undefined> {
+    const [user] = await db.select().from(users).where(eq(users.username, username));
+    return user || undefined;
+  }
+
+  async createUser(insertUser: InsertUser): Promise<User> {
+    const [user] = await db
+      .insert(users)
+      .values(insertUser)
+      .returning();
+    return user;
+  }
+
+  async createReservation(insertReservation: InsertReservation): Promise<Reservation> {
+    const [reservation] = await db
+      .insert(reservations)
+      .values(insertReservation)
+      .returning();
+    return reservation;
+  }
+
+  async getReservations(): Promise<Reservation[]> {
+    return await db.select().from(reservations);
+  }
+
+  async getReservation(id: number): Promise<Reservation | undefined> {
+    const [reservation] = await db.select().from(reservations).where(eq(reservations.id, id));
+    return reservation || undefined;
+  }
+
+  async createWeddingInquiry(insertWeddingInquiry: InsertWeddingInquiry): Promise<WeddingInquiry> {
+    const [inquiry] = await db
+      .insert(weddingInquiries)
+      .values(insertWeddingInquiry)
+      .returning();
+    return inquiry;
+  }
+
+  async getWeddingInquiries(): Promise<WeddingInquiry[]> {
+    return await db.select().from(weddingInquiries);
+  }
+
+  async subscribeNewsletter(insertNewsletter: InsertNewsletter): Promise<Newsletter> {
+    try {
+      const [subscription] = await db
+        .insert(newsletterSubscriptions)
+        .values(insertNewsletter)
+        .returning();
+      return subscription;
+    } catch (error: any) {
+      if (error.code === '23505') { // Unique constraint violation
+        throw new Error("Email already subscribed to newsletter");
+      }
+      throw error;
+    }
+  }
+
+  async getNewsletterSubscriptions(): Promise<Newsletter[]> {
+    return await db.select().from(newsletterSubscriptions);
+  }
+}
+
+export const storage = new DatabaseStorage();
