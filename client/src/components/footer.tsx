@@ -1,4 +1,4 @@
-import lagobravoLogoPath from "@assets/lago-bravo-logo_1753204556550.webp";
+import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {

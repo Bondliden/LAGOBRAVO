@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import lagobravoLogoPath from "@assets/lago-bravo-logo_1753204556550.webp";
+import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
