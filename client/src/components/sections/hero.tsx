@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden mb-0">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
@@ -32,7 +32,7 @@ export default function Hero() {
         
         <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">
           LAGO BRAVO
-          <span className="block text-3xl md:text-4xl font-light mt-2">WORLD DESTINATIONS</span>
+          <span className="block text-3xl md:text-4xl font-light mt-2">WORLD RESORT</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 font-light">Where Luxury Meets Adventure</p>
         <p className="text-lg mb-12 max-w-3xl mx-auto">
