@@ -42,11 +42,18 @@ export default function Hero() {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <Button 
-            onClick={() => scrollToSection('accommodations')}
+            onClick={() => scrollToSection('golf')}
             size="lg"
             className="bg-white text-primary hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
           >
-            Explore Accommodations
+            Championship Golf
+          </Button>
+          <Button 
+            onClick={() => scrollToSection('accommodations')}
+            size="lg"
+            className="bg-yellow-500 text-black hover:bg-yellow-400 px-8 py-4 text-lg font-semibold"
+          >
+            Explore Resort
           </Button>
           <Button 
             onClick={() => scrollToSection('contact')}

@@ -1,6 +1,7 @@
 import Navigation from "@/components/navigation";
 import Hero from "@/components/sections/hero";
 import About from "@/components/sections/about";
+import Golf from "@/components/sections/golf";
 import Accommodations from "@/components/sections/accommodations";
 import Weddings from "@/components/sections/weddings";
 import Casino from "@/components/sections/casino";
@@ -16,6 +17,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <About />
+      <Golf />
       <Accommodations />
       <Weddings />
       <Casino />

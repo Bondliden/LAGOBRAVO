@@ -43,6 +43,12 @@ export default function Navigation() {
           
           <div className="hidden lg:flex items-center space-x-8">
             <button 
+              onClick={() => scrollToSection('golf')} 
+              className="text-gray-700 hover:text-primary font-medium transition-colors"
+            >
+              Golf
+            </button>
+            <button 
               onClick={() => scrollToSection('accommodations')} 
               className="text-gray-700 hover:text-primary font-medium transition-colors"
             >
@@ -104,6 +110,12 @@ export default function Navigation() {
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-white border-t border-gray-200 py-4">
             <div className="flex flex-col space-y-4">
+              <button 
+                onClick={() => scrollToSection('golf')}
+                className="text-left text-gray-700 hover:text-primary font-medium transition-colors py-2"
+              >
+                Golf
+              </button>
               <button 
                 onClick={() => scrollToSection('accommodations')}
                 className="text-left text-gray-700 hover:text-primary font-medium transition-colors py-2"

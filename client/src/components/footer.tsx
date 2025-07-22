@@ -49,6 +49,11 @@ export default function Footer() {
             <h4 className="text-lg font-serif font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
+                <button onClick={() => scrollToSection('golf')} className="text-gray-300 hover:text-white transition-colors text-left">
+                  Golf
+                </button>
+              </li>
+              <li>
                 <button onClick={() => scrollToSection('accommodations')} className="text-gray-300 hover:text-white transition-colors text-left">
                   Accommodations
                 </button>
