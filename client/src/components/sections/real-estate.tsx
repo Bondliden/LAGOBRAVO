@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import SectionHeading from "@/components/ui/section-heading";
+import overwaterVillaSvg from "@assets/overwater-villa.svg";
 
 export default function RealEstate() {
   const villaFeatures = [
@@ -94,16 +95,21 @@ export default function RealEstate() {
         
         {/* Hero Real Estate Image */}
         <div className="mb-16">
-          <div className="relative">
+          <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1520637836862-4d197d17c295?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-              alt="Overwater villas in crystal lagoon" 
-              className="w-full h-96 object-cover rounded-2xl shadow-2xl"
+              src={overwaterVillaSvg}
+              alt="Overwater Crystal Lagoon Villa Architectural Design" 
+              className="w-full h-auto rounded-xl"
             />
-            <div className="absolute inset-0 bg-black/40 rounded-2xl flex items-center justify-center">
-              <div className="text-center text-white">
-                <h3 className="text-4xl font-serif font-bold mb-2">Overwater Crystal Lagoon Residences</h3>
-                <p className="text-xl">Built in the Lagoon • Coming Soon • Fractional Available</p>
+            <div className="mt-6 text-center">
+              <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <h3 className="text-3xl font-serif font-bold text-primary mb-2">Architectural-Inspired Overwater Villas</h3>
+                <p className="text-lg text-gray-700">Multi-level designs built directly in crystal lagoon waters</p>
+                <div className="flex justify-center gap-6 mt-4 text-sm text-gray-600">
+                  <span className="bg-amber-100 px-3 py-1 rounded-full">🏗️ Coming Soon</span>
+                  <span className="bg-blue-100 px-3 py-1 rounded-full">🌊 Built in Lagoon</span>
+                  <span className="bg-green-100 px-3 py-1 rounded-full">🔑 Fractional Available</span>
+                </div>
               </div>
             </div>
           </div>

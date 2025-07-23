@@ -1,0 +1,104 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="villa-shadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="800" height="250" fill="url(#sky)"/>
+  
+  <!-- Water/Lagoon -->
+  <rect x="0" y="250" width="800" height="250" fill="url(#water)"/>
+  
+  <!-- Water ripples -->
+  <ellipse cx="100" cy="350" rx="30" ry="5" fill="#81D4FA" opacity="0.3"/>
+  <ellipse cx="200" cy="380" rx="25" ry="4" fill="#81D4FA" opacity="0.3"/>
+  <ellipse cx="350" cy="320" rx="35" ry="6" fill="#81D4FA" opacity="0.3"/>
+  <ellipse cx="600" cy="370" rx="28" ry="5" fill="#81D4FA" opacity="0.3"/>
+  
+  <!-- Mountains in background -->
+  <polygon points="0,250 150,180 300,220 450,160 600,200 800,170 800,250" fill="#8BC34A" opacity="0.4"/>
+  
+  <!-- Palm trees on shore -->
+  <ellipse cx="50" cy="250" rx="8" ry="25" fill="#8D6E63"/>
+  <polygon points="50,225 35,200 45,195 50,210 55,195 65,200" fill="#4CAF50"/>
+  <ellipse cx="750" cy="250" rx="6" ry="20" fill="#8D6E63"/>
+  <polygon points="750,230 740,210 748,206 750,220 752,206 760,210" fill="#4CAF50"/>
+  
+  <!-- Main overwater villa structure -->
+  <!-- Villa foundation/platform -->
+  <rect x="280" y="280" width="240" height="15" fill="#D7CCC8" rx="2"/>
+  <rect x="285" y="295" width="230" height="8" fill="url(#villa-shadow)"/>
+  
+  <!-- Villa main structure -->
+  <rect x="300" y="180" width="200" height="100" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" rx="5"/>
+  
+  <!-- Roof -->
+  <polygon points="290,180 310,160 490,160 510,180" fill="#8D6E63"/>
+  <rect x="295" y="175" width="210" height="5" fill="#6D4C41"/>
+  
+  <!-- Windows -->
+  <rect x="320" y="200" width="40" height="30" fill="#81D4FA" stroke="#90A4AE" stroke-width="1" opacity="0.8"/>
+  <rect x="440" y="200" width="40" height="30" fill="#81D4FA" stroke="#90A4AE" stroke-width="1" opacity="0.8"/>
+  <rect x="380" y="190" width="40" height="40" fill="#81D4FA" stroke="#90A4AE" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Door -->
+  <rect x="370" y="240" width="25" height="40" fill="#8D6E63" rx="2"/>
+  <circle cx="390" cy="260" r="2" fill="#FFD700"/>
+  
+  <!-- Terrace/deck -->
+  <rect x="250" y="280" width="300" height="20" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="1"/>
+  
+  <!-- Deck railings -->
+  <rect x="250" y="280" width="300" height="3" fill="#8D6E63"/>
+  <rect x="250" y="297" width="300" height="3" fill="#8D6E63"/>
+  
+  <!-- Support pillars in water -->
+  <rect x="270" y="300" width="8" height="40" fill="#8D6E63"/>
+  <rect x="330" y="300" width="8" height="45" fill="#8D6E63"/>
+  <rect x="470" y="300" width="8" height="45" fill="#8D6E63"/>
+  <rect x="530" y="300" width="8" height="40" fill="#8D6E63"/>
+  
+  <!-- Furniture on deck -->
+  <!-- Lounge chairs -->
+  <rect x="270" y="285" width="25" height="12" fill="#FF7043" rx="2"/>
+  <rect x="505" y="285" width="25" height="12" fill="#FF7043" rx="2"/>
+  
+  <!-- Table -->
+  <circle cx="400" cy="291" r="8" fill="#8D6E63"/>
+  
+  <!-- Umbrellas -->
+  <rect x="290" y="275" width="2" height="15" fill="#8D6E63"/>
+  <path d="M280,275 Q290,265 300,275" fill="#FF5722"/>
+  <rect x="510" y="275" width="2" height="15" fill="#8D6E63"/>
+  <path d="M500,275 Q510,265 520,275" fill="#FF5722"/>
+  
+  <!-- Stairs to water -->
+  <rect x="540" y="300" width="20" height="3" fill="#D7CCC8"/>
+  <rect x="540" y="305" width="20" height="3" fill="#BCAAA4"/>
+  <rect x="540" y="310" width="20" height="3" fill="#D7CCC8"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="150" cy="100" rx="30" ry="15" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="170" cy="95" rx="25" ry="12" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="130" cy="95" rx="20" ry="10" fill="#FFFFFF" opacity="0.8"/>
+  
+  <ellipse cx="600" cy="80" rx="35" ry="18" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="625" cy="75" rx="28" ry="14" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="575" cy="75" rx="25" ry="12" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Title text -->
+  <text x="400" y="50" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1976D2">OVERWATER CRYSTAL LAGOON VILLA</text>
+  <text x="400" y="75" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#666">Multi-Level Architectural Design Built in Pristine Lagoon Waters</text>
+</svg>
