@@ -29,16 +29,16 @@ export default function Navigation() {
       isScrolled ? 'bg-white/98 backdrop-blur-md shadow-lg' : 'bg-white/95 backdrop-blur-md shadow-lg'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-3">
+        <div className="flex justify-between items-center py-3">
+          <div className="flex items-center space-x-2 min-w-0">
             <img 
               src={lagobravoLogoPath} 
               alt="Lago Bravo Integrated Resorts" 
-              className="h-12 w-auto flex-shrink-0"
+              className="h-10 w-auto flex-shrink-0"
             />
-            <div className="hidden sm:block flex-shrink-0">
-              <div className="text-lg font-serif font-bold lago-navy leading-none">LAGO BRAVO</div>
-              <div className="text-[10px] text-gray-600 font-medium tracking-wider mt-0.5">INTEGRATED RESORTS</div>
+            <div className="hidden sm:block min-w-0 flex-shrink-0">
+              <div className="text-sm font-serif font-bold lago-navy leading-tight whitespace-nowrap">LAGO BRAVO</div>
+              <div className="text-[9px] text-gray-600 font-medium tracking-wide whitespace-nowrap">INTEGRATED RESORTS</div>
             </div>
           </div>
           

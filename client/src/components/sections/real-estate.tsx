@@ -32,41 +32,43 @@ export default function RealEstate() {
 
   const properties = [
     {
-      type: "Overwater Crystal Lagoon Villa",
+      type: "Aqua Villa - Overwater Crystal Lagoon",
       status: "Coming Soon",
       availability: "Fractional Available",
-      area: "4,500 - 6,200 sq ft",
-      bedrooms: "4-6 bedrooms",
+      area: "220 - 250 m² (2,370 - 2,690 sq ft)",
+      levels: "3 levels + rooftop",
+      bedrooms: "4 bedrooms",
       features: [
-        "Built directly in crystal lagoon waters",
-        "Glass floor panels for underwater viewing",
-        "Private overwater infinity pool",
-        "Floating deck with lagoon access",
-        "Private yacht slip included",
-        "Smart home automation",
-        "Wine cellar and entertainment room",
-        "Helicopter landing pad access"
+        "Multi-level overwater design built in lagoon",
+        "Ground level: Open-plan living, dining & kitchen (55m²)",
+        "First level: Master suite + 2 guest bedrooms",
+        "Basement level: Entertainment room & wine storage",
+        "Rooftop terrace with infinity pool",
+        "Glass floor sections for underwater viewing",
+        "Private floating dock with lagoon access",
+        "Smart home automation throughout"
       ],
       image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
       highlight: true
     },
     {
-      type: "Lagoon-View Luxury Condominium",
+      type: "Marina Vista - Lagoon Edge Residence",
       status: "Coming Soon",
       availability: "Fractional Available",
-      area: "1,800 - 3,500 sq ft",
-      bedrooms: "2-4 bedrooms",
+      area: "180 - 200 m² (1,940 - 2,150 sq ft)",
+      levels: "2 levels + terrace",
+      bedrooms: "3 bedrooms",
       features: [
-        "Floor-to-ceiling windows",
-        "Panoramic lagoon and resort views",
-        "Private balcony overlooking lagoon",
-        "24/7 concierge service",
-        "Valet parking included",
-        "Access to private residents' club",
-        "Resort facility privileges",
-        "Fractional ownership program"
+        "Positioned at lagoon's edge with water access",
+        "Ground floor: Living area with covered terrace (50m²)",
+        "Upper level: Bedrooms with lagoon-view balconies",
+        "Private garden plot extending to lagoon",
+        "Direct lagoon swimming access",
+        "Covered parking for 2 vehicles",
+        "24/7 concierge and housekeeping services",
+        "Fractional ownership from 1/8 shares"
       ],
-      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       highlight: false
     }
   ];
@@ -87,7 +89,7 @@ export default function RealEstate() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Exclusive Resort Residences"
-          subtitle="Own a piece of paradise with our unique overwater villas built directly in the crystal lagoon and luxury condominiums. Experience resort living with 24/7 concierge services and all the amenities of Lago Bravo Integrated Resorts."
+          subtitle="Architecturally inspired multi-level overwater villas and lagoon-edge residences, featuring innovative designs built directly in and around our pristine crystal lagoon with fractional ownership opportunities."
         />
         
         {/* Hero Real Estate Image */}
@@ -141,17 +143,34 @@ export default function RealEstate() {
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute top-4 right-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  {property.area}
+                  {property.levels}
+                </div>
+                <div className="absolute bottom-4 left-4 bg-amber-500/90 text-black px-3 py-1 rounded-full text-xs font-bold">
+                  OVERWATER DESIGN
                 </div>
               </div>
               
               <div className="p-8">
                 <h4 className="text-2xl font-serif font-bold text-primary mb-2">{property.type}</h4>
-                <div className="flex justify-between items-center mb-2">
-                  <div className="text-2xl font-bold text-amber-600">{property.status}</div>
-                  <div className="text-gray-600 font-medium">{property.bedrooms}</div>
+                <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
+                  <div>
+                    <span className="text-gray-500">Area:</span>
+                    <div className="font-medium">{property.area}</div>
+                  </div>
+                  <div>
+                    <span className="text-gray-500">Bedrooms:</span>
+                    <div className="font-medium">{property.bedrooms}</div>
+                  </div>
+                  <div>
+                    <span className="text-gray-500">Levels:</span>
+                    <div className="font-medium">{property.levels}</div>
+                  </div>
+                  <div>
+                    <span className="text-gray-500">Status:</span>
+                    <div className="font-bold text-amber-600">{property.status}</div>
+                  </div>
                 </div>
-                <div className="text-sm text-amber-700 font-semibold mb-4">{property.availability}</div>
+                <div className="text-sm text-amber-700 font-semibold mb-4 bg-amber-50 px-3 py-1 rounded-full text-center">{property.availability}</div>
                 
                 <ul className="space-y-2 mb-6">
                   {property.features.map((feature, featureIndex) => (
