@@ -2,6 +2,7 @@ import Navigation from "@/components/navigation";
 import Hero from "@/components/sections/hero";
 import About from "@/components/sections/about";
 import Golf from "@/components/sections/golf";
+import Marina from "@/components/sections/marina";
 import Accommodations from "@/components/sections/accommodations";
 import Weddings from "@/components/sections/weddings";
 import Casino from "@/components/sections/casino";
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <About />
       <Golf />
+      <Marina />
       <Accommodations />
       <Weddings />
       <Casino />

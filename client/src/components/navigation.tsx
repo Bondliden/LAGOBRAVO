@@ -49,6 +49,12 @@ export default function Navigation() {
               Golf
             </button>
             <button 
+              onClick={() => scrollToSection('marina')} 
+              className="text-gray-700 hover:text-primary font-medium transition-colors"
+            >
+              Marina
+            </button>
+            <button 
               onClick={() => scrollToSection('accommodations')} 
               className="text-gray-700 hover:text-primary font-medium transition-colors"
             >
@@ -115,6 +121,12 @@ export default function Navigation() {
                 className="text-left text-gray-700 hover:text-primary font-medium transition-colors py-2"
               >
                 Golf
+              </button>
+              <button 
+                onClick={() => scrollToSection('marina')}
+                className="text-left text-gray-700 hover:text-primary font-medium transition-colors py-2"
+              >
+                Marina
               </button>
               <button 
                 onClick={() => scrollToSection('accommodations')}
