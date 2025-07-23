@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
+import LanguageToggle from "@/components/language-toggle";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -97,6 +98,7 @@ export default function Navigation() {
               Nightlife
             </button>
             <div className="flex items-center space-x-4 ml-8">
+              <LanguageToggle />
               <div className="text-right">
                 <p className="text-sm font-semibold text-primary">+1 800 LAGO-BRAVO</p>
                 <p className="text-xs text-gray-600">reservations@lagobravo.com</p>
@@ -177,8 +179,13 @@ export default function Navigation() {
                 Nightlife
               </button>
               <div className="pt-4 border-t border-gray-200">
-                <p className="text-sm font-semibold text-primary">+1 800 LAGO-BRAVO</p>
-                <p className="text-xs text-gray-600 mb-3">reservations@lagobravo.com</p>
+                <div className="flex justify-between items-center mb-3">
+                  <div>
+                    <p className="text-sm font-semibold text-primary">+1 800 LAGO-BRAVO</p>
+                    <p className="text-xs text-gray-600">reservations@lagobravo.com</p>
+                  </div>
+                  <LanguageToggle />
+                </div>
                 <Button 
                   onClick={() => scrollToSection('contact')} 
                   className="w-full bg-primary text-white hover:bg-primary/90"
