@@ -30,15 +30,15 @@ export default function Navigation() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-2">
-          <div className="flex items-center space-x-3 min-w-0 flex-shrink-0">
+          <div className="flex items-center space-x-4 min-w-0 flex-shrink-0 mr-8">
             <img 
               src={lagobravoLogoPath} 
               alt="Lago Bravo Integrated Resorts" 
-              className="h-8 w-auto flex-shrink-0"
+              className="h-10 w-auto flex-shrink-0"
             />
             <div className="hidden md:block min-w-0 flex-shrink-0">
-              <div className="text-xs font-serif font-bold lago-navy leading-tight whitespace-nowrap">LAGO BRAVO</div>
-              <div className="text-[8px] text-gray-600 font-medium tracking-wide whitespace-nowrap">INTEGRATED RESORTS</div>
+              <div className="text-sm font-serif font-bold lago-navy leading-tight whitespace-nowrap">LAGO BRAVO</div>
+              <div className="text-[9px] text-gray-600 font-medium tracking-wide whitespace-nowrap">INTEGRATED RESORTS</div>
             </div>
           </div>
           
