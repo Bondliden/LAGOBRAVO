@@ -72,10 +72,14 @@ export default function Marina() {
   ];
 
   const moonPhases = [
-    { date: "February 12, 2025", name: "Wolf Moon Gathering" },
-    { date: "March 14, 2025", name: "Worm Moon Celebration" },
-    { date: "April 13, 2025", name: "Pink Moon Soirée" },
-    { date: "May 12, 2025", name: "Flower Moon Festival" }
+    { date: "January 13, 2026", name: "Wolf Moon Gathering" },
+    { date: "February 11, 2026", name: "Snow Moon Celebration" },
+    { date: "March 13, 2026", name: "Worm Moon Soirée" },
+    { date: "April 11, 2026", name: "Pink Moon Festival" },
+    { date: "May 11, 2026", name: "Flower Moon Gala" },
+    { date: "June 9, 2026", name: "Strawberry Moon Evening" },
+    { date: "July 9, 2026", name: "Buck Moon Experience" },
+    { date: "August 7, 2026", name: "Sturgeon Moon Celebration" }
   ];
 
   return (
@@ -135,14 +139,20 @@ export default function Marina() {
               gourmet dining, live music, and the magic of moonlight reflecting on the water.
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-              {moonPhases.map((moon, index) => (
-                <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              {moonPhases.slice(0, 4).map((moon, index) => (
+                <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center">
                   <div className="text-2xl mb-2">🌕</div>
-                  <div className="font-semibold text-yellow-400">{moon.date}</div>
-                  <div className="text-sm text-gray-300">{moon.name}</div>
+                  <div className="font-semibold text-yellow-400 text-sm">{moon.date}</div>
+                  <div className="text-xs text-gray-300">{moon.name}</div>
                 </div>
               ))}
+            </div>
+            
+            <div className="text-center mb-6">
+              <p className="text-gray-200 text-sm">
+                Full year 2026 schedule available • Monthly celebrations throughout the year
+              </p>
             </div>
             
             <div className="text-center">
