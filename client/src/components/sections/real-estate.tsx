@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import SectionHeading from "@/components/ui/section-heading";
-import overwaterVillaSvg from "@assets/overwater-villa.svg";
+import lagoBravoLogo from "@assets/lago-bravo-logo_1753204556550.webp";
 
 export default function RealEstate() {
   const villaFeatures = [
@@ -97,9 +97,9 @@ export default function RealEstate() {
         <div className="mb-16">
           <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-2xl">
             <img 
-              src={overwaterVillaSvg}
-              alt="Overwater Crystal Lagoon Villa Architectural Design" 
-              className="w-full h-auto rounded-xl"
+              src={lagoBravoLogo}
+              alt="Lago Bravo Resort Logo" 
+              className="w-full h-auto rounded-xl max-h-64 object-contain"
             />
             <div className="mt-6 text-center">
               <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
