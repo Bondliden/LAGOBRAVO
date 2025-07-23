@@ -30,7 +30,7 @@ export default function Navigation() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-2">
-          <div className="flex items-center space-x-1 min-w-0 flex-shrink-0">
+          <div className="flex items-center space-x-3 min-w-0 flex-shrink-0">
             <img 
               src={lagobravoLogoPath} 
               alt="Lago Bravo Integrated Resorts" 

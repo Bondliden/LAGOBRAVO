@@ -93,25 +93,49 @@ export default function RealEstate() {
           subtitle="Architecturally inspired multi-level overwater villas and lagoon-edge residences, featuring innovative designs built directly in and around our pristine crystal lagoon with fractional ownership opportunities."
         />
         
-        {/* Hero Real Estate Image */}
-        <div className="mb-16">
+        {/* Hero Real Estate Images */}
+        <div className="mb-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-2xl">
             <img 
               src={lagoBravoLogo}
               alt="Lago Bravo Resort Logo" 
-              className="w-full h-auto rounded-xl max-h-64 object-contain"
+              className="w-full h-auto rounded-xl max-h-48 object-contain"
             />
             <div className="mt-6 text-center">
               <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                <h3 className="text-3xl font-serif font-bold text-primary mb-2">Architectural-Inspired Overwater Villas</h3>
-                <p className="text-lg text-gray-700">Multi-level designs built directly in crystal lagoon waters</p>
-                <div className="flex justify-center gap-6 mt-4 text-sm text-gray-600">
-                  <span className="bg-amber-100 px-3 py-1 rounded-full">🏗️ Coming Soon</span>
-                  <span className="bg-blue-100 px-3 py-1 rounded-full">🌊 Built in Lagoon</span>
-                  <span className="bg-green-100 px-3 py-1 rounded-full">🔑 Fractional Available</span>
+                <h3 className="text-2xl font-serif font-bold text-primary mb-2">Luxury Resort Living</h3>
+                <p className="text-gray-700">Experience the ultimate in integrated resort lifestyle</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="relative bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 shadow-2xl">
+            <img 
+              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
+              alt="Exclusive Marina with Luxury Yachts" 
+              className="w-full h-48 object-cover rounded-xl"
+            />
+            <div className="mt-6 text-center">
+              <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <h3 className="text-2xl font-serif font-bold text-primary mb-2">Exclusive Marina Access</h3>
+                <p className="text-gray-700">Private yacht docking and luxury waterfront living</p>
+                <div className="flex justify-center gap-4 mt-4 text-sm text-gray-600">
+                  <span className="bg-blue-100 px-3 py-1 rounded-full">⛵ Private Marina</span>
+                  <span className="bg-cyan-100 px-3 py-1 rounded-full">🛥️ Yacht Services</span>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        
+        {/* Villa Features Title */}
+        <div className="text-center mb-12">
+          <h3 className="text-3xl font-serif font-bold text-primary mb-4">Architectural-Inspired Overwater Villas</h3>
+          <p className="text-xl text-gray-700 max-w-4xl mx-auto">Multi-level designs built directly in crystal lagoon waters with exclusive marina access</p>
+          <div className="flex justify-center gap-6 mt-6 text-sm text-gray-600">
+            <span className="bg-amber-100 px-4 py-2 rounded-full">🏗️ Coming Soon</span>
+            <span className="bg-blue-100 px-4 py-2 rounded-full">🌊 Built in Lagoon</span>
+            <span className="bg-green-100 px-4 py-2 rounded-full">🔑 Fractional Available</span>
           </div>
         </div>
 
