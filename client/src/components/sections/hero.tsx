@@ -32,7 +32,7 @@ export default function Hero() {
         
         <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">
           LAGO BRAVO
-          <span className="block text-3xl md:text-4xl font-light mt-2">WORLD RESORT</span>
+          <span className="block text-3xl md:text-4xl font-light mt-2">INTEGRATED RESORTS</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 font-light">Where Luxury Meets Adventure</p>
         <p className="text-lg mb-12 max-w-3xl mx-auto">

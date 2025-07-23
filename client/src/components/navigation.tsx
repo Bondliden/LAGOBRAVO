@@ -37,7 +37,7 @@ export default function Navigation() {
             />
             <div className="hidden sm:block">
               <div className="text-xl font-serif font-bold lago-navy leading-tight">LAGO BRAVO</div>
-              <div className="text-xs text-gray-600 font-medium tracking-wide">WORLD RESORT</div>
+              <div className="text-xs text-gray-600 font-medium tracking-wide">INTEGRATED RESORTS</div>
             </div>
           </div>
           
@@ -53,6 +53,12 @@ export default function Navigation() {
               className="text-gray-700 hover:text-primary font-medium transition-colors"
             >
               Marina
+            </button>
+            <button 
+              onClick={() => scrollToSection('real-estate')} 
+              className="text-gray-700 hover:text-primary font-medium transition-colors"
+            >
+              Residences
             </button>
             <button 
               onClick={() => scrollToSection('accommodations')} 
@@ -127,6 +133,12 @@ export default function Navigation() {
                 className="text-left text-gray-700 hover:text-primary font-medium transition-colors py-2"
               >
                 Marina
+              </button>
+              <button 
+                onClick={() => scrollToSection('real-estate')}
+                className="text-left text-gray-700 hover:text-primary font-medium transition-colors py-2"
+              >
+                Residences
               </button>
               <button 
                 onClick={() => scrollToSection('accommodations')}

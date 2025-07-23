@@ -72,14 +72,14 @@ export default function Marina() {
   ];
 
   const moonPhases = [
-    { date: "January 13, 2026", name: "Wolf Moon Gathering" },
-    { date: "February 11, 2026", name: "Snow Moon Celebration" },
-    { date: "March 13, 2026", name: "Worm Moon Soirée" },
-    { date: "April 11, 2026", name: "Pink Moon Festival" },
-    { date: "May 11, 2026", name: "Flower Moon Gala" },
-    { date: "June 9, 2026", name: "Strawberry Moon Evening" },
-    { date: "July 9, 2026", name: "Buck Moon Experience" },
-    { date: "August 7, 2026", name: "Sturgeon Moon Celebration" }
+    { date: "January 2, 2027", name: "Wolf Moon Gathering" },
+    { date: "January 31, 2027", name: "Snow Moon Celebration" },
+    { date: "March 2, 2027", name: "Worm Moon Soirée" },
+    { date: "March 31, 2027", name: "Pink Moon Festival" },
+    { date: "April 30, 2027", name: "Flower Moon Gala" },
+    { date: "May 30, 2027", name: "Strawberry Moon Evening" },
+    { date: "June 28, 2027", name: "Buck Moon Experience" },
+    { date: "July 28, 2027", name: "Sturgeon Moon Celebration" }
   ];
 
   return (
@@ -151,7 +151,7 @@ export default function Marina() {
             
             <div className="text-center mb-6">
               <p className="text-gray-200 text-sm">
-                Full year 2026 schedule available • Monthly celebrations throughout the year
+                Full year 2027 schedule available • Monthly celebrations throughout the year
               </p>
             </div>
             

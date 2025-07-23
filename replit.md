@@ -1,8 +1,8 @@
-# Lago Bravo World Resort Website
+# Lago Bravo Integrated Resorts Website
 
 ## Overview
 
-This is a luxury resort website for Lago Bravo World Resort, built as a modern full-stack web application. The application features a React frontend with a luxury resort theme, an Express.js backend API, and uses Drizzle ORM for database operations with PostgreSQL. The site includes sections for accommodations, weddings, casino, dining, nightlife, events, and contact forms. The website prominently features the authentic Lago Bravo logo throughout the design and is now connected to a fully functional PostgreSQL database for persistent data storage.
+This is a luxury resort website for Lago Bravo Integrated Resorts, built as a modern full-stack web application. The application features a React frontend with a luxury resort theme, an Express.js backend API, and uses Drizzle ORM for database operations with PostgreSQL. The site includes sections for championship golf, exclusive marina with full moon boat gatherings, crystal lagoon villas and luxury condominiums for sale, accommodations, weddings, casino, dining, nightlife, events, and contact forms. The website prominently features the authentic Lago Bravo logo throughout the design and is now connected to a fully functional PostgreSQL database for persistent data storage.
 
 ## User Preferences
 
@@ -102,7 +102,9 @@ The application uses three main database tables:
 - **Database Schema**: Created and deployed tables for reservations, wedding inquiries, and newsletter subscriptions
 - **Storage Layer**: Implemented DatabaseStorage class with full CRUD operations using Drizzle ORM
 - **Championship Golf Course**: Added 18-hole championship course as star activity with booking packages
-- **Exclusive Marina**: Added private marina with yacht charters and signature Full Moon boat gatherings
+- **Exclusive Marina**: Added private marina with yacht charters and signature Full Moon boat gatherings (2027 schedule)
+- **Real Estate Section**: Added exclusive crystal lagoon villas and luxury condominiums with 24/7 concierge service
+- **Branding Update**: Changed from "WORLD RESORT" to "INTEGRATED RESORTS" across all sections
 - **GoDaddy Deployment**: Prepared production build files optimized for GoDaddy hosting
 
 The application is designed as a luxury resort booking platform with a focus on user experience, type safety, and maintainable architecture. The monorepo structure keeps frontend, backend, and shared schemas in sync while allowing for independent scaling of different components. All data is now persisted in PostgreSQL for production-ready operations.
