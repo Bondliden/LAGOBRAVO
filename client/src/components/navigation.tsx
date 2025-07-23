@@ -29,15 +29,15 @@ export default function Navigation() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3">
             <img 
               src={lagobravoLogoPath} 
-              alt="Lago Bravo World Resort" 
-              className="h-14 w-auto flex-shrink-0"
+              alt="Lago Bravo Integrated Resorts" 
+              className="h-12 w-auto flex-shrink-0"
             />
-            <div className="hidden sm:block">
-              <div className="text-xl font-serif font-bold lago-navy leading-tight">LAGO BRAVO</div>
-              <div className="text-xs text-gray-600 font-medium tracking-wide">INTEGRATED RESORTS</div>
+            <div className="hidden sm:block flex-shrink-0">
+              <div className="text-lg font-serif font-bold lago-navy leading-none">LAGO BRAVO</div>
+              <div className="text-[10px] text-gray-600 font-medium tracking-wider mt-0.5">INTEGRATED RESORTS</div>
             </div>
           </div>
           

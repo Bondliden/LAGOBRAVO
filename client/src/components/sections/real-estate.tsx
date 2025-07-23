@@ -5,8 +5,8 @@ import SectionHeading from "@/components/ui/section-heading";
 export default function RealEstate() {
   const villaFeatures = [
     {
-      title: "Crystal Lagoon Frontage",
-      description: "Prime waterfront positioning with private beach access and crystal-clear lagoon views.",
+      title: "Built in Crystal Lagoon",
+      description: "Exclusive overwater villas constructed directly in the crystal-clear lagoon waters.",
       icon: "fas fa-water",
       color: "text-cyan-500"
     },
@@ -32,37 +32,39 @@ export default function RealEstate() {
 
   const properties = [
     {
-      type: "Crystal Lagoon Villa",
-      price: "From €8.5M",
+      type: "Overwater Crystal Lagoon Villa",
+      status: "Coming Soon",
+      availability: "Fractional Available",
       area: "4,500 - 6,200 sq ft",
       bedrooms: "4-6 bedrooms",
       features: [
-        "Direct crystal lagoon access",
-        "Private infinity pool",
-        "Rooftop terrace with panoramic views",
+        "Built directly in crystal lagoon waters",
+        "Glass floor panels for underwater viewing",
+        "Private overwater infinity pool",
+        "Floating deck with lagoon access",
         "Private yacht slip included",
         "Smart home automation",
         "Wine cellar and entertainment room",
-        "Private beach cabana",
         "Helicopter landing pad access"
       ],
       image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
       highlight: true
     },
     {
-      type: "Luxury Condominium",
-      price: "From €2.8M",
+      type: "Lagoon-View Luxury Condominium",
+      status: "Coming Soon",
+      availability: "Fractional Available",
       area: "1,800 - 3,500 sq ft",
       bedrooms: "2-4 bedrooms",
       features: [
         "Floor-to-ceiling windows",
-        "Premium resort views",
-        "Private balcony or terrace",
+        "Panoramic lagoon and resort views",
+        "Private balcony overlooking lagoon",
         "24/7 concierge service",
         "Valet parking included",
         "Access to private residents' club",
         "Resort facility privileges",
-        "Investment rental program"
+        "Fractional ownership program"
       ],
       image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       highlight: false
@@ -85,21 +87,21 @@ export default function RealEstate() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Exclusive Resort Residences"
-          subtitle="Own a piece of paradise with our luxury waterfront villas and condominiums. Experience resort living with crystal lagoon access, full concierge services, and all the amenities of Lago Bravo Integrated Resorts."
+          subtitle="Own a piece of paradise with our unique overwater villas built directly in the crystal lagoon and luxury condominiums. Experience resort living with 24/7 concierge services and all the amenities of Lago Bravo Integrated Resorts."
         />
         
         {/* Hero Real Estate Image */}
         <div className="mb-16">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-              alt="Exclusive resort residences with crystal lagoon" 
+              src="https://images.unsplash.com/photo-1520637836862-4d197d17c295?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt="Overwater villas in crystal lagoon" 
               className="w-full h-96 object-cover rounded-2xl shadow-2xl"
             />
             <div className="absolute inset-0 bg-black/40 rounded-2xl flex items-center justify-center">
               <div className="text-center text-white">
-                <h3 className="text-4xl font-serif font-bold mb-2">Crystal Lagoon Residences</h3>
-                <p className="text-xl">Waterfront Villas & Luxury Condominiums • Now Available</p>
+                <h3 className="text-4xl font-serif font-bold mb-2">Overwater Crystal Lagoon Residences</h3>
+                <p className="text-xl">Built in the Lagoon • Coming Soon • Fractional Available</p>
               </div>
             </div>
           </div>
@@ -145,10 +147,11 @@ export default function RealEstate() {
               
               <div className="p-8">
                 <h4 className="text-2xl font-serif font-bold text-primary mb-2">{property.type}</h4>
-                <div className="flex justify-between items-center mb-4">
-                  <div className="text-2xl font-bold text-amber-600">{property.price}</div>
+                <div className="flex justify-between items-center mb-2">
+                  <div className="text-2xl font-bold text-amber-600">{property.status}</div>
                   <div className="text-gray-600 font-medium">{property.bedrooms}</div>
                 </div>
+                <div className="text-sm text-amber-700 font-semibold mb-4">{property.availability}</div>
                 
                 <ul className="space-y-2 mb-6">
                   {property.features.map((feature, featureIndex) => (
@@ -161,10 +164,10 @@ export default function RealEstate() {
                 
                 <div className="flex gap-3">
                   <Button className="flex-1 bg-amber-600 text-white hover:bg-amber-700">
-                    Schedule Viewing
+                    Join Waitlist
                   </Button>
                   <Button variant="outline" className="flex-1 border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white">
-                    Download Brochure
+                    Fractional Info
                   </Button>
                 </div>
               </div>
@@ -270,13 +273,13 @@ export default function RealEstate() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-amber-500 text-black hover:bg-amber-400 px-8 py-4 text-lg font-semibold">
-              Schedule Private Tour
+              Join Exclusive Waitlist
             </Button>
             <Button 
               variant="outline" 
               className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg font-semibold"
             >
-              Request Investment Package
+              Fractional Ownership Info
             </Button>
           </div>
         </div>
