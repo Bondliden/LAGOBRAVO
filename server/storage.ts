@@ -77,6 +77,7 @@ export class MemStorage implements IStorage {
     const id = this.currentReservationId++;
     const reservation: Reservation = {
       ...insertReservation,
+      specialRequests: insertReservation.specialRequests || null,
       id,
       createdAt: new Date()
     };
@@ -96,6 +97,7 @@ export class MemStorage implements IStorage {
     const id = this.currentWeddingId++;
     const inquiry: WeddingInquiry = {
       ...insertWeddingInquiry,
+      specialRequests: insertWeddingInquiry.specialRequests || null,
       id,
       createdAt: new Date()
     };
