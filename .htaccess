@@ -1,23 +1,13 @@
-# Lago Bravo Resort - Redirect Configuration
+# Lago Bravo Resort - Permanent 301 Redirect
 
-# Redirect all traffic to main website
+# PERMANENT REDIRECT - All traffic to new website
+Redirect 301 / https://your-destination-website.com/
+
+# Alternative method using RewriteEngine (if above doesn't work)
+# RewriteEngine On
+# RewriteRule ^(.*)$ https://your-destination-website.com/$1 [R=301,L]
+
+# Force HTTPS before redirect
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www\.)?old-domain\.com$ [NC]
-RewriteRule ^(.*)$ https://your-main-website.com/$1 [R=301,L]
-
-# Alternative: Redirect everything to a specific URL
-# Redirect 301 / https://your-main-website.com/
-
-# Force HTTPS redirect
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Cache static files
-<IfModule mod_expires.c>
-    ExpiresActive on
-    ExpiresByType text/css "access plus 1 month"
-    ExpiresByType application/javascript "access plus 1 month"
-    ExpiresByType image/png "access plus 1 month"
-    ExpiresByType image/jpg "access plus 1 month"
-    ExpiresByType image/jpeg "access plus 1 month"
-</IfModule>
