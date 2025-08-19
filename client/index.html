@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Lago Bravo Integrated Resorts - Redirecting to Official Site</title>
-    <meta http-equiv="refresh" content="0; url=https://lagobravo.com">
+    <title>Lago Bravo Integrated Resorts - Luxury Championship Golf & Marina Resort</title>
+    <!-- Redirection disabled for preview -->
+    <!-- <meta http-equiv="refresh" content="0; url=https://lagobravo.com"> -->
     <script>
-      window.location.replace("https://lagobravo.com");
+      // Redirection disabled: window.location.replace("https://lagobravo.com");
     </script>
     <meta name="description" content="Experience luxury at Lago Bravo World Resort. Premier integrated luxury resort destination offering world-class entertainment, exclusive nightlife, and unparalleled hospitality across stunning global locations.">
     <meta property="og:title" content="Lago Bravo World Resort - Premium Global Destinations">
@@ -25,17 +26,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
-  <body style="font-family: Arial, sans-serif; text-align: center; padding: 50px; background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: white; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-    <h1>Lago Bravo Integrated Resorts</h1>
-    <div style="border: 4px solid rgba(255,255,255,0.3); border-radius: 50%; border-top: 4px solid white; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto;"></div>
-    <p>Redirecting to our official website...</p>
-    <p><a href="https://lagobravo" style="color: #fbbf24;">Click here if not redirected automatically</a></p>
-    
-    <style>
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-    </style>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
   </body>
 </html>
