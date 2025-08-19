@@ -97,6 +97,14 @@ The application uses three main database tables:
 
 ## Recent Changes (January 2025)
 
+### Latest Updates (August 2025)
+- **Favicon Integration**: Added professional favicon suite with all device formats
+- **Replit Redirection**: Configured automatic redirection from Replit development environment
+- **Domain-Only Setup**: User has GoDaddy domain without hosting, requires hosting solution
+- **Complete Package Ready**: All files prepared in godaddy_upload/ folder (4MB total)
+
+## Recent Changes (January 2025)
+
 - **Database Migration**: Successfully migrated from in-memory storage to PostgreSQL database
 - **Logo Integration**: Updated all components to display the authentic Lago Bravo logo (PNG format)
 - **Database Schema**: Created and deployed tables for reservations, wedding inquiries, and newsletter subscriptions
