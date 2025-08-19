@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Lago Bravo Integrated Resorts - Luxury Championship Golf & Marina Resort</title>
-    <!-- Redirection disabled for preview -->
-    <!-- <meta http-equiv="refresh" content="0; url=https://lagobravo.com"> -->
     <script>
-      // Redirection disabled: window.location.replace("https://lagobravo.com");
+      // Smart redirect: Only redirect if accessed from specific domain
+      if (window.location.hostname !== 'replit.com' && 
+          window.location.hostname !== 'localhost' && 
+          !window.location.hostname.includes('replit.dev')) {
+        window.location.replace("https://www.lagobravo.com");
+      }
     </script>
     <meta name="description" content="Experience luxury at Lago Bravo World Resort. Premier integrated luxury resort destination offering world-class entertainment, exclusive nightlife, and unparalleled hospitality across stunning global locations.">
     <meta property="og:title" content="Lago Bravo World Resort - Premium Global Destinations">
