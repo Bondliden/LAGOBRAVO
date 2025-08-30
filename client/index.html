@@ -5,18 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Lago Bravo Integrated Resorts - Luxury Championship Golf & Marina Resort</title>
     <script>
-      // Check if we're being accessed via domain forwarding (referrer check)
-      // Only redirect if NOT coming from domain forwarding and NOT on Replit
-      const isFromDomainForwarding = document.referrer.includes('lagobravo.com') || 
-                                   window.location.search.includes('forwarded') ||
-                                   window.location.href.includes('lagobravo');
-      
-      if (!isFromDomainForwarding && 
-          window.location.hostname !== 'replit.com' && 
-          window.location.hostname !== 'localhost' && 
-          !window.location.hostname.includes('replit.dev')) {
-        window.location.replace("https://www.lagobravo.com");
-      }
+      // Redirection completely disabled for testing
+      // No automatic redirects will occur
     </script>
     <meta name="description" content="Experience luxury at Lago Bravo World Resort. Premier integrated luxury resort destination offering world-class entertainment, exclusive nightlife, and unparalleled hospitality across stunning global locations.">
     <meta property="og:title" content="Lago Bravo World Resort - Premium Global Destinations">
