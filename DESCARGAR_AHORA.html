@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar Archivos Hostinger</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .link-box {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 15px 40px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #218838;
+        }
+        .instruction {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #007bff;
+        }
+        .step {
+            text-align: left;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏖️ Lago Bravo - Archivos para Hostinger</h1>
+        
+        <div class="instruction">
+            <h3>✅ MÉTODO 1: Link Directo (RECOMENDADO)</h3>
+            <p><strong>Abre este link en tu navegador:</strong></p>
+            <div class="link-box">
+                <a href="/hostinger-website.zip" target="_blank">hostinger-website.zip</a>
+            </div>
+            <a href="/hostinger-website.zip" class="download-btn" download>
+                DESCARGAR ARCHIVO ZIP
+            </a>
+        </div>
+        
+        <div class="instruction">
+            <h3>📋 MÉTODO 2: Copiar y Pegar URL</h3>
+            <p>Si el botón no funciona, copia esta URL completa y pégala en una nueva pestaña:</p>
+            <div class="link-box" id="url-box">
+                <!-- Will be filled with JavaScript -->
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd;">
+            <h3>Después de descargar:</h3>
+            <div class="step">1. Extrae el archivo ZIP en tu computadora</div>
+            <div class="step">2. Entra a tu cuenta de Hostinger</div>
+            <div class="step">3. Ve a File Manager → public_html</div>
+            <div class="step">4. Sube todos los archivos extraídos</div>
+        </div>
+    </div>
+    
+    <script>
+        // Mostrar la URL completa
+        const fullUrl = window.location.origin + '/hostinger-website.zip';
+        document.getElementById('url-box').textContent = fullUrl;
+    </script>
+</body>
+</html>
