@@ -3,6 +3,8 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertReservationSchema, insertWeddingInquirySchema, insertNewsletterSchema } from "@shared/schema";
 import { z } from "zod";
+import path from "path";
+import { fileURLToPath } from "url";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Reservation endpoints
@@ -98,6 +100,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
         });
       }
     }
+  });
+
+  // Download endpoint for Hostinger ZIP
+  app.get("/download-hostinger", (req, res) => {
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    const zipPath = path.join(__dirname, '..', 'hostinger-upload.zip');
+    
+    res.download(zipPath, 'hostinger-upload.zip', (err) => {
+      if (err) {
+        console.error('Download error:', err);
+        res.status(404).send('File not found');
+      }
+    });
   });
 
   const httpServer = createServer(app);
