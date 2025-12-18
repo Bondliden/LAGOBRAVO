@@ -5,11 +5,31 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
+import GolfPage from "@/pages/golf";
+import MarinaPage from "@/pages/marina";
+import RealEstatePage from "@/pages/real-estate";
+import AccommodationsPage from "@/pages/accommodations";
+import WeddingsPage from "@/pages/weddings";
+import CasinoPage from "@/pages/casino";
+import DiningPage from "@/pages/dining";
+import EventsPage from "@/pages/events";
+import NightlifePage from "@/pages/nightlife";
+import ContactPage from "@/pages/contact";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/golf" component={GolfPage} />
+      <Route path="/marina" component={MarinaPage} />
+      <Route path="/residences" component={RealEstatePage} />
+      <Route path="/accommodations" component={AccommodationsPage} />
+      <Route path="/weddings" component={WeddingsPage} />
+      <Route path="/casino" component={CasinoPage} />
+      <Route path="/dining" component={DiningPage} />
+      <Route path="/events" component={EventsPage} />
+      <Route path="/nightlife" component={NightlifePage} />
+      <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
     </Switch>
   );

@@ -1,30 +1,23 @@
+import { Link } from "wouter";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
 
 export default function Footer() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
-
   return (
     <footer className="bg-gray-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            {/* Footer Logo */}
-            <div className="flex items-center mb-6">
+            <Link href="/" className="flex items-center mb-6">
               <img 
                 src={lagobravoLogoPath} 
-                alt="Lago Bravo World Resort" 
+                alt="Lago Bravo Integrated Resorts" 
                 className="h-16 w-auto mr-4"
               />
               <div>
                 <h3 className="text-2xl font-serif font-bold">LAGO BRAVO</h3>
-                <p className="text-gray-400 font-medium">WORLD RESORT</p>
+                <p className="text-gray-400 font-medium">INTEGRATED RESORTS</p>
               </div>
-            </div>
+            </Link>
             <p className="text-gray-300 mb-6 max-w-md">
               A premier integrated luxury resort destination offering world-class entertainment, 
               exclusive nightlife, and unparalleled hospitality across stunning global locations.
@@ -49,49 +42,49 @@ export default function Footer() {
             <h4 className="text-lg font-serif font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <button onClick={() => scrollToSection('golf')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/golf" className="text-gray-300 hover:text-white transition-colors">
                   Golf
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('marina')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/marina" className="text-gray-300 hover:text-white transition-colors">
                   Marina
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('real-estate')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/residences" className="text-gray-300 hover:text-white transition-colors">
                   Residences
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('accommodations')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/accommodations" className="text-gray-300 hover:text-white transition-colors">
                   Accommodations
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('weddings')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/weddings" className="text-gray-300 hover:text-white transition-colors">
                   Weddings
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('casino')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/casino" className="text-gray-300 hover:text-white transition-colors">
                   Casino
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('dining')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/dining" className="text-gray-300 hover:text-white transition-colors">
                   Dining
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('events')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/events" className="text-gray-300 hover:text-white transition-colors">
                   Events
-                </button>
+                </Link>
               </li>
               <li>
-                <button onClick={() => scrollToSection('nightlife')} className="text-gray-300 hover:text-white transition-colors text-left">
+                <Link href="/nightlife" className="text-gray-300 hover:text-white transition-colors">
                   Nightlife
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
@@ -110,7 +103,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Lago Bravo World Resort. All rights reserved.
+              © 2024 Lago Bravo Integrated Resorts. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
