@@ -100,8 +100,7 @@ export default function Navigation() {
             <div className="flex items-center space-x-4 ml-8">
               <LanguageToggle />
               <div className="text-right">
-                <p className="text-sm font-semibold text-primary">+1 800 LAGO-BRAVO</p>
-                <p className="text-xs text-gray-600">reservations@lagobravo.com</p>
+                <p className="text-sm font-semibold text-primary">info@lagobravo.com</p>
               </div>
               <Button 
                 onClick={() => scrollToSection('contact')} 
@@ -181,8 +180,7 @@ export default function Navigation() {
               <div className="pt-4 border-t border-gray-200">
                 <div className="flex justify-between items-center mb-3">
                   <div>
-                    <p className="text-sm font-semibold text-primary">+1 800 LAGO-BRAVO</p>
-                    <p className="text-xs text-gray-600">reservations@lagobravo.com</p>
+                    <p className="text-sm font-semibold text-primary">info@lagobravo.com</p>
                   </div>
                   <LanguageToggle />
                 </div>

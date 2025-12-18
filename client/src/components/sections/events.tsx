@@ -10,7 +10,6 @@ export default function Events() {
       date: "Thu, Aug 14, 2025",
       time: "20:00",
       venue: "Arena",
-      price: "From €85",
       category: "CONCERTS",
       categoryColor: "lago-accent",
       image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -22,7 +21,6 @@ export default function Events() {
       date: "Thu, Aug 21, 2025",
       time: "21:00",
       venue: "Arena",
-      price: "From €120",
       category: "SPORTS",
       categoryColor: "lago-orange",
       image: "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -34,7 +32,6 @@ export default function Events() {
       date: "Wed, Aug 27, 2025",
       time: "19:30",
       venue: "Arena",
-      price: "From €65",
       category: "SHOWS",
       categoryColor: "lago-teal",
       image: "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
@@ -45,7 +42,6 @@ export default function Events() {
       date: "Thu, Sep 4, 2025",
       time: "22:00",
       venue: "Beach Club",
-      price: "From €95",
       category: "CONCERTS",
       categoryColor: "lago-accent",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -57,7 +53,6 @@ export default function Events() {
       date: "Thu, Sep 11, 2025",
       time: "16:00",
       venue: "Arena",
-      price: "From €75",
       category: "SPORTS",
       categoryColor: "lago-orange",
       image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
@@ -68,7 +63,6 @@ export default function Events() {
       date: "Wed, Sep 17, 2025",
       time: "20:30",
       venue: "Arena",
-      price: "From €80",
       category: "SHOWS",
       categoryColor: "lago-teal",
       image: "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
@@ -113,12 +107,11 @@ export default function Events() {
                 </span>
                 <h3 className="text-xl font-serif font-bold text-primary mt-3 mb-2">{event.title}</h3>
                 <p className="text-gray-600 mb-4">{event.description}</p>
-                <div className="flex justify-between items-center mb-4">
+                <div className="mb-4">
                   <div className="text-sm text-gray-500">
                     <p>{event.date}</p>
                     <p>{event.time} - {event.venue}</p>
                   </div>
-                  <div className="text-lg font-bold text-primary">{event.price}</div>
                 </div>
                 <Button className="w-full bg-primary text-white hover:bg-primary/90">
                   Get Tickets

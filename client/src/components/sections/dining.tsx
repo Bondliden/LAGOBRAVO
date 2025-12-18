@@ -7,7 +7,6 @@ export default function Dining() {
     {
       name: "La Perla del Mar",
       cuisine: "Mediterranean Fine Dining",
-      price: "€€€€",
       chef: "Chef Miguel Santana",
       description: "Exquisite Mediterranean cuisine with panoramic sea views and an extensive wine cellar.",
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -18,7 +17,6 @@ export default function Dining() {
     {
       name: "Tapas y Más",
       cuisine: "Spanish Tapas",
-      price: "€€",
       chef: "Chef Carmen López",
       description: "Authentic Spanish tapas and traditional dishes in a vibrant, welcoming atmosphere.",
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -28,7 +26,6 @@ export default function Dining() {
     {
       name: "Sunset Terrace",
       cuisine: "International Fusion",
-      price: "€€€€",
       chef: "Chef Alessandro Romano",
       description: "Contemporary international cuisine served on a stunning terrace overlooking the sunset.",
       image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
@@ -39,7 +36,6 @@ export default function Dining() {
     {
       name: "Beach Bar Oasis",
       cuisine: "Cocktails & Light Bites",
-      price: "€€€",
       chef: "Master Mixologist David Chen",
       description: "Sophisticated cocktails and fresh sushi with direct beach access and infinity pool views.",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -49,7 +45,6 @@ export default function Dining() {
     {
       name: "La Bodega",
       cuisine: "Wine Bar & Bistro",
-      price: "€€€",
       chef: "Sommelier Elena Ricci",
       description: "Curated wine selection from around the world paired with artisanal cheeses and charcuterie.",
       image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
@@ -59,7 +54,6 @@ export default function Dining() {
     {
       name: "Grill & Chill",
       cuisine: "International Grill",
-      price: "€€€",
       chef: "Chef Marcus Thompson",
       description: "Relaxed dining with premium grilled meats, fresh salads, and tropical cocktails.",
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -96,9 +90,8 @@ export default function Dining() {
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-2">
+                <div className="mb-2">
                   <h3 className="text-xl font-serif font-bold text-primary">{restaurant.name}</h3>
-                  <span className="lago-gold font-bold">{restaurant.price}</span>
                 </div>
                 <p className="text-gray-600 mb-4">{restaurant.cuisine}</p>
                 <p className="text-sm text-gray-700 mb-4">{restaurant.description}</p>

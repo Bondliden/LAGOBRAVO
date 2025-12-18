@@ -85,29 +85,11 @@ export default function Contact() {
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <i className="fas fa-phone text-2xl lago-gold mt-1"></i>
-                <div>
-                  <h4 className="font-semibold mb-1">Phone Reservations</h4>
-                  <p className="text-blue-100">+1 800 LAGO-BRAVO</p>
-                  <p className="text-sm text-blue-200">Available 24/7 for reservations</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
                 <i className="fas fa-envelope text-2xl lago-gold mt-1"></i>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-blue-100">reservations@lagobravo.com</p>
-                  <p className="text-sm text-blue-200">For general inquiries and reservations</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <i className="fas fa-heart text-2xl lago-accent mt-1"></i>
-                <div>
-                  <h4 className="font-semibold mb-1">Wedding Specialist</h4>
-                  <p className="text-blue-100">weddings@lagobravo.com</p>
-                  <p className="text-sm text-blue-200">Dedicated wedding planning team</p>
+                  <p className="text-blue-100">info@lagobravo.com</p>
+                  <p className="text-sm text-blue-200">For all inquiries and reservations</p>
                 </div>
               </div>
               

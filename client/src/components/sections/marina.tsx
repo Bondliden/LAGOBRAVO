@@ -34,7 +34,6 @@ export default function Marina() {
   const boatServices = [
     {
       name: "Luxury Yacht Charter",
-      price: "From €2,500/day",
       description: "60-foot luxury yacht with crew",
       features: [
         "Professional captain and crew",
@@ -46,7 +45,6 @@ export default function Marina() {
     },
     {
       name: "Full Moon Experience",
-      price: "€350/person",
       description: "Monthly exclusive gathering",
       features: [
         "Premium boat transportation",
@@ -59,7 +57,6 @@ export default function Marina() {
     },
     {
       name: "Sunset Cruise",
-      price: "From €180/person",
       description: "Romantic evening cruise",
       features: [
         "2-hour sunset cruise",
@@ -179,8 +176,7 @@ export default function Marina() {
                   </div>
                 )}
                 <h4 className="text-2xl font-serif font-bold text-primary mb-2">{service.name}</h4>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <div className="text-2xl font-bold text-primary mb-6">{service.price}</div>
+                <p className="text-gray-600 mb-6">{service.description}</p>
                 <ul className="space-y-3 mb-8">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-700">

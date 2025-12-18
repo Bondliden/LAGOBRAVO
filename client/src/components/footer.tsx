@@ -100,16 +100,8 @@ export default function Footer() {
             <h4 className="text-lg font-serif font-bold mb-4">Contact Info</h4>
             <div className="space-y-3">
               <div>
-                <p className="lago-gold font-semibold">+1 800 LAGO-BRAVO</p>
-                <p className="text-gray-400 text-sm">24/7 Reservations</p>
-              </div>
-              <div>
-                <p className="text-white">reservations@lagobravo.com</p>
-                <p className="text-gray-400 text-sm">General Inquiries</p>
-              </div>
-              <div>
-                <p className="text-white">weddings@lagobravo.com</p>
-                <p className="text-gray-400 text-sm">Wedding Planning</p>
+                <p className="lago-gold font-semibold">info@lagobravo.com</p>
+                <p className="text-gray-400 text-sm">All Inquiries</p>
               </div>
             </div>
           </div>

@@ -130,15 +130,7 @@ export default function Weddings() {
           <p className="text-gray-700 mb-6">Contact our wedding specialists for a personalized consultation</p>
           <div className="space-y-2 mb-8">
             <div>
-              <p className="font-semibold text-primary">Wedding Director</p>
-              <p className="text-sm text-gray-600">Wedding Center Director</p>
-            </div>
-            <div>
-              <p className="font-semibold text-primary">+1 800 WEDDING-VIP</p>
-              <p className="text-sm text-gray-600">Phone</p>
-            </div>
-            <div>
-              <p className="font-semibold text-primary">weddings@lagobravo.com</p>
+              <p className="font-semibold text-primary">info@lagobravo.com</p>
               <p className="text-sm text-gray-600">Email</p>
             </div>
           </div>

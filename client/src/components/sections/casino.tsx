@@ -4,23 +4,19 @@ export default function Casino() {
   const tableGames = [
     {
       name: "Blackjack",
-      tables: "12 Tables",
-      limits: "€25 - €5,000"
+      tables: "12 Tables"
     },
     {
       name: "Roulette",
-      tables: "8 Tables",
-      limits: "€10 - €2,500"
+      tables: "8 Tables"
     },
     {
       name: "Poker",
-      tables: "6 Tables",
-      limits: "€50 - €10,000"
+      tables: "6 Tables"
     },
     {
       name: "Baccarat",
-      tables: "4 Tables",
-      limits: "€100 - €15,000"
+      tables: "4 Tables"
     }
   ];
 
@@ -81,9 +77,7 @@ export default function Casino() {
           {tableGames.map((game, index) => (
             <div key={index} className="bg-gray-800/50 p-6 rounded-xl text-center">
               <h4 className="text-xl font-serif font-bold mb-2">{game.name}</h4>
-              <p className="text-gray-300 mb-2">{game.tables}</p>
-              <p className="text-sm text-gray-400">Table Limits</p>
-              <p className="font-semibold lago-gold">{game.limits}</p>
+              <p className="text-gray-300">{game.tables}</p>
             </div>
           ))}
         </div>

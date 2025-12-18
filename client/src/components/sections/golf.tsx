@@ -33,7 +33,6 @@ export default function Golf() {
   const packages = [
     {
       name: "Golf Getaway",
-      price: "From €450/night",
       description: "Perfect for golf enthusiasts",
       features: [
         "Luxury accommodation for 2 nights",
@@ -46,7 +45,6 @@ export default function Golf() {
     },
     {
       name: "Golf Master Experience",
-      price: "From €750/night",
       description: "Ultimate golf vacation",
       features: [
         "Premium suite for 3 nights",
@@ -60,7 +58,6 @@ export default function Golf() {
     },
     {
       name: "Corporate Golf Retreat",
-      price: "From €1,200/group",
       description: "Perfect for business events",
       features: [
         "Group accommodation",
@@ -127,8 +124,7 @@ export default function Golf() {
                   </div>
                 )}
                 <h4 className="text-2xl font-serif font-bold text-primary mb-2">{pkg.name}</h4>
-                <p className="text-gray-600 mb-4">{pkg.description}</p>
-                <div className="text-2xl font-bold text-primary mb-6">{pkg.price}</div>
+                <p className="text-gray-600 mb-6">{pkg.description}</p>
                 <ul className="space-y-3 mb-8">
                   {pkg.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-700">
