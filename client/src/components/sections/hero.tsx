@@ -1,14 +1,8 @@
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
 
 export default function Hero() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden mb-0">
       {/* Background Image */}
@@ -25,7 +19,7 @@ export default function Hero() {
         <div className="mb-8">
           <img 
             src={lagobravoLogoPath} 
-            alt="Lago Bravo World Resort" 
+            alt="Lago Bravo Integrated Resorts" 
             className="h-24 w-auto mx-auto mb-4"
           />
         </div>
@@ -41,28 +35,31 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-          <Button 
-            onClick={() => scrollToSection('golf')}
-            size="lg"
-            className="bg-white text-primary hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
-          >
-            Championship Golf
-          </Button>
-          <Button 
-            onClick={() => scrollToSection('accommodations')}
-            size="lg"
-            className="bg-yellow-500 text-black hover:bg-yellow-400 px-8 py-4 text-lg font-semibold"
-          >
-            Explore Resort
-          </Button>
-          <Button 
-            onClick={() => scrollToSection('contact')}
-            variant="outline"
-            size="lg"
-            className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg font-semibold"
-          >
-            Book Your Stay
-          </Button>
+          <Link href="/golf">
+            <Button 
+              size="lg"
+              className="bg-white text-primary hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
+            >
+              Championship Golf
+            </Button>
+          </Link>
+          <Link href="/accommodations">
+            <Button 
+              size="lg"
+              className="bg-yellow-500 text-black hover:bg-yellow-400 px-8 py-4 text-lg font-semibold"
+            >
+              Explore Resort
+            </Button>
+          </Link>
+          <Link href="/contact">
+            <Button 
+              variant="outline"
+              size="lg"
+              className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg font-semibold"
+            >
+              Book Your Stay
+            </Button>
+          </Link>
         </div>
         
         {/* Stats */}
