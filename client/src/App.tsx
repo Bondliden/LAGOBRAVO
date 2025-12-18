@@ -14,6 +14,7 @@ import CasinoPage from "@/pages/casino";
 import DiningPage from "@/pages/dining";
 import EventsPage from "@/pages/events";
 import NightlifePage from "@/pages/nightlife";
+import HotelPage from "@/pages/hotel";
 import ContactPage from "@/pages/contact";
 
 function Router() {
@@ -29,6 +30,7 @@ function Router() {
       <Route path="/dining" component={DiningPage} />
       <Route path="/events" component={EventsPage} />
       <Route path="/nightlife" component={NightlifePage} />
+      <Route path="/hotel" component={HotelPage} />
       <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
     </Switch>

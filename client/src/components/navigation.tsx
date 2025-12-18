@@ -23,6 +23,7 @@ export default function Navigation() {
   };
 
   const navItems = [
+    { href: "/hotel", label: "Hotel" },
     { href: "/golf", label: "Golf" },
     { href: "/marina", label: "Marina" },
     { href: "/residences", label: "Residences" },
