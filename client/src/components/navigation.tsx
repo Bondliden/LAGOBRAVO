@@ -57,8 +57,8 @@ export default function Navigation() {
               <Link 
                 key={item.href}
                 href={item.href}
-                className={`text-gray-700 hover:text-primary font-medium transition-colors ${
-                  location === item.href ? 'text-primary' : ''
+                className={`text-teal-600 hover:text-teal-800 font-medium transition-colors ${
+                  location === item.href ? 'text-teal-800 font-semibold' : ''
                 }`}
               >
                 {item.label}
@@ -95,8 +95,8 @@ export default function Navigation() {
                   key={item.href}
                   href={item.href}
                   onClick={closeMobileMenu}
-                  className={`text-left text-gray-700 hover:text-primary font-medium transition-colors py-2 ${
-                    location === item.href ? 'text-primary' : ''
+                  className={`text-left text-teal-600 hover:text-teal-800 font-medium transition-colors py-2 ${
+                    location === item.href ? 'text-teal-800 font-semibold' : ''
                   }`}
                 >
                   {item.label}
