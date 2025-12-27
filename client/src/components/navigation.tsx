@@ -2,14 +2,13 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
-import LanguageToggle from "@/components/language-toggle";
-import { useLanguage } from "@/lib/translations";
-
+import LanguageSwitcher from './LanguageSwitcher'; 
+  import { useLanguage } from '../i18n';"./LanguageSwitcher";
 export default function Navigation() {
+  const { t } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [location] = useLocation();
-  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,16 +24,11 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { href: "/hotel", label: t.nav.hotel },
-    { href: "/golf", label: t.nav.golf },
-    { href: "/marina", label: t.nav.marina },
-    { href: "/residences", label: t.nav.residences },
-    { href: "/accommodations", label: t.nav.accommodations },
-    { href: "/weddings", label: t.nav.weddings },
-    { href: "/casino", label: t.nav.casino },
-    { href: "/dining", label: t.nav.dining },
-    { href: "/events", label: t.nav.events },
-    { href: "/nightlife", label: t.nav.nightlife },
+    { href: "/residences", label: t('nav.residences') },    { href: "/accommodations", label: "Accommodations" },
+    { href: "/weddings", label: "Weddings" },
+    { href: "/casino", label: "Casino" },
+    { href: "/dining", label: t('nav.dining') },    { href: "/events", label: "Events" },
+    { href: "/nightlife", label: "Nightlife" },
   ];
 
   return (
@@ -74,7 +68,7 @@ export default function Navigation() {
               </div>
               <Link href="/contact">
                 <Button className="bg-primary text-white hover:bg-primary/90">
-                  {t.nav.bookNow}
+                  Book Now
                 </Button>
               </Link>
             </div>
@@ -106,15 +100,18 @@ export default function Navigation() {
                 </Link>
               ))}
               <div className="pt-4 border-t border-gray-200">
+                <LanguageSwitcher />
+                </div>
+              <div className="pt-4 border-t border-gray-200">
                 <div className="flex justify-between items-center mb-3">
                   <div>
                     <p className="text-sm font-semibold text-primary">info@lagobravo.com</p>
                   </div>
-                  <LanguageToggle />
+                  <LanguageSwitcher />
                 </div>
                 <Link href="/contact" onClick={closeMobileMenu}>
                   <Button className="w-full bg-primary text-white hover:bg-primary/90">
-                    {t.nav.bookNow}
+                    Book Now
                   </Button>
                 </Link>
               </div>
