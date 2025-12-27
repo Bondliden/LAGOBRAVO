@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Hem",
+    "golf": "Golf",
+    "marina": "Marina",
+    "residences": "Bostäder",
+    "hotel": "Hotell",
+    "dining": "Gastronomi",
+    "spa": "Spa & Välbefinnande",
+    "meetings": "Möten & Evenemang"
+  },
+  "home": {
+    "hero": {
+      "title": "Lago Bravo Integrated Resorts",
+      "subtitle": "Lyxresort med Mästerskaps-Golfbana och Marina",
+      "cta": "Utforska"
+    },
+    "features": {
+      "golf": "Mästerskaps-Golfbana",
+      "marina": "Världsklass Marina",
+      "residences": "Lyxbostäder",
+      "hotel": "5-stjärniga Hotell"
+    }
+  },
+  "golf": {
+    "title": "Mästerskaps-Golfbana",
+    "description": "Upplev världsklass golf på vår 18-håls mästerskaps-bana",
+    "features": {
+      "holes": "18 Mästerskaps-Hål",
+      "design": "Prisbelönt Design",
+      "facilities": "Pro Shop & Övningsanläggningar"
+    }
+  },
+  "marina": {
+    "title": "Världsklass Marina",
+    "description": "Moderna marina-faciliteter för yachter upp till 300 fot",
+    "features": {
+      "slips": "Över 200 Båtplatser",
+      "services": "Fullservice Marina",
+      "amenities": "Premium Faciliteter"
+    }
+  },
+  "residences": {
+    "title": "Lyxbostäder",
+    "description": "Exklusivt boende vid vattnet med oförlikneliga vyer",
+    "features": {
+      "views": "Panoramavyer",
+      "design": "Modern Design",
+      "amenities": "Resort-Faciliteter"
+    }
+  },
+  "hotel": {
+    "title": "Lyxhotell-Kollektion",
+    "palace": {
+      "name": "The Lago Bravo Palace",
+      "stars": "5 Stjärnor - Superlyx",
+      "description": "Lyxens höjdpunkt med 150 sviter som erbjuder butler-service, privata terrasser, infinity-pooler och Michelin-stjärnkrögare."
+    },
+    "resort": {
+      "name": "The Marina Resort",
+      "stars": "4 Stjärnor - Premium",
+      "description": "Modern komfort med 200 rum, direktvy över marinan, takpool, spa och gourmetrestauranger."
+    },
+    "club": {
+      "name": "The Golf Club Hotel",
+      "stars": "4 Stjärnor - Sport & Fritid",
+      "description": "Perfekt för golf-entusiaster med 180 rum, tillgång till golfbanan, driving range och avslappnad matservering."
+    }
+  },
+  "dining": {
+    "title": "Gastronomisk Excellens",
+    "description": "Kulinariska upplevelser i världsklass"
+  },
+  "spa": {
+    "title": "Spa & Välbefinnande",
+    "description": "Förnya ditt sinne och din kropp"
+  },
+  "meetings": {
+    "title": "Möten & Evenemang",
+    "description": "Premium-lokaler för alla tillfällen"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "privacy": "Integritetspolicy",
+    "terms": "Serviceavtal",
+    "copyright": "© 2025 Lago Bravo Integrated Resorts. Alla rättigheter reserverade."
+  }
+}

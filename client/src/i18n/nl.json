@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "golf": "Golf",
+    "marina": "Marina",
+    "residences": "Residenties",
+    "hotel": "Hotel",
+    "dining": "Gastronomie",
+    "spa": "Spa & Wellness",
+    "meetings": "Vergaderingen & Evenementen"
+  },
+  "home": {
+    "hero": {
+      "title": "Lago Bravo Integrated Resorts",
+      "subtitle": "Luxe Resort met Kampioenschap Golfbaan en Marina",
+      "cta": "Ontdekken"
+    },
+    "features": {
+      "golf": "Kampioenschap Golfbaan",
+      "marina": "Wereldklasse Marina",
+      "residences": "Luxe Residenties",
+      "hotel": "5-Sterren Hotels"
+    }
+  },
+  "golf": {
+    "title": "Kampioenschap Golfbaan",
+    "description": "Ervaar wereldklasse golf op onze 18-holes kampioenschap baan",
+    "features": {
+      "holes": "18 Kampioenschap Holes",
+      "design": "Bekroond Design",
+      "facilities": "Pro Shop & Oefenfaciliteiten"
+    }
+  },
+  "marina": {
+    "title": "Wereldklasse Marina",
+    "description": "State-of-the-art marina-faciliteiten voor jachten tot 300 voet",
+    "features": {
+      "slips": "Meer dan 200 Ligplaatsen",
+      "services": "Full Service Marina",
+      "amenities": "Premium Voorzieningen"
+    }
+  },
+  "residences": {
+    "title": "Luxe Residenties",
+    "description": "Exclusief wonen aan het water met ongeëvenaarde uitzichten",
+    "features": {
+      "views": "Panoramische Uitzichten",
+      "design": "Eigentijds Design",
+      "amenities": "Resort Voorzieningen"
+    }
+  },
+  "hotel": {
+    "title": "Luxe Hotel Collectie",
+    "palace": {
+      "name": "The Lago Bravo Palace",
+      "stars": "5 Sterren - Super Luxe",
+      "description": "Het toppunt van luxe met 150 suites met butler-service, privé-terrassen, infinity-pools en Michelin-sterrenrestaurants."
+    },
+    "resort": {
+      "name": "The Marina Resort",
+      "stars": "4 Sterren - Premium",
+      "description": "Modern comfort met 200 kamers, direct uitzicht op de marina, dakterras-zwembad, spa en gourmetrestaurants."
+    },
+    "club": {
+      "name": "The Golf Club Hotel",
+      "stars": "4 Sterren - Sport & Vrije Tijd",
+      "description": "Perfect voor golfliefhebbers met 180 kamers, toegang tot de golfbaan, driving range en ongedwongen dineren."
+    }
+  },
+  "dining": {
+    "title": "Gastronomische Excellentie",
+    "description": "Culinaire ervaringen van wereldklasse"
+  },
+  "spa": {
+    "title": "Spa & Wellness",
+    "description": "Verjongt uw geest en lichaam"
+  },
+  "meetings": {
+    "title": "Vergaderingen & Evenementen",
+    "description": "Premium locaties voor elke gelegenheid"
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "copyright": "© 2025 Lago Bravo Integrated Resorts. Alle rechten voorbehouden."
+  }
+}

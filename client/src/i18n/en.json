@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "golf": "Golf",
+    "marina": "Marina",
+    "residences": "Residences",
+    "hotel": "Hotel",
+    "dining": "Dining",
+    "spa": "Spa & Wellness",
+    "meetings": "Meetings & Events"
+  },
+  "home": {
+    "hero": {
+      "title": "Lago Bravo Integrated Resorts",
+      "subtitle": "Luxury Championship Golf & Marina Resort",
+      "cta": "Explore"
+    },
+    "features": {
+      "golf": "Championship Golf Course",
+      "marina": "World-Class Marina",
+      "residences": "Luxury Residences",
+      "hotel": "5-Star Hotels"
+    }
+  },
+  "golf": {
+    "title": "Championship Golf Course",
+    "description": "Experience world-class golfing on our championship 18-hole course",
+    "features": {
+      "holes": "18 Championship Holes",
+      "design": "Award-Winning Design",
+      "facilities": "Pro Shop & Practice Facilities"
+    }
+  },
+  "marina": {
+    "title": "World-Class Marina",
+    "description": "State-of-the-art marina facilities for yachts up to 300 feet",
+    "features": {
+      "slips": "200+ Marina Slips",
+      "services": "Full Service Marina",
+      "amenities": "Premium Amenities"
+    }
+  },
+  "residences": {
+    "title": "Luxury Residences",
+    "description": "Exclusive waterfront living with unparalleled views",
+    "features": {
+      "views": "Panoramic Views",
+      "design": "Contemporary Design",
+      "amenities": "Resort Amenities"
+    }
+  },
+  "hotel": {
+    "title": "Luxury Hotel Collection",
+    "palace": {
+      "name": "The Lago Bravo Palace",
+      "stars": "5 Stars - Super Luxury",
+      "description": "The pinnacle of luxury with 150 suites offering butler service, private terraces, infinity pools, and Michelin-starred dining."
+    },
+    "resort": {
+      "name": "The Marina Resort",
+      "stars": "4 Stars - Premium",
+      "description": "Modern comfort with 200 rooms, direct marina views, rooftop pool, spa, and gourmet restaurants."
+    },
+    "club": {
+      "name": "The Golf Club Hotel",
+      "stars": "4 Stars - Sport & Leisure",
+      "description": "Perfect for golf enthusiasts with 180 rooms, golf course access, driving range, and casual dining."
+    }
+  },
+  "dining": {
+    "title": "Dining Excellence",
+    "description": "World-class culinary experiences"
+  },
+  "spa": {
+    "title": "Spa & Wellness",
+    "description": "Rejuvenate your mind and body"
+  },
+  "meetings": {
+    "title": "Meetings & Events",
+    "description": "Premier venues for any occasion"
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2025 Lago Bravo Integrated Resorts. All rights reserved."
+  }
+}

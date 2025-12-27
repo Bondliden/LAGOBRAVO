@@ -3,11 +3,13 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
 import LanguageToggle from "@/components/language-toggle";
+import { useLanguage } from "@/lib/translations";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [location] = useLocation();
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,16 +25,16 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { href: "/hotel", label: "Hotel" },
-    { href: "/golf", label: "Golf" },
-    { href: "/marina", label: "Marina" },
-    { href: "/residences", label: "Residences" },
-    { href: "/accommodations", label: "Accommodations" },
-    { href: "/weddings", label: "Weddings" },
-    { href: "/casino", label: "Casino" },
-    { href: "/dining", label: "Dining" },
-    { href: "/events", label: "Events" },
-    { href: "/nightlife", label: "Nightlife" },
+    { href: "/hotel", label: t.nav.hotel },
+    { href: "/golf", label: t.nav.golf },
+    { href: "/marina", label: t.nav.marina },
+    { href: "/residences", label: t.nav.residences },
+    { href: "/accommodations", label: t.nav.accommodations },
+    { href: "/weddings", label: t.nav.weddings },
+    { href: "/casino", label: t.nav.casino },
+    { href: "/dining", label: t.nav.dining },
+    { href: "/events", label: t.nav.events },
+    { href: "/nightlife", label: t.nav.nightlife },
   ];
 
   return (
@@ -72,7 +74,7 @@ export default function Navigation() {
               </div>
               <Link href="/contact">
                 <Button className="bg-primary text-white hover:bg-primary/90">
-                  Book Now
+                  {t.nav.bookNow}
                 </Button>
               </Link>
             </div>
@@ -112,7 +114,7 @@ export default function Navigation() {
                 </div>
                 <Link href="/contact" onClick={closeMobileMenu}>
                   <Button className="w-full bg-primary text-white hover:bg-primary/90">
-                    Book Now
+                    {t.nav.bookNow}
                   </Button>
                 </Link>
               </div>
