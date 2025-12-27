@@ -7,7 +7,13 @@
     "hotel": "Hotel",
     "dining": "Gastronomia",
     "spa": "Spa & Benessere",
-    "meetings": "Riunioni & Eventi"
+    "meetings": "Riunioni & Eventi",
+    "accommodations": "Alloggio",
+    "weddings": "Matrimoni",
+    "casino": "Casinò",
+    "events": "Eventi",
+    "nightlife": "Vita Notturna",
+    "bookNow": "Prenota"
   },
   "home": {
     "hero": {

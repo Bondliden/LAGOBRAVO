@@ -7,7 +7,13 @@
     "hotel": "Hotell",
     "dining": "Gastronomi",
     "spa": "Spa & Välbefinnande",
-    "meetings": "Möten & Evenemang"
+    "meetings": "Möten & Evenemang",
+    "accommodations": "Boende",
+    "weddings": "Bröllop",
+    "casino": "Kasino",
+    "events": "Evenemang",
+    "nightlife": "Nattliv",
+    "bookNow": "Boka Nu"
   },
   "home": {
     "hero": {

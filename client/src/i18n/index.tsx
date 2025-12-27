@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import enTranslations from './en.json';
 import esTranslations from './es.json';
 import frTranslations from './fr.json';
@@ -7,8 +7,11 @@ import ptTranslations from './pt.json';
 import deTranslations from './de.json';
 import nlTranslations from './nl.json';
 import itTranslations from './it.json';
+import zhTranslations from './zh.json';
+import ruTranslations from './ru.json';
+import arTranslations from './ar.json';
 
-export type Language = 'en' | 'es' | 'fr' | 'sv' | 'pt' | 'de' | 'nl' | 'it';
+export type Language = 'en' | 'es' | 'fr' | 'sv' | 'pt' | 'de' | 'nl' | 'it' | 'zh' | 'ru' | 'ar';
 
 const translations: Record<Language, typeof enTranslations> = {
   en: enTranslations,
@@ -19,6 +22,9 @@ const translations: Record<Language, typeof enTranslations> = {
   de: deTranslations,
   nl: nlTranslations,
   it: itTranslations,
+  zh: zhTranslations as typeof enTranslations,
+  ru: ruTranslations as typeof enTranslations,
+  ar: arTranslations as typeof enTranslations,
 };
 
 interface LanguageContextType {
@@ -35,31 +41,40 @@ interface LanguageProviderProps {
 
 export function LanguageProvider({ children }: LanguageProviderProps) {
   const [language, setLanguageState] = useState<Language>(() => {
-    // Check URL parameter first
     const params = new URLSearchParams(window.location.search);
     const langParam = params.get('lang') as Language;
     if (langParam && translations[langParam]) {
       return langParam;
     }
-    // Check localStorage
     const savedLang = localStorage.getItem('language') as Language;
     if (savedLang && translations[savedLang]) {
       return savedLang;
     }
-    // Default to Spanish
     return 'es';
   });
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     localStorage.setItem('language', lang);
-    // Update URL parameter
     const url = new URL(window.location.href);
     url.searchParams.set('lang', lang);
     window.history.pushState({}, '', url.toString());
+    
+    if (lang === 'ar') {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
   };
 
-  // Listen for browser back/forward navigation
+  useEffect(() => {
+    if (language === 'ar') {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, [language]);
+
   useEffect(() => {
     const handlePopState = () => {
       const params = new URLSearchParams(window.location.search);
@@ -80,7 +95,16 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
       if (value && typeof value === 'object' && k in value) {
         value = value[k];
       } else {
-        return key; // Return key if translation not found
+        const fallback: any = translations['en'];
+        let fallbackValue: any = fallback;
+        for (const fk of keys) {
+          if (fallbackValue && typeof fallbackValue === 'object' && fk in fallbackValue) {
+            fallbackValue = fallbackValue[fk];
+          } else {
+            return key;
+          }
+        }
+        return typeof fallbackValue === 'string' ? fallbackValue : key;
       }
     }
 
@@ -111,4 +135,7 @@ export const languages: { code: Language; name: string; flag: string }[] = [
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
   { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
   { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+  { code: 'zh', name: '中文', flag: '🇨🇳' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
 ];

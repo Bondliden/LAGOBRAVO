@@ -7,7 +7,13 @@
     "hotel": "Hotel",
     "dining": "Gastronomie",
     "spa": "Spa & Wellness",
-    "meetings": "Vergaderingen & Evenementen"
+    "meetings": "Vergaderingen & Evenementen",
+    "accommodations": "Accommodatie",
+    "weddings": "Bruiloften",
+    "casino": "Casino",
+    "events": "Evenementen",
+    "nightlife": "Nachtleven",
+    "bookNow": "Boeken"
   },
   "home": {
     "hero": {

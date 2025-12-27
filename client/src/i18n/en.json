@@ -7,7 +7,13 @@
     "hotel": "Hotel",
     "dining": "Dining",
     "spa": "Spa & Wellness",
-    "meetings": "Meetings & Events"
+    "meetings": "Meetings & Events",
+    "accommodations": "Accommodations",
+    "weddings": "Weddings",
+    "casino": "Casino",
+    "events": "Events",
+    "nightlife": "Nightlife",
+    "bookNow": "Book Now"
   },
   "home": {
     "hero": {

@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
-import LanguageSwitcher from './LanguageSwitcher'; 
-  import { useLanguage } from '../i18n';"./LanguageSwitcher";
+import LanguageSwitcher from './LanguageSwitcher';
+import { useLanguage } from '../i18n';
+
 export default function Navigation() {
   const { t } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,11 +25,13 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { href: "/residences", label: t('nav.residences') },    { href: "/accommodations", label: "Accommodations" },
-    { href: "/weddings", label: "Weddings" },
-    { href: "/casino", label: "Casino" },
-    { href: "/dining", label: t('nav.dining') },    { href: "/events", label: "Events" },
-    { href: "/nightlife", label: "Nightlife" },
+    { href: "/residences", label: t('nav.residences') },
+    { href: "/accommodations", label: t('nav.accommodations') },
+    { href: "/weddings", label: t('nav.weddings') },
+    { href: "/casino", label: t('nav.casino') },
+    { href: "/dining", label: t('nav.dining') },
+    { href: "/events", label: t('nav.events') },
+    { href: "/nightlife", label: t('nav.nightlife') },
   ];
 
   return (
@@ -62,13 +65,13 @@ export default function Navigation() {
               </Link>
             ))}
             <div className="flex items-center space-x-4 ml-6">
-              <LanguageToggle />
+              <LanguageSwitcher />
               <div className="text-right">
                 <p className="text-sm font-semibold text-primary">info@lagobravo.com</p>
               </div>
               <Link href="/contact">
                 <Button className="bg-primary text-white hover:bg-primary/90">
-                  Book Now
+                  {t('nav.bookNow')}
                 </Button>
               </Link>
             </div>
@@ -83,7 +86,6 @@ export default function Navigation() {
           </button>
         </div>
         
-        {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-white border-t border-gray-200 py-4">
             <div className="flex flex-col space-y-4">
@@ -100,9 +102,6 @@ export default function Navigation() {
                 </Link>
               ))}
               <div className="pt-4 border-t border-gray-200">
-                <LanguageSwitcher />
-                </div>
-              <div className="pt-4 border-t border-gray-200">
                 <div className="flex justify-between items-center mb-3">
                   <div>
                     <p className="text-sm font-semibold text-primary">info@lagobravo.com</p>
@@ -111,7 +110,7 @@ export default function Navigation() {
                 </div>
                 <Link href="/contact" onClick={closeMobileMenu}>
                   <Button className="w-full bg-primary text-white hover:bg-primary/90">
-                    Book Now
+                    {t('nav.bookNow')}
                   </Button>
                 </Link>
               </div>
