@@ -8,5 +8,14 @@
     "events": "الفعاليات",
     "nightlife": "الحياة الليلية",
     "bookNow": "احجز الآن"
+  },
+  "home": {
+    "hero": {
+      "title": "Lago Bravo Integrated Resorts",
+      "subtitle": "منتجع فاخر مع ملعب غولف ومرسى يخوت",
+      "cta": "استكشف",
+      "golf": "غولف البطولات",
+      "book": "احجز إقامتك"
+    }
   }
 }

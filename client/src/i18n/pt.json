@@ -19,7 +19,9 @@
     "hero": {
       "title": "Lago Bravo Integrated Resorts",
       "subtitle": "Resort de Luxo com Campo de Golfe e Marina",
-      "cta": "Explorar"
+      "cta": "Explorar",
+      "golf": "Golfe de Campeonato",
+      "book": "Reserve Sua Estadia"
     },
     "features": {
       "golf": "Campo de Golfe Championship",

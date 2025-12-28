@@ -8,5 +8,14 @@
     "events": "活动",
     "nightlife": "夜生活",
     "bookNow": "预订"
+  },
+  "home": {
+    "hero": {
+      "title": "Lago Bravo Integrated Resorts",
+      "subtitle": "豪华高尔夫和游艇码头度假村",
+      "cta": "探索",
+      "golf": "锦标赛高尔夫",
+      "book": "预订入住"
+    }
   }
 }

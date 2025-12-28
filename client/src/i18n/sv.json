@@ -19,7 +19,9 @@
     "hero": {
       "title": "Lago Bravo Integrated Resorts",
       "subtitle": "Lyxresort med Mästerskaps-Golfbana och Marina",
-      "cta": "Utforska"
+      "cta": "Utforska",
+      "golf": "Mästerskaps Golf",
+      "book": "Boka Din Vistelse"
     },
     "features": {
       "golf": "Mästerskaps-Golfbana",

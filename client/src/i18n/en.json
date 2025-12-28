@@ -19,7 +19,9 @@
     "hero": {
       "title": "Lago Bravo Integrated Resorts",
       "subtitle": "Luxury Championship Golf & Marina Resort",
-      "cta": "Explore"
+      "cta": "Explore",
+      "golf": "Championship Golf",
+      "book": "Book Your Stay"
     },
     "features": {
       "golf": "Championship Golf Course",

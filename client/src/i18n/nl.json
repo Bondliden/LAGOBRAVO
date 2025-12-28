@@ -19,7 +19,9 @@
     "hero": {
       "title": "Lago Bravo Integrated Resorts",
       "subtitle": "Luxe Resort met Kampioenschap Golfbaan en Marina",
-      "cta": "Ontdekken"
+      "cta": "Ontdekken",
+      "golf": "Kampioenschap Golf",
+      "book": "Boek Uw Verblijf"
     },
     "features": {
       "golf": "Kampioenschap Golfbaan",
