@@ -4,9 +4,32 @@
 
 This is a luxury resort website for Lago Bravo Integrated Resorts, built as a modern full-stack web application. The application features a React frontend with a luxury resort theme, an Express.js backend API, and uses Drizzle ORM for database operations with PostgreSQL. The site includes sections for championship golf, exclusive marina with full moon boat gatherings, crystal lagoon villas and luxury condominiums for sale, accommodations, weddings, casino, dining, nightlife, events, and contact forms. The website prominently features the authentic Lago Bravo logo throughout the design and is now connected to a fully functional PostgreSQL database for persistent data storage.
 
+**Live Site**: www.lagobravo.com (hosted on Hostinger)
+**Contact**: info@lagobravo.com
+
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
+- Preferred communication style: Simple, everyday language.
+- No pricing displayed anywhere on the site
+- Contact email: info@lagobravo.com only
+- 11-language support with flag icons
+
+## Internationalization (i18n)
+
+The website supports 11 languages with a flag-based dropdown selector:
+- 🇬🇧 English (en)
+- 🇪🇸 Español (es)
+- 🇫🇷 Français (fr)
+- 🇸🇪 Svenska (sv)
+- 🇵🇹 Português (pt)
+- 🇩🇪 Deutsch (de)
+- 🇳🇱 Nederlands (nl)
+- 🇮🇹 Italiano (it)
+- 🇨🇳 中文 (zh)
+- 🇷🇺 Русский (ru)
+- 🇸🇦 العربية (ar) - includes RTL support
+
+Translation files are located in `client/src/i18n/` directory.
 
 ## System Architecture
 
@@ -18,6 +41,7 @@ Preferred communication style: Simple, everyday language.
 - **Routing**: Wouter for client-side routing
 - **State Management**: TanStack React Query for server state management
 - **Forms**: React Hook Form with Zod validation
+- **i18n**: Custom LanguageProvider with JSON translation files
 
 ### Backend Architecture
 - **Framework**: Express.js with TypeScript
@@ -48,6 +72,7 @@ The application uses three main database tables:
 - Reusable UI components from shadcn/ui library
 - Custom SectionHeading component for consistent typography
 - Form components with validation and toast notifications
+- LanguageSwitcher component with flag icons for 11 languages
 
 ## Data Flow
 
@@ -75,10 +100,15 @@ The application uses three main database tables:
 ### UI & Styling
 - Radix UI primitives for accessible components
 - Tailwind CSS for utility-first styling
-- Font Awesome icons for visual elements
+- Lucide React icons for visual elements
 - Google Fonts (Playfair Display, Inter) for typography
 
-## Deployment Strategy
+## Deployment
+
+### Hostinger Deployment
+- Static files are built to `dist/public/`
+- Upload contents of `hostinger-11langs.zip` to Hostinger public_html folder
+- Domain: www.lagobravo.com
 
 ### Production Build
 - Frontend: Vite builds static assets to `dist/public`
@@ -95,16 +125,12 @@ The application uses three main database tables:
 - Database schema changes are pushed using `drizzle-kit push`
 - TypeScript checking available via `npm run check`
 
-## Recent Changes (January 2025)
+## Recent Changes (December 2025)
 
-### Latest Updates (August 2025)
-- **Favicon Integration**: Added professional favicon suite with all device formats
-- **Replit Redirection**: Configured automatic redirection from Replit development environment
-- **Domain-Only Setup**: User has GoDaddy domain without hosting, requires hosting solution
-- **Complete Package Ready**: All files prepared in godaddy_upload/ folder (4MB total)
-
-## Recent Changes (January 2025)
-
+- **11-Language Support**: Added complete internationalization with Chinese, Russian, and Arabic
+- **RTL Support**: Arabic language includes right-to-left text direction
+- **Language Selector**: Flag-based dropdown in navigation header
+- **Hostinger Hosting**: Migrated from development to Hostinger production hosting
 - **Database Migration**: Successfully migrated from in-memory storage to PostgreSQL database
 - **Logo Integration**: Updated all components to display the authentic Lago Bravo logo (PNG format)
 - **Database Schema**: Created and deployed tables for reservations, wedding inquiries, and newsletter subscriptions
@@ -113,9 +139,5 @@ The application uses three main database tables:
 - **Exclusive Marina**: Added private marina with yacht charters and signature Full Moon boat gatherings (2027 schedule)
 - **Real Estate Section**: Added exclusive crystal lagoon villas and luxury condominiums with 24/7 concierge service
 - **Branding Update**: Changed from "WORLD RESORT" to "INTEGRATED RESORTS" across all sections
-- **GoDaddy Deployment**: Prepared production build files optimized for GoDaddy hosting
-- **Navigation Improvements**: Enhanced logo sizing and spacing in header navigation for better visual balance
-- **Marina Integration**: Added stunning marina imagery to real estate section showcasing yacht lifestyle
-- **GitHub Repository**: Complete codebase uploaded to GitHub for version control and collaboration
 
 The application is designed as a luxury resort booking platform with a focus on user experience, type safety, and maintainable architecture. The monorepo structure keeps frontend, backend, and shared schemas in sync while allowing for independent scaling of different components. All data is now persisted in PostgreSQL for production-ready operations.
