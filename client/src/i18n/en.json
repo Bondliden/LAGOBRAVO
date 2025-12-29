@@ -172,10 +172,18 @@
       "aquaVilla": {
         "type": "Aqua Villa - Overwater Crystal Lagoon",
         "signature": "SIGNATURE COLLECTION",
-        "overwaterDesign": "OVERWATER DESIGN"
+        "overwaterDesign": "OVERWATER DESIGN",
+        "area": "220 - 250 m² (2,370 - 2,690 sq ft)",
+        "levels": "3 levels + rooftop",
+        "bedrooms": "4 bedrooms",
+        "features": ["Multi-level overwater design built in lagoon", "Ground level: Open-plan living, dining & kitchen (55m²)", "First level: Master suite + 2 guest bedrooms", "Basement level: Entertainment room & wine storage", "Rooftop terrace with infinity pool", "Glass floor sections for underwater viewing", "Private floating dock with lagoon access", "Smart home automation throughout"]
       },
       "marinaVista": {
-        "type": "Marina Vista - Lagoon Edge Residence"
+        "type": "Marina Vista - Lagoon Edge Residence",
+        "area": "180 - 200 m² (1,940 - 2,150 sq ft)",
+        "levels": "2 levels + terrace",
+        "bedrooms": "3 bedrooms",
+        "features": ["Positioned at lagoon's edge with water access", "Ground floor: Living area with covered terrace (50m²)", "Upper level: Bedrooms with lagoon-view balconies", "Private garden plot extending to lagoon", "Direct lagoon swimming access", "Covered parking for 2 vehicles", "24/7 concierge and housekeeping services", "Fractional ownership from 1/8 shares"]
       },
       "labels": {
         "area": "Area",
@@ -252,37 +260,225 @@
     }
   },
   "weddings": {
-    "title": "Dream Weddings",
-    "subtitle": "Create unforgettable moments at our stunning wedding venues with personalized service and breathtaking settings."
+    "title": "Lago Bravo Wedding Center",
+    "subtitle": "The ultimate destination for luxury weddings and exclusive celebrations. Our dedicated wedding center offers personalized planning services, exquisite venues, and unforgettable experiences.",
+    "planning": {
+      "title": "Luxury Wedding Planning",
+      "description": "Complete wedding planning services with dedicated coordinators",
+      "features": ["Personal wedding coordinator", "Vendor management", "Timeline coordination", "Day-of coordination"]
+    },
+    "services": {
+      "title": "Additional Services",
+      "description": "Extra services to enhance your wedding experience",
+      "features": ["Live entertainment & DJ services", "Floral arrangements & decoration", "Luxury transportation for guests", "Group spa packages"]
+    },
+    "packages": {
+      "silver": {
+        "name": "Silver Exclusive",
+        "guests": "Up to 150 guests",
+        "features": ["3-star accommodation for 2 nights", "Basic venue decoration", "Standard catering package"]
+      },
+      "gold": {
+        "name": "Gold Premium",
+        "guests": "Up to 200 guests",
+        "features": ["4-star accommodation for 2 nights", "Premium venue decoration", "Premium catering package", "Photography service"]
+      },
+      "platinum": {
+        "name": "Platinum Elite",
+        "guests": "Up to 300 guests",
+        "features": ["5-star accommodation for 3 nights", "Complete venue decoration", "Gourmet catering for all guests", "Professional photography & videography", "Honeymoon suite upgrade"]
+      }
+    },
+    "cta": {
+      "title": "Start Planning Your Dream Wedding",
+      "description": "Contact our wedding specialists for a personalized consultation",
+      "email": "Email",
+      "button": "Schedule Free Consultation"
+    }
   },
   "casino": {
-    "title": "World-Class Casino",
-    "subtitle": "Experience the thrill of gaming in our elegant casino with table games, slots, and VIP lounges."
+    "title": "Sophisticated Casino",
+    "subtitle": "Sophisticated gaming experience with VIP lounges and professional dealers.",
+    "experience": {
+      "title": "World-Class Gaming Experience",
+      "tagline": "Where Fortune Meets Luxury"
+    },
+    "games": {
+      "tableGames": { "title": "Table Games", "description": "Classic games including Blackjack, Poker, Roulette, and Baccarat with professional dealers." },
+      "slots": { "title": "Slot Machines", "description": "State-of-the-art slot machines featuring the latest games and progressive jackpots." },
+      "vip": { "title": "VIP Lounges", "description": "Exclusive high-limit gaming areas with private dealers and premium amenities." },
+      "responsible": { "title": "Responsible Gaming", "description": "Committed to providing a safe and responsible gaming environment for all guests." }
+    },
+    "tables": {
+      "blackjack": { "name": "Blackjack", "count": "12 Tables" },
+      "roulette": { "name": "Roulette", "count": "8 Tables" },
+      "poker": { "name": "Poker", "count": "6 Tables" },
+      "baccarat": { "name": "Baccarat", "count": "4 Tables" }
+    },
+    "hours": {
+      "title": "Operating Hours",
+      "monThu": "Monday - Thursday: 6:00 PM - 2:00 AM",
+      "friSat": "Friday - Saturday: 6:00 PM - 4:00 AM",
+      "sun": "Sunday: 6:00 PM - 12:00 AM"
+    }
   },
   "dining": {
     "title": "Culinary Excellence",
-    "subtitle": "Savor world-class cuisine at our collection of restaurants featuring international and local flavors."
+    "subtitle": "Collection of fine dining establishments featuring celebrity chefs and international cuisine.",
+    "village": {
+      "title": "Restaurant Village",
+      "tagline": "A Culinary Journey Around the World",
+      "count": "6 Restaurants & Bars"
+    },
+    "signature": "Chef's Signature Restaurant",
+    "chef": "Chef",
+    "restaurants": {
+      "laPerla": {
+        "name": "La Perla del Mar",
+        "cuisine": "Mediterranean Fine Dining",
+        "chef": "Chef Miguel Santana",
+        "description": "Exquisite Mediterranean cuisine with panoramic sea views and an extensive wine cellar.",
+        "features": ["Fresh Seafood", "Wine Pairings", "Private Dining"]
+      },
+      "tapas": {
+        "name": "Tapas y Más",
+        "cuisine": "Spanish Tapas",
+        "chef": "Chef Carmen López",
+        "description": "Authentic Spanish tapas and traditional dishes in a vibrant, welcoming atmosphere.",
+        "features": ["Traditional Tapas", "Paella", "Live Flamenco"]
+      },
+      "sunset": {
+        "name": "Sunset Terrace",
+        "cuisine": "International Fusion",
+        "chef": "Chef Alessandro Romano",
+        "description": "Contemporary international cuisine served on a stunning terrace overlooking the sunset.",
+        "features": ["Fusion Cuisine", "Sunset Views", "Romantic Setting"]
+      },
+      "beach": {
+        "name": "Beach Bar Oasis",
+        "cuisine": "Cocktails & Light Bites",
+        "chef": "Master Mixologist David Chen",
+        "description": "Sophisticated cocktails and fresh sushi with direct beach access and infinity pool views.",
+        "features": ["Craft Cocktails", "Fresh Sushi", "Beach Access"]
+      },
+      "bodega": {
+        "name": "La Bodega",
+        "cuisine": "Wine Bar & Bistro",
+        "chef": "Sommelier Elena Ricci",
+        "description": "Curated wine selection from around the world paired with artisanal cheeses and charcuterie.",
+        "features": ["Wine Tastings", "Artisan Cheeses", "Wine Education"]
+      },
+      "grill": {
+        "name": "Grill & Chill",
+        "cuisine": "International Grill",
+        "chef": "Chef Marcus Thompson",
+        "description": "Relaxed dining with premium grilled meats, fresh salads, and tropical cocktails.",
+        "features": ["Grilled Specialties", "Fresh Salads", "Family Friendly"]
+      }
+    },
+    "cta": {
+      "title": "Culinary Reservations",
+      "description": "Experience exceptional dining with our celebrity chefs and sommelier-selected wines. Reserve your table for an unforgettable culinary journey.",
+      "reserve": "Make Reservation",
+      "viewMenus": "View All Menus",
+      "reserveTable": "Reserve Table",
+      "viewMenu": "View Menu"
+    }
   },
   "events": {
-    "title": "Events & Celebrations",
-    "subtitle": "Host your special occasions in our stunning venues with world-class service and amenities."
+    "title": "Sports & Events",
+    "subtitle": "World-class entertainment venue hosting concerts, sports events, and spectacular shows.",
+    "arena": {
+      "title": "World-Class Arena",
+      "tagline": "Hosting International Events & Entertainment",
+      "capacity": "Capacity: 5,000"
+    },
+    "featured": "FEATURED EVENT",
+    "getTickets": "Get Tickets",
+    "categories": {
+      "concerts": "CONCERTS",
+      "sports": "SPORTS",
+      "shows": "SHOWS"
+    },
+    "upcoming": {
+      "jazz": { "title": "International Jazz Festival", "description": "World-renowned jazz artists performing under the stars" },
+      "boxing": { "title": "Championship Boxing Match", "description": "Title fight featuring international boxing champions" },
+      "flamenco": { "title": "Flamenco Spectacular", "description": "Traditional Spanish flamenco with modern interpretations" },
+      "electronic": { "title": "Electronic Music Festival", "description": "Beach club transforms into electronic music paradise" },
+      "tennis": { "title": "Tennis Exhibition Match", "description": "Former world champions in an exclusive exhibition" },
+      "cirque": { "title": "Cirque Performance", "description": "Breathtaking acrobatics and artistic performances" }
+    }
   },
   "nightlife": {
-    "title": "Vibrant Nightlife",
-    "subtitle": "Experience the energy of our clubs, bars, and entertainment venues."
+    "title": "Exclusive Nightlife",
+    "subtitle": "Experience the sophisticated nightlife scene at Lago Bravo World Resort, where elegance meets excitement in our exclusive venues and premium entertainment offerings.",
+    "venues": {
+      "vip": {
+        "name": "VIP Lounge",
+        "subtitle": "Exclusive Club",
+        "description": "Ultra-exclusive nightlife experience with premium service and sophisticated ambiance.",
+        "features": ["VIP service", "Premium cocktails", "Live DJ", "Exclusive access"]
+      },
+      "nightclub": {
+        "name": "Sophisticated Nightclub",
+        "subtitle": "Premium Club",
+        "description": "Elegant nightclub featuring world-class DJs and sophisticated interior design.",
+        "features": ["World-class DJs", "Premium sound system", "Elegant design", "VIP tables"]
+      }
+    },
+    "events": {
+      "title": "Weekly Events",
+      "saturday": { "title": "Saturday Night Fever", "schedule": "Saturdays • 22:00 - 04:00 • 21+ • Smart Elegant", "description": "The ultimate Saturday night experience with international DJs and premium cocktails." },
+      "sunset": { "title": "Sunset Sessions", "schedule": "Daily • 18:00 - 24:00 • 18+ • Smart Casual", "description": "Sophisticated evening atmosphere with craft cocktails and ambient music." },
+      "midnight": { "title": "Midnight Elegance", "schedule": "Fri & Sat • 23:00 - 05:00 • 25+ • Black Tie Optional", "description": "Exclusive nightclub experience with world-class DJs and VIP bottle service." }
+    },
+    "features": {
+      "cocktails": { "title": "Craft Cocktails", "description": "Master mixologists creating innovative cocktails with premium spirits and fresh ingredients." },
+      "djs": { "title": "International DJs", "description": "World-renowned DJs and live performers creating unforgettable musical experiences." },
+      "vip": { "title": "VIP Experience", "description": "Exclusive VIP areas with bottle service, private tables, and personalized attention." },
+      "atmosphere": { "title": "Elegant Atmosphere", "description": "Sophisticated ambiance with premium design, lighting, and world-class service." }
+    },
+    "buttons": {
+      "reserveVip": "Reserve VIP Table",
+      "guestList": "Get Guest List"
+    }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "We'd love to hear from you. Reach out for reservations, inquiries, or any questions.",
+    "title": "Contact Lago Bravo",
+    "subtitle": "Ready to experience luxury? Contact our reservation specialists to plan your perfect getaway.",
+    "getInTouch": "Get in Touch",
+    "email": {
+      "title": "Email",
+      "value": "info@lagobravo.com",
+      "description": "For all inquiries and reservations"
+    },
+    "location": {
+      "title": "Premium Global Destinations",
+      "value": "Luxury Awaits",
+      "description": "Multiple exclusive waterfront locations worldwide"
+    },
     "form": {
+      "title": "Make a Reservation",
       "firstName": "First Name",
+      "firstNamePlaceholder": "Your first name",
       "lastName": "Last Name",
-      "email": "Email",
-      "phone": "Phone",
+      "lastNamePlaceholder": "Your last name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 123-4567",
       "checkIn": "Check-in Date",
       "checkOut": "Check-out Date",
       "specialRequests": "Special Requests",
-      "submit": "Submit Inquiry"
+      "specialRequestsPlaceholder": "Tell us about your preferences or special requirements...",
+      "submit": "Submit Reservation Request",
+      "submitting": "Submitting...",
+      "confirmation": "Our reservation specialists will contact you within 24 hours to confirm your booking."
+    },
+    "messages": {
+      "success": { "title": "Reservation Request Submitted", "description": "Our reservation specialists will contact you within 24 hours to confirm your booking." },
+      "error": { "title": "Reservation Failed", "description": "Failed to submit reservation request. Please try again." },
+      "missing": { "title": "Missing Information", "description": "Please fill in all required fields." }
     }
   },
   "footer": {
