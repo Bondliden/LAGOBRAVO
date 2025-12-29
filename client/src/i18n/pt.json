@@ -1,96 +1,16 @@
 {
-  "nav": {
-    "home": "Início",
-    "golf": "Golfe",
-    "marina": "Marina",
-    "residences": "Residências",
-    "hotel": "Hotel",
-    "dining": "Gastronomia",
-    "spa": "Spa & Bem-Estar",
-    "meetings": "Reuniões & Eventos",
-    "accommodations": "Alojamento",
-    "weddings": "Casamentos",
-    "casino": "Casino",
-    "events": "Eventos",
-    "nightlife": "Vida Noturna",
-    "bookNow": "Reservar"
-  },
-  "home": {
-    "hero": {
-      "title": "Lago Bravo Integrated Resorts",
-      "subtitle": "Resort de Luxo com Campo de Golfe e Marina",
-      "cta": "Explorar",
-      "golf": "Golfe de Campeonato",
-      "book": "Reserve Sua Estadia"
-    },
-    "features": {
-      "golf": "Campo de Golfe Championship",
-      "marina": "Marina de Classe Mundial",
-      "residences": "Residências de Luxo",
-      "hotel": "Hotéis 5 Estrelas"
-    }
-  },
-  "golf": {
-    "title": "Campo de Golfe Championship",
-    "description": "Experimente golfe de classe mundial em nosso campo de 18 buracos",
-    "features": {
-      "holes": "18 Buracos Championship",
-      "design": "Design Premiado",
-      "facilities": "Pro Shop e Instalações de Prática"
-    }
-  },
-  "marina": {
-    "title": "Marina de Classe Mundial",
-    "description": "Instalações de marina de última geração para iates de até 300 pés",
-    "features": {
-      "slips": "Mais de 200 Vagas",
-      "services": "Marina Full Service",
-      "amenities": "Comodidades Premium"
-    }
-  },
-  "residences": {
-    "title": "Residências de Luxo",
-    "description": "Vida exclusiva à beira-mar com vistas incomparáveis",
-    "features": {
-      "views": "Vistas Panorâmicas",
-      "design": "Design Contemporâneo",
-      "amenities": "Comodidades do Resort"
-    }
-  },
-  "hotel": {
-    "title": "Coleção de Hotéis de Luxo",
-    "palace": {
-      "name": "The Lago Bravo Palace",
-      "stars": "5 Estrelas - Super Luxo",
-      "description": "O auge do luxo com 150 suítes oferecendo serviço de mordomo, terraços privativos, piscinas infinity e restaurantes estrelados Michelin."
-    },
-    "resort": {
-      "name": "The Marina Resort",
-      "stars": "4 Estrelas - Premium",
-      "description": "Conforto moderno com 200 quartos, vistas diretas para a marina, piscina na cobertura, spa e restaurantes gourmet."
-    },
-    "club": {
-      "name": "The Golf Club Hotel",
-      "stars": "4 Estrelas - Esporte & Lazer",
-      "description": "Perfeito para entusiastas do golfe com 180 quartos, acesso ao campo de golfe, driving range e refeições casuais."
-    }
-  },
-  "dining": {
-    "title": "Excelência Gastronômica",
-    "description": "Experiências culinárias de classe mundial"
-  },
-  "spa": {
-    "title": "Spa & Bem-Estar",
-    "description": "Rejuvenescer sua mente e corpo"
-  },
-  "meetings": {
-    "title": "Reuniões & Eventos",
-    "description": "Espaços premium para qualquer ocasião"
-  },
-  "footer": {
-    "contact": "Contato",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
-    "copyright": "© 2025 Lago Bravo Integrated Resorts. Todos os direitos reservados."
-  }
+  "nav": { "home": "Início", "golf": "Golfe", "marina": "Marina", "residences": "Residências", "hotel": "Hotel", "dining": "Gastronomia", "spa": "Spa & Bem-Estar", "meetings": "Reuniões & Eventos", "accommodations": "Alojamento", "weddings": "Casamentos", "casino": "Casino", "events": "Eventos", "nightlife": "Vida Noturna", "bookNow": "Reservar" },
+  "home": { "hero": { "title": "Lago Bravo Integrated Resorts", "subtitle": "Resort de Luxo com Golfe e Marina", "cta": "Explorar", "golf": "Golfe de Campeonato", "book": "Reserve Sua Estadia" } },
+  "golf": { "title": "Campo de Golfe de Campeonato", "subtitle": "Golfe de classe mundial no nosso campo de 18 buracos com vista para o mar.", "heroTitle": "Campo de Campeonato 18 Buracos", "heroSubtitle": "Projetado por Tom Doak • Par 72 • 7.200 jardas", "features": { "championship": { "title": "Campo de Campeonato 18 Buracos", "description": "Projetado pelo arquiteto de golfe Tom Doak." }, "instruction": { "title": "Instrução PGA", "description": "Aulas particulares com profissionais certificados." }, "practice": { "title": "Instalações Premium", "description": "Driving range, putting greens e área de jogo curto." }, "clubhouse": { "title": "Clubhouse Exclusivo", "description": "Clubhouse de luxo com pro shop e gastronomia." } }, "packages": { "title": "Pacotes de Golfe", "getaway": { "name": "Escapada de Golfe", "description": "Para entusiastas do golfe", "features": ["Alojamento de luxo 2 noites", "Golfe ilimitado", "Carrinho incluído", "Pacote de boas-vindas", "Instalações de prática"] }, "master": { "name": "Experiência Golf Master", "description": "Férias de golfe definitivas", "popular": "MAIS POPULAR", "features": ["Suite premium 3 noites", "Golfe ilimitado", "Aula privada PGA", "Privilégios de torneio", "Acesso VIP", "Aluguel de equipamento"] }, "corporate": { "name": "Retiro Corporativo de Golfe", "description": "Para eventos empresariais", "features": ["Alojamento de grupo", "Torneio privado", "Sala de reuniões", "Team building", "Jantar de premiação"] } }, "info": { "title": "Informações do Campo", "par": "Par 72", "parLabel": "Campo de Campeonato", "yards": "7.200", "yardsLabel": "Jardas Totais", "holes": "18", "holesLabel": "Buracos de Campeonato", "rating": "5 Estrelas", "ratingLabel": "Classificação Golf Digest", "hours": "Horário", "hoursValue": "Nascer ao pôr do sol, 7 dias", "reservations": "Reservas", "reservationsValue": "Até 30 dias de antecedência", "dressCode": "Código de Vestuário", "dressCodeValue": "Traje de golfe, spikes macios" }, "cta": { "title": "Pronto para Jogar?", "description": "Reserve sua experiência de golfe no Lago Bravo.", "bookTee": "Reservar Horário", "lessonInquiry": "Consulta de Aulas", "bookPackage": "Reservar Pacote" } },
+  "marina": { "title": "Marina Exclusiva & Iate Clube", "subtitle": "Luxo na água com marina privada, fretamento de iates e Encontros de Lua Cheia.", "heroTitle": "Marina Privada & Iate Clube", "heroSubtitle": "Luxo à beira-mar exclusivo • Celebrações de Lua Cheia", "features": { "fullMoon": { "title": "Encontros de Lua Cheia", "description": "Encontros mensais exclusivos de barco sob a lua cheia.", "signature": "EXPERIÊNCIA ASSINATURA" }, "yachtCharter": { "title": "Fretamento de Iates", "description": "Iates de luxo com tripulação profissional." }, "dining": { "title": "Gastronomia à Beira-Mar", "description": "Restaurante exclusivo da marina." }, "waterSports": { "title": "Desportos Aquáticos", "description": "Jet ski, caiaques, paddleboards, mergulho." } }, "fullMoonSection": { "title": "Encontros de Barco Lua Cheia", "description": "Celebração mensal exclusiva sob a lua cheia.", "schedule": "Calendário 2027 disponível", "reserve": "Reservar Experiência" }, "services": { "title": "Serviços de Marina", "yacht": { "name": "Fretamento de Iate de Luxo", "description": "Iate de 60 pés com tripulação", "features": ["Capitão profissional", "Catering gourmet", "Bar completo", "12 convidados", "Equipamento de snorkel"] }, "fullMoon": { "name": "Experiência Lua Cheia", "description": "Encontro mensal exclusivo", "features": ["Transporte premium", "Jantar 5 pratos", "Música ao vivo", "Brinde de champanhe", "Fotografia"] }, "sunset": { "name": "Cruzeiro ao Pôr do Sol", "description": "Cruzeiro romântico noturno", "features": ["Cruzeiro de 2 horas", "Cocktails", "Cobertores", "Música", "Para casais"] } }, "amenities": { "title": "Comodidades da Marina", "docking": { "title": "Atracação Premium", "description": "50 vagas com serviços" }, "fuel": { "title": "Combustível", "description": "Estação e oficina" }, "concierge": { "title": "Concierge", "description": "Limpeza e aprovisionamento" }, "events": { "title": "Eventos Lua Cheia", "description": "Celebrações mensais" } }, "cta": { "title": "Navegue com Luxo", "description": "Luxo à beira-mar na nossa marina exclusiva.", "bookFullMoon": "Reservar Lua Cheia", "charterYacht": "Fretar Iate", "bookService": "Reservar Serviço" } },
+  "residences": { "title": "Residências Exclusivas", "subtitle": "Vilas sobre a água e residências à beira da lagoa com propriedade fracionada.", "villaTitle": "Vilas Sobre a Água", "villaSubtitle": "Designs de vários níveis na lagoa cristalina", "comingSoon": "Em Breve", "builtInLagoon": "Na Lagoa", "fractionalAvailable": "Fracionado Disponível", "features": { "lagoon": { "title": "Na Lagoa Cristalina", "description": "Vilas sobre a água." }, "yacht": { "title": "Vaga de Iate", "description": "Vaga dedicada e acesso à marina." }, "concierge": { "title": "Concierge", "description": "Serviço 24/7." }, "amenities": { "title": "Comodidades", "description": "Golfe, spa, gastronomia, marina." } }, "properties": { "aquaVilla": { "type": "Aqua Villa - Sobre a Água", "signature": "COLEÇÃO ASSINATURA", "overwaterDesign": "DESIGN SOBRE A ÁGUA", "area": "220 - 250 m²", "levels": "3 níveis + telhado", "bedrooms": "4 quartos", "features": ["Design sobre a água", "Sala aberta", "Master + 2 hóspedes", "Sala de entretenimento", "Piscina no telhado", "Chão de vidro", "Cais flutuante", "Casa inteligente"] }, "marinaVista": { "type": "Marina Vista - À Beira da Lagoa", "area": "180 - 200 m²", "levels": "2 níveis + terraço", "bedrooms": "3 quartos", "features": ["À beira da lagoa", "Terraço coberto", "Varandas com vista", "Jardim privado", "Acesso para nadar", "Estacionamento", "Concierge 24/7", "A partir de 1/8 partes"] }, "labels": { "area": "Área", "bedrooms": "Quartos", "levels": "Níveis", "status": "Estado" } }, "conciergeSection": { "title": "Serviços de Concierge", "description": "Serviço 24/7 para proprietários.", "transportation": { "title": "Transporte", "description": "Transfers e charters" }, "dining": { "title": "Gastronomia", "description": "Reservas" }, "events": { "title": "Eventos", "description": "Planeamento privado" }, "property": { "title": "Propriedade", "description": "Manutenção" } }, "amenitiesSection": { "title": "Comodidades Incluídas", "items": ["Clube de Praia", "Prioridade Golfe", "Marina & Iates", "Spa & Bem-Estar", "Restaurantes", "Crianças", "Fitness & Ténis", "Centro de Negócios"] }, "investment": { "title": "Oportunidade de Investimento", "description": "Potencial excepcional.", "benefitsTitle": "Benefícios", "benefits": ["8-12% valorização anual", "Programa de aluguer", "Propriedade plena", "Programas de residência"] }, "cta": { "title": "Seja Dono do Paraíso", "description": "Vida de resort de luxo.", "joinWaitlist": "Entrar na Lista de Espera", "fractionalInfo": "Info Fracionada" }, "buttons": { "joinWaitlist": "Entrar", "fractionalInfo": "Info" }, "luxury": { "title": "Vida de Resort de Luxo", "description": "Estilo de vida de resort integrado" }, "marina": { "title": "Acesso à Marina", "description": "Vaga privada de iate", "privateMarina": "Marina Privada", "yachtServices": "Serviços de Iates" } },
+  "accommodations": { "title": "Alojamento de Luxo", "subtitle": "Hotéis de classe mundial e vilas exclusivas.", "explore": "Explorar", "hotels": { "wedding": { "name": "Hotel de Casamentos", "subtitle": "Local de Casamentos", "rooms": "120 Quartos", "description": "Para casamentos e escapadas românticas.", "features": ["Salões de baile", "Jardins", "Suites nupciais", "Coordenação"] }, "cabana": { "name": "Cabana Village", "subtitle": "Paraíso Tropical", "rooms": "80 Quartos", "description": "Cabanas íntimas em jardins tropicais.", "features": ["Terraços", "Jardins", "Praia", "Íntimo"] }, "centerParc": { "name": "Center Parc", "subtitle": "Negócios", "rooms": "150 Quartos", "description": "Hotel com instalações de conferência.", "features": ["Conferências", "Lounges", "Executivo", "Reuniões"] } } },
+  "weddings": { "title": "Centro de Casamentos Lago Bravo", "subtitle": "Destino definitivo para casamentos de luxo.", "planning": { "title": "Planeamento de Casamentos", "description": "Serviço completo com coordenadores.", "features": ["Coordenador pessoal", "Gestão de fornecedores", "Cronograma", "Dia do casamento"] }, "services": { "title": "Serviços Adicionais", "description": "Serviços extra.", "features": ["Entretenimento & DJ", "Flores & decoração", "Transporte de luxo", "Spa de grupo"] }, "packages": { "silver": { "name": "Prata Exclusivo", "guests": "Até 150 convidados", "features": ["Alojamento 3 estrelas", "Decoração básica", "Catering standard"] }, "gold": { "name": "Ouro Premium", "guests": "Até 200 convidados", "features": ["Alojamento 4 estrelas", "Decoração premium", "Catering premium", "Fotografia"] }, "platinum": { "name": "Platina Elite", "guests": "Até 300 convidados", "features": ["Alojamento 5 estrelas", "Decoração completa", "Catering gourmet", "Foto & vídeo", "Lua de mel"] } }, "cta": { "title": "Planeie o Seu Casamento de Sonho", "description": "Contacte os nossos especialistas.", "email": "Email", "button": "Consulta Gratuita" } },
+  "casino": { "title": "Casino Sofisticado", "subtitle": "Experiência de jogo com lounges VIP.", "experience": { "title": "Gaming de Classe Mundial", "tagline": "Onde a Sorte Encontra o Luxo" }, "games": { "tableGames": { "title": "Jogos de Mesa", "description": "Blackjack, Poker, Roleta e Baccarat." }, "slots": { "title": "Slot Machines", "description": "Máquinas modernas." }, "vip": { "title": "Lounges VIP", "description": "Áreas exclusivas high-limit." }, "responsible": { "title": "Jogo Responsável", "description": "Ambiente seguro." } }, "tables": { "blackjack": { "name": "Blackjack", "count": "12 Mesas" }, "roulette": { "name": "Roleta", "count": "8 Mesas" }, "poker": { "name": "Poker", "count": "6 Mesas" }, "baccarat": { "name": "Baccarat", "count": "4 Mesas" } }, "hours": { "title": "Horário", "monThu": "Seg-Qui: 18:00 - 02:00", "friSat": "Sex-Sáb: 18:00 - 04:00", "sun": "Dom: 18:00 - 00:00" } },
+  "dining": { "title": "Excelência Gastronómica", "subtitle": "Alta cozinha com chefs famosos.", "village": { "title": "Aldeia de Restaurantes", "tagline": "Viagem Culinária Mundial", "count": "6 Restaurantes e Bares" }, "signature": "Restaurante Assinatura", "chef": "Chef", "restaurants": { "laPerla": { "name": "La Perla del Mar", "cuisine": "Mediterrânica", "chef": "Chef Miguel Santana", "description": "Cozinha mediterrânica com vista mar.", "features": ["Marisco", "Vinhos", "Privado"] }, "tapas": { "name": "Tapas y Más", "cuisine": "Tapas Espanholas", "chef": "Chef Carmen López", "description": "Tapas autênticas.", "features": ["Tapas", "Paella", "Flamenco"] }, "sunset": { "name": "Sunset Terrace", "cuisine": "Fusão Internacional", "chef": "Chef Alessandro Romano", "description": "Cozinha contemporânea.", "features": ["Fusão", "Pôr do sol", "Romântico"] }, "beach": { "name": "Beach Bar Oasis", "cuisine": "Cocktails", "chef": "Mixologista David Chen", "description": "Cocktails e sushi.", "features": ["Cocktails", "Sushi", "Praia"] }, "bodega": { "name": "La Bodega", "cuisine": "Vinhos", "chef": "Sommelier Elena Ricci", "description": "Vinhos e queijos.", "features": ["Provas", "Queijos", "Educação"] }, "grill": { "name": "Grill & Chill", "cuisine": "Grill", "chef": "Chef Marcus Thompson", "description": "Carnes premium.", "features": ["Grill", "Saladas", "Família"] } }, "cta": { "title": "Reservas", "description": "Reserve a sua mesa.", "reserve": "Reservar", "viewMenus": "Ver Menus", "reserveTable": "Reservar Mesa", "viewMenu": "Ver Menu" } },
+  "events": { "title": "Desporto & Eventos", "subtitle": "Concertos, desporto e espetáculos.", "arena": { "title": "Arena de Classe Mundial", "tagline": "Eventos Internacionais", "capacity": "Capacidade: 5.000" }, "featured": "EVENTO EM DESTAQUE", "getTickets": "Comprar Bilhetes", "categories": { "concerts": "CONCERTOS", "sports": "DESPORTO", "shows": "ESPETÁCULOS" }, "upcoming": { "jazz": { "title": "Festival de Jazz", "description": "Artistas de jazz sob as estrelas" }, "boxing": { "title": "Boxe de Campeonato", "description": "Luta pelo título" }, "flamenco": { "title": "Flamenco", "description": "Flamenco tradicional" }, "electronic": { "title": "Música Eletrónica", "description": "Festival de música eletrónica" }, "tennis": { "title": "Exibição de Ténis", "description": "Campeões mundiais" }, "cirque": { "title": "Circo", "description": "Acrobacia impressionante" } } },
+  "nightlife": { "title": "Vida Noturna Exclusiva", "subtitle": "Elegância e emoção em locais exclusivos.", "venues": { "vip": { "name": "VIP Lounge", "subtitle": "Clube Exclusivo", "description": "Experiência ultra-exclusiva.", "features": ["Serviço VIP", "Cocktails premium", "DJ ao vivo", "Acesso exclusivo"] }, "nightclub": { "name": "Discoteca Sofisticada", "subtitle": "Clube Premium", "description": "DJs de classe mundial.", "features": ["DJs mundiais", "Som premium", "Design elegante", "Mesas VIP"] } }, "events": { "title": "Eventos Semanais", "saturday": { "title": "Febre de Sábado à Noite", "schedule": "Sábados • 22:00 - 04:00 • 21+", "description": "DJs internacionais." }, "sunset": { "title": "Sessões ao Pôr do Sol", "schedule": "Diário • 18:00 - 24:00 • 18+", "description": "Cocktails e música." }, "midnight": { "title": "Elegância da Meia-Noite", "schedule": "Sex & Sáb • 23:00 - 05:00 • 25+", "description": "Clube exclusivo." } }, "features": { "cocktails": { "title": "Cocktails", "description": "Mestres mixologistas." }, "djs": { "title": "DJs Internacionais", "description": "Experiências musicais." }, "vip": { "title": "Experiência VIP", "description": "Áreas exclusivas." }, "atmosphere": { "title": "Ambiente Elegante", "description": "Design sofisticado." } }, "buttons": { "reserveVip": "Reservar VIP", "guestList": "Lista de Convidados" } },
+  "contact": { "title": "Contacte Lago Bravo", "subtitle": "Planeie a sua escapada.", "getInTouch": "Entre em Contacto", "email": { "title": "Email", "value": "info@lagobravo.com", "description": "Para pedidos e reservas" }, "location": { "title": "Destinos Globais", "value": "O Luxo Espera", "description": "Localizações exclusivas à beira-mar" }, "form": { "title": "Fazer Reserva", "firstName": "Nome", "firstNamePlaceholder": "O seu nome", "lastName": "Apelido", "lastNamePlaceholder": "O seu apelido", "email": "Email", "emailPlaceholder": "email@exemplo.pt", "phone": "Telefone", "phonePlaceholder": "+351 912 345 678", "checkIn": "Check-in", "checkOut": "Check-out", "specialRequests": "Pedidos Especiais", "specialRequestsPlaceholder": "As suas preferências...", "submit": "Enviar Pedido", "submitting": "A enviar...", "confirmation": "Contactamos em 24h." }, "messages": { "success": { "title": "Pedido Enviado", "description": "Contactamos em 24h." }, "error": { "title": "Erro", "description": "Tente novamente." }, "missing": { "title": "Informação em Falta", "description": "Preencha todos os campos." } } },
+  "footer": { "contact": "Contacto", "privacy": "Privacidade", "terms": "Termos", "copyright": "© 2025 Lago Bravo Integrated Resorts. Todos os direitos reservados." },
+  "common": { "learnMore": "Saber Mais", "bookNow": "Reservar", "contactUs": "Contactar", "viewDetails": "Ver Detalhes" }
 }

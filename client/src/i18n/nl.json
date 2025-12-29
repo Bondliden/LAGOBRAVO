@@ -1,96 +1,16 @@
 {
-  "nav": {
-    "home": "Home",
-    "golf": "Golf",
-    "marina": "Marina",
-    "residences": "Residenties",
-    "hotel": "Hotel",
-    "dining": "Gastronomie",
-    "spa": "Spa & Wellness",
-    "meetings": "Vergaderingen & Evenementen",
-    "accommodations": "Accommodatie",
-    "weddings": "Bruiloften",
-    "casino": "Casino",
-    "events": "Evenementen",
-    "nightlife": "Nachtleven",
-    "bookNow": "Boeken"
-  },
-  "home": {
-    "hero": {
-      "title": "Lago Bravo Integrated Resorts",
-      "subtitle": "Luxe Resort met Kampioenschap Golfbaan en Marina",
-      "cta": "Ontdekken",
-      "golf": "Kampioenschap Golf",
-      "book": "Boek Uw Verblijf"
-    },
-    "features": {
-      "golf": "Kampioenschap Golfbaan",
-      "marina": "Wereldklasse Marina",
-      "residences": "Luxe Residenties",
-      "hotel": "5-Sterren Hotels"
-    }
-  },
-  "golf": {
-    "title": "Kampioenschap Golfbaan",
-    "description": "Ervaar wereldklasse golf op onze 18-holes kampioenschap baan",
-    "features": {
-      "holes": "18 Kampioenschap Holes",
-      "design": "Bekroond Design",
-      "facilities": "Pro Shop & Oefenfaciliteiten"
-    }
-  },
-  "marina": {
-    "title": "Wereldklasse Marina",
-    "description": "State-of-the-art marina-faciliteiten voor jachten tot 300 voet",
-    "features": {
-      "slips": "Meer dan 200 Ligplaatsen",
-      "services": "Full Service Marina",
-      "amenities": "Premium Voorzieningen"
-    }
-  },
-  "residences": {
-    "title": "Luxe Residenties",
-    "description": "Exclusief wonen aan het water met ongeëvenaarde uitzichten",
-    "features": {
-      "views": "Panoramische Uitzichten",
-      "design": "Eigentijds Design",
-      "amenities": "Resort Voorzieningen"
-    }
-  },
-  "hotel": {
-    "title": "Luxe Hotel Collectie",
-    "palace": {
-      "name": "The Lago Bravo Palace",
-      "stars": "5 Sterren - Super Luxe",
-      "description": "Het toppunt van luxe met 150 suites met butler-service, privé-terrassen, infinity-pools en Michelin-sterrenrestaurants."
-    },
-    "resort": {
-      "name": "The Marina Resort",
-      "stars": "4 Sterren - Premium",
-      "description": "Modern comfort met 200 kamers, direct uitzicht op de marina, dakterras-zwembad, spa en gourmetrestaurants."
-    },
-    "club": {
-      "name": "The Golf Club Hotel",
-      "stars": "4 Sterren - Sport & Vrije Tijd",
-      "description": "Perfect voor golfliefhebbers met 180 kamers, toegang tot de golfbaan, driving range en ongedwongen dineren."
-    }
-  },
-  "dining": {
-    "title": "Gastronomische Excellentie",
-    "description": "Culinaire ervaringen van wereldklasse"
-  },
-  "spa": {
-    "title": "Spa & Wellness",
-    "description": "Verjongt uw geest en lichaam"
-  },
-  "meetings": {
-    "title": "Vergaderingen & Evenementen",
-    "description": "Premium locaties voor elke gelegenheid"
-  },
-  "footer": {
-    "contact": "Contact",
-    "privacy": "Privacybeleid",
-    "terms": "Servicevoorwaarden",
-    "copyright": "© 2025 Lago Bravo Integrated Resorts. Alle rechten voorbehouden."
-  }
+  "nav": { "home": "Home", "golf": "Golf", "marina": "Marina", "residences": "Residenties", "hotel": "Hotel", "dining": "Gastronomie", "spa": "Spa & Wellness", "meetings": "Vergaderingen & Events", "accommodations": "Accommodatie", "weddings": "Bruiloften", "casino": "Casino", "events": "Evenementen", "nightlife": "Nachtleven", "bookNow": "Boeken" },
+  "home": { "hero": { "title": "Lago Bravo Integrated Resorts", "subtitle": "Luxe Resort met Golf en Marina", "cta": "Ontdekken", "golf": "Kampioenschap Golf", "book": "Boek Uw Verblijf" } },
+  "golf": { "title": "Kampioenschap Golfbaan", "subtitle": "Wereldklasse golf op onze 18-holes baan met uitzicht op zee.", "heroTitle": "18-Holes Kampioenschapsbaan", "heroSubtitle": "Ontworpen door Tom Doak • Par 72 • 7.200 yards", "features": { "championship": { "title": "18-Holes Kampioenschapsbaan", "description": "Ontworpen door golfarchitect Tom Doak." }, "instruction": { "title": "PGA-Instructie", "description": "Privélessen met gecertificeerde professionals." }, "practice": { "title": "Premium Oefenfaciliteiten", "description": "Driving range, putting greens en korte spel gebied." }, "clubhouse": { "title": "Exclusief Clubhuis", "description": "Luxe clubhuis met pro shop en gastronomie." } }, "packages": { "title": "Golfpakketten", "getaway": { "name": "Golf Getaway", "description": "Voor golfliefhebbers", "features": ["2 nachten luxe verblijf", "Onbeperkt golf", "Golfkar inbegrepen", "Welkomstpakket", "Oefenfaciliteiten"] }, "master": { "name": "Golf Master Ervaring", "description": "Ultieme golfvakantie", "popular": "POPULAIRST", "features": ["Premium suite 3 nachten", "Onbeperkt golf", "Privé PGA-les", "Toernooi privileges", "VIP-toegang", "Uitrustingshuur"] }, "corporate": { "name": "Corporate Golf Retreat", "description": "Voor zakelijke events", "features": ["Groepsaccommodatie", "Privé toernooi", "Vergaderruimte", "Teambuilding", "Prijsuitreiking diner"] } }, "info": { "title": "Baaninformatie", "par": "Par 72", "parLabel": "Kampioenschapsbaan", "yards": "7.200", "yardsLabel": "Totale Lengte", "holes": "18", "holesLabel": "Kampioenschapsholes", "rating": "5 Sterren", "ratingLabel": "Golf Digest Rating", "hours": "Openingstijden", "hoursValue": "Zonsopgang tot zonsondergang, 7 dagen", "reservations": "Reserveringen", "reservationsValue": "Tot 30 dagen vooruit", "dressCode": "Dresscode", "dressCodeValue": "Golfkleding, zachte spikes" }, "cta": { "title": "Klaar om af te slaan?", "description": "Boek uw golfervaring bij Lago Bravo.", "bookTee": "Boek Starttijd", "lessonInquiry": "Les Aanvraag", "bookPackage": "Boek Pakket" } },
+  "marina": { "title": "Exclusieve Marina & Jachtclub", "subtitle": "Luxe op het water met privé marina, jachtcharter en Volle Maan Bijeenkomsten.", "heroTitle": "Privé Marina & Jachtclub", "heroSubtitle": "Exclusieve waterluxe • Volle Maan vieringen", "features": { "fullMoon": { "title": "Volle Maan Bijeenkomsten", "description": "Exclusieve maandelijkse bootbijeenkomsten onder de volle maan.", "signature": "SIGNATUUR ERVARING" }, "yachtCharter": { "title": "Jachtcharter", "description": "Luxe jachten met professionele crew." }, "dining": { "title": "Dining aan het Water", "description": "Exclusief marina restaurant." }, "waterSports": { "title": "Watersport", "description": "Jetski, kajaks, paddleboards, duiken." } }, "fullMoonSection": { "title": "Volle Maan Boot Bijeenkomsten", "description": "Exclusieve maandelijkse viering onder de volle maan.", "schedule": "2027 kalender beschikbaar", "reserve": "Boek Ervaring" }, "services": { "title": "Marina Diensten", "yacht": { "name": "Luxe Jachtcharter", "description": "60-voet jacht met crew", "features": ["Professionele kapitein", "Gourmet catering", "Volledige bar", "12 gasten", "Snorkeluitrusting"] }, "fullMoon": { "name": "Volle Maan Ervaring", "description": "Maandelijkse exclusieve bijeenkomst", "features": ["Premium transport", "5-gangen diner", "Live muziek", "Champagne toast", "Fotografie"] }, "sunset": { "name": "Zonsondergang Cruise", "description": "Romantische avondtocht", "features": ["2-uur cruise", "Cocktails", "Dekens", "Muziek", "Voor koppels"] } }, "amenities": { "title": "Marina Voorzieningen", "docking": { "title": "Premium Ligplaatsen", "description": "50 plaatsen met services" }, "fuel": { "title": "Brandstof", "description": "Station en werkplaats" }, "concierge": { "title": "Concierge", "description": "Schoonmaak en bevoorrading" }, "events": { "title": "Volle Maan Events", "description": "Maandelijkse vieringen" } }, "cta": { "title": "Vaar met Luxe", "description": "Waterluxe in onze exclusieve marina.", "bookFullMoon": "Boek Volle Maan", "charterYacht": "Charter Jacht", "bookService": "Boek Service" } },
+  "residences": { "title": "Exclusieve Residenties", "subtitle": "Overwater villa's en lagune residenties met fractioneel eigendom.", "villaTitle": "Overwater Villa's", "villaSubtitle": "Meerlaagse ontwerpen in de kristallen lagune", "comingSoon": "Binnenkort", "builtInLagoon": "In de Lagune", "fractionalAvailable": "Fractioneel Beschikbaar", "features": { "lagoon": { "title": "In Kristallen Lagune", "description": "Overwater villa's." }, "yacht": { "title": "Jacht Ligplaats", "description": "Eigen ligplaats en marina toegang." }, "concierge": { "title": "Concierge", "description": "24/7 service." }, "amenities": { "title": "Voorzieningen", "description": "Golf, spa, dining, marina." } }, "properties": { "aquaVilla": { "type": "Aqua Villa - Over het Water", "signature": "SIGNATUUR COLLECTIE", "overwaterDesign": "OVERWATER DESIGN", "area": "220 - 250 m²", "levels": "3 verdiepingen + dak", "bedrooms": "4 slaapkamers", "features": ["Overwater design", "Open woonruimte", "Master + 2 gast", "Entertainment ruimte", "Dak infinity pool", "Glazen vloer", "Drijvende steiger", "Smart home"] }, "marinaVista": { "type": "Marina Vista - Aan de Lagunerand", "area": "180 - 200 m²", "levels": "2 verdiepingen + terras", "bedrooms": "3 slaapkamers", "features": ["Aan de lagunerand", "Overdekt terras", "Balkons met uitzicht", "Privé tuin", "Zwemtoegang", "Parkeren", "24/7 concierge", "Vanaf 1/8 aandelen"] }, "labels": { "area": "Oppervlakte", "bedrooms": "Slaapkamers", "levels": "Verdiepingen", "status": "Status" } }, "conciergeSection": { "title": "Concierge Diensten", "description": "24/7 service voor eigenaren.", "transportation": { "title": "Transport", "description": "Transfers & charters" }, "dining": { "title": "Dining", "description": "Reserveringen" }, "events": { "title": "Events", "description": "Privé planning" }, "property": { "title": "Eigendom", "description": "Onderhoud" } }, "amenitiesSection": { "title": "Inbegrepen Voorzieningen", "items": ["Strandclub", "Golf Prioriteit", "Marina & Jachten", "Spa & Wellness", "Restaurants", "Kinderen", "Fitness & Tennis", "Business Center"] }, "investment": { "title": "Investeringsmogelijkheid", "description": "Uitzonderlijk potentieel.", "benefitsTitle": "Voordelen", "benefits": ["8-12% jaarlijkse waardestijging", "Verhuurprogramma", "Vol eigendom", "Verblijfsprogramma's"] }, "cta": { "title": "Bezit het Paradijs", "description": "Luxe resort leven.", "joinWaitlist": "Join Wachtlijst", "fractionalInfo": "Fractioneel Info" }, "buttons": { "joinWaitlist": "Aanmelden", "fractionalInfo": "Info" }, "luxury": { "title": "Luxe Resort Leven", "description": "Geïntegreerde resort lifestyle" }, "marina": { "title": "Marina Toegang", "description": "Privé jacht ligplaats", "privateMarina": "Privé Marina", "yachtServices": "Jacht Services" } },
+  "accommodations": { "title": "Luxe Accommodatie", "subtitle": "Wereldklasse hotels en exclusieve villa's.", "explore": "Ontdekken", "hotels": { "wedding": { "name": "Bruiloft Hotel", "subtitle": "Bruiloft Locatie", "rooms": "120 Kamers", "description": "Voor bruiloften en romantische uitjes.", "features": ["Balzalen", "Tuinen", "Bruidssuites", "Coördinatie"] }, "cabana": { "name": "Cabana Village", "subtitle": "Tropisch Paradijs", "rooms": "80 Kamers", "description": "Intieme cabana's in tropische tuinen.", "features": ["Terrassen", "Tuinen", "Strand", "Intiem"] }, "centerParc": { "name": "Center Parc", "subtitle": "Zakelijk", "rooms": "150 Kamers", "description": "Hotel met conferentiefaciliteiten.", "features": ["Conferenties", "Lounges", "Executive", "Vergaderingen"] } } },
+  "weddings": { "title": "Lago Bravo Bruiloft Center", "subtitle": "Ultieme bestemming voor luxe bruiloften.", "planning": { "title": "Bruiloft Planning", "description": "Volledige service met coördinatoren.", "features": ["Persoonlijke coördinator", "Leveranciersbeheer", "Tijdlijn", "Trouwdag"] }, "services": { "title": "Extra Diensten", "description": "Extra services.", "features": ["Entertainment & DJ", "Bloemen & decoratie", "Luxe transport", "Groeps spa"] }, "packages": { "silver": { "name": "Zilver Exclusief", "guests": "Tot 150 gasten", "features": ["3-sterren accommodatie", "Basis decoratie", "Standaard catering"] }, "gold": { "name": "Goud Premium", "guests": "Tot 200 gasten", "features": ["4-sterren accommodatie", "Premium decoratie", "Premium catering", "Fotografie"] }, "platinum": { "name": "Platina Elite", "guests": "Tot 300 gasten", "features": ["5-sterren accommodatie", "Volledige decoratie", "Gourmet catering", "Foto & video", "Huwelijksreis"] } }, "cta": { "title": "Plan Uw Droombruiloft", "description": "Neem contact op met onze specialisten.", "email": "E-mail", "button": "Gratis Consultatie" } },
+  "casino": { "title": "Verfijnd Casino", "subtitle": "Gaming ervaring met VIP lounges.", "experience": { "title": "Wereldklasse Gaming", "tagline": "Waar Fortuin Luxe Ontmoet" }, "games": { "tableGames": { "title": "Tafelspellen", "description": "Blackjack, Poker, Roulette en Baccarat." }, "slots": { "title": "Gokautomaten", "description": "Moderne automaten." }, "vip": { "title": "VIP Lounges", "description": "Exclusieve high-limit gebieden." }, "responsible": { "title": "Verantwoord Gokken", "description": "Veilige omgeving." } }, "tables": { "blackjack": { "name": "Blackjack", "count": "12 Tafels" }, "roulette": { "name": "Roulette", "count": "8 Tafels" }, "poker": { "name": "Poker", "count": "6 Tafels" }, "baccarat": { "name": "Baccarat", "count": "4 Tafels" } }, "hours": { "title": "Openingstijden", "monThu": "Ma-Do: 18:00 - 02:00", "friSat": "Vr-Za: 18:00 - 04:00", "sun": "Zo: 18:00 - 00:00" } },
+  "dining": { "title": "Gastronomische Excellentie", "subtitle": "Haute cuisine met beroemde chefs.", "village": { "title": "Restaurant Dorp", "tagline": "Culinaire Wereldreis", "count": "6 Restaurants en Bars" }, "signature": "Signatuur Restaurant", "chef": "Chef", "restaurants": { "laPerla": { "name": "La Perla del Mar", "cuisine": "Mediterraan", "chef": "Chef Miguel Santana", "description": "Mediterrane keuken met zeezicht.", "features": ["Zeevruchten", "Wijnen", "Privé"] }, "tapas": { "name": "Tapas y Más", "cuisine": "Spaanse Tapas", "chef": "Chef Carmen López", "description": "Authentieke tapas.", "features": ["Tapas", "Paella", "Flamenco"] }, "sunset": { "name": "Sunset Terrace", "cuisine": "Internationale Fusion", "chef": "Chef Alessandro Romano", "description": "Moderne keuken.", "features": ["Fusion", "Zonsondergang", "Romantisch"] }, "beach": { "name": "Beach Bar Oasis", "cuisine": "Cocktails", "chef": "Mixoloog David Chen", "description": "Cocktails en sushi.", "features": ["Cocktails", "Sushi", "Strand"] }, "bodega": { "name": "La Bodega", "cuisine": "Wijnen", "chef": "Sommelier Elena Ricci", "description": "Wijnen en kazen.", "features": ["Proeverijen", "Kazen", "Educatie"] }, "grill": { "name": "Grill & Chill", "cuisine": "Grill", "chef": "Chef Marcus Thompson", "description": "Premium vlees.", "features": ["Grill", "Salades", "Familie"] } }, "cta": { "title": "Reserveringen", "description": "Reserveer uw tafel.", "reserve": "Reserveren", "viewMenus": "Bekijk Menu's", "reserveTable": "Reserveer Tafel", "viewMenu": "Bekijk Menu" } },
+  "events": { "title": "Sport & Events", "subtitle": "Concerten, sport en shows.", "arena": { "title": "Wereldklasse Arena", "tagline": "Internationale Events", "capacity": "Capaciteit: 5.000" }, "featured": "UITGELICHT EVENT", "getTickets": "Koop Tickets", "categories": { "concerts": "CONCERTEN", "sports": "SPORT", "shows": "SHOWS" }, "upcoming": { "jazz": { "title": "Jazz Festival", "description": "Jazz artiesten onder de sterren" }, "boxing": { "title": "Kampioenschap Boksen", "description": "Titelgevecht" }, "flamenco": { "title": "Flamenco", "description": "Traditionele flamenco" }, "electronic": { "title": "Elektronische Muziek", "description": "Elektro festival" }, "tennis": { "title": "Tennis Exhibitie", "description": "Wereldkampioenen" }, "cirque": { "title": "Circus", "description": "Adembenemende acrobatiek" } } },
+  "nightlife": { "title": "Exclusief Nachtleven", "subtitle": "Elegantie en opwinding in exclusieve locaties.", "venues": { "vip": { "name": "VIP Lounge", "subtitle": "Exclusieve Club", "description": "Ultra-exclusieve ervaring.", "features": ["VIP service", "Premium cocktails", "Live DJ", "Exclusieve toegang"] }, "nightclub": { "name": "Verfijnde Nachtclub", "subtitle": "Premium Club", "description": "Wereldklasse DJs.", "features": ["Wereldklasse DJs", "Premium geluid", "Elegant design", "VIP tafels"] } }, "events": { "title": "Wekelijkse Events", "saturday": { "title": "Zaterdag Avond Koorts", "schedule": "Zaterdagen • 22:00 - 04:00 • 21+", "description": "Internationale DJs." }, "sunset": { "title": "Zonsondergang Sessies", "schedule": "Dagelijks • 18:00 - 24:00 • 18+", "description": "Cocktails en muziek." }, "midnight": { "title": "Middernacht Elegantie", "schedule": "Vr & Za • 23:00 - 05:00 • 25+", "description": "Exclusieve club." } }, "features": { "cocktails": { "title": "Cocktails", "description": "Meester mixologen." }, "djs": { "title": "Internationale DJs", "description": "Muzikale ervaringen." }, "vip": { "title": "VIP Ervaring", "description": "Exclusieve gebieden." }, "atmosphere": { "title": "Elegante Sfeer", "description": "Verfijnd design." } }, "buttons": { "reserveVip": "Reserveer VIP", "guestList": "Gastenlijst" } },
+  "contact": { "title": "Neem Contact op met Lago Bravo", "subtitle": "Plan uw uitje.", "getInTouch": "Neem Contact Op", "email": { "title": "E-mail", "value": "info@lagobravo.com", "description": "Voor vragen en reserveringen" }, "location": { "title": "Wereldwijde Bestemmingen", "value": "Luxe Wacht", "description": "Exclusieve waterlocaties" }, "form": { "title": "Maak Reservering", "firstName": "Voornaam", "firstNamePlaceholder": "Uw voornaam", "lastName": "Achternaam", "lastNamePlaceholder": "Uw achternaam", "email": "E-mail", "emailPlaceholder": "email@voorbeeld.nl", "phone": "Telefoon", "phonePlaceholder": "+31 (0)6 12345678", "checkIn": "Inchecken", "checkOut": "Uitchecken", "specialRequests": "Speciale Verzoeken", "specialRequestsPlaceholder": "Uw voorkeuren...", "submit": "Verzend Aanvraag", "submitting": "Verzenden...", "confirmation": "We nemen binnen 24u contact op." }, "messages": { "success": { "title": "Aanvraag Verzonden", "description": "We nemen binnen 24u contact op." }, "error": { "title": "Fout", "description": "Probeer opnieuw." }, "missing": { "title": "Ontbrekende Informatie", "description": "Vul alle velden in." } } },
+  "footer": { "contact": "Contact", "privacy": "Privacy", "terms": "Voorwaarden", "copyright": "© 2025 Lago Bravo Integrated Resorts. Alle rechten voorbehouden." },
+  "common": { "learnMore": "Meer Leren", "bookNow": "Boeken", "contactUs": "Contact", "viewDetails": "Details Bekijken" }
 }

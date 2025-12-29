@@ -1,96 +1,16 @@
 {
-  "nav": {
-    "home": "Hem",
-    "golf": "Golf",
-    "marina": "Marina",
-    "residences": "Bostäder",
-    "hotel": "Hotell",
-    "dining": "Gastronomi",
-    "spa": "Spa & Välbefinnande",
-    "meetings": "Möten & Evenemang",
-    "accommodations": "Boende",
-    "weddings": "Bröllop",
-    "casino": "Kasino",
-    "events": "Evenemang",
-    "nightlife": "Nattliv",
-    "bookNow": "Boka Nu"
-  },
-  "home": {
-    "hero": {
-      "title": "Lago Bravo Integrated Resorts",
-      "subtitle": "Lyxresort med Mästerskaps-Golfbana och Marina",
-      "cta": "Utforska",
-      "golf": "Mästerskaps Golf",
-      "book": "Boka Din Vistelse"
-    },
-    "features": {
-      "golf": "Mästerskaps-Golfbana",
-      "marina": "Världsklass Marina",
-      "residences": "Lyxbostäder",
-      "hotel": "5-stjärniga Hotell"
-    }
-  },
-  "golf": {
-    "title": "Mästerskaps-Golfbana",
-    "description": "Upplev världsklass golf på vår 18-håls mästerskaps-bana",
-    "features": {
-      "holes": "18 Mästerskaps-Hål",
-      "design": "Prisbelönt Design",
-      "facilities": "Pro Shop & Övningsanläggningar"
-    }
-  },
-  "marina": {
-    "title": "Världsklass Marina",
-    "description": "Moderna marina-faciliteter för yachter upp till 300 fot",
-    "features": {
-      "slips": "Över 200 Båtplatser",
-      "services": "Fullservice Marina",
-      "amenities": "Premium Faciliteter"
-    }
-  },
-  "residences": {
-    "title": "Lyxbostäder",
-    "description": "Exklusivt boende vid vattnet med oförlikneliga vyer",
-    "features": {
-      "views": "Panoramavyer",
-      "design": "Modern Design",
-      "amenities": "Resort-Faciliteter"
-    }
-  },
-  "hotel": {
-    "title": "Lyxhotell-Kollektion",
-    "palace": {
-      "name": "The Lago Bravo Palace",
-      "stars": "5 Stjärnor - Superlyx",
-      "description": "Lyxens höjdpunkt med 150 sviter som erbjuder butler-service, privata terrasser, infinity-pooler och Michelin-stjärnkrögare."
-    },
-    "resort": {
-      "name": "The Marina Resort",
-      "stars": "4 Stjärnor - Premium",
-      "description": "Modern komfort med 200 rum, direktvy över marinan, takpool, spa och gourmetrestauranger."
-    },
-    "club": {
-      "name": "The Golf Club Hotel",
-      "stars": "4 Stjärnor - Sport & Fritid",
-      "description": "Perfekt för golf-entusiaster med 180 rum, tillgång till golfbanan, driving range och avslappnad matservering."
-    }
-  },
-  "dining": {
-    "title": "Gastronomisk Excellens",
-    "description": "Kulinariska upplevelser i världsklass"
-  },
-  "spa": {
-    "title": "Spa & Välbefinnande",
-    "description": "Förnya ditt sinne och din kropp"
-  },
-  "meetings": {
-    "title": "Möten & Evenemang",
-    "description": "Premium-lokaler för alla tillfällen"
-  },
-  "footer": {
-    "contact": "Kontakt",
-    "privacy": "Integritetspolicy",
-    "terms": "Serviceavtal",
-    "copyright": "© 2025 Lago Bravo Integrated Resorts. Alla rättigheter reserverade."
-  }
+  "nav": { "home": "Hem", "golf": "Golf", "marina": "Marina", "residences": "Bostäder", "hotel": "Hotell", "dining": "Gastronomi", "spa": "Spa & Välbefinnande", "meetings": "Möten & Event", "accommodations": "Boende", "weddings": "Bröllop", "casino": "Kasino", "events": "Evenemang", "nightlife": "Nattliv", "bookNow": "Boka Nu" },
+  "home": { "hero": { "title": "Lago Bravo Integrated Resorts", "subtitle": "Lyxresort med Golf och Marina", "cta": "Utforska", "golf": "Mästerskaps Golf", "book": "Boka Din Vistelse" } },
+  "golf": { "title": "Mästerskaps-Golfbana", "subtitle": "Världsklass golf på vår 18-håls bana med havsutsikt.", "heroTitle": "18-Håls Mästerskapsbana", "heroSubtitle": "Designad av Tom Doak • Par 72 • 7 200 yards", "features": { "championship": { "title": "18-Håls Mästerskapsbana", "description": "Designad av golfarkitekten Tom Doak." }, "instruction": { "title": "PGA-Undervisning", "description": "Privatlektioner med certifierade proffs." }, "practice": { "title": "Premium Övningsanläggningar", "description": "Driving range, putting greens och kortspelsområde." }, "clubhouse": { "title": "Exklusivt Klubbhus", "description": "Lyxklubbhus med pro shop och gourmetmat." } }, "packages": { "title": "Golfpaket", "getaway": { "name": "Golf Getaway", "description": "För golfentusiaster", "features": ["2 nätters lyxboende", "Obegränsad golf", "Golfbil ingår", "Välkomstpaket", "Övningsanläggningar"] }, "master": { "name": "Golf Master Upplevelse", "description": "Ultimat golfsemester", "popular": "POPULÄRAST", "features": ["Premium svit 3 nätter", "Obegränsad golf", "Privat PGA-lektion", "Turneringsprivilegier", "VIP-tillgång", "Utrustningshyra"] }, "corporate": { "name": "Företags Golfretreat", "description": "För affärsevent", "features": ["Gruppboende", "Privat turnering", "Mötesrum", "Teambuilding", "Prisceremoni"] } }, "info": { "title": "Baninformation", "par": "Par 72", "parLabel": "Mästerskapsbana", "yards": "7 200", "yardsLabel": "Total Längd", "holes": "18", "holesLabel": "Mästerskapshål", "rating": "5 Stjärnor", "ratingLabel": "Golf Digest Betyg", "hours": "Öppettider", "hoursValue": "Soluppgång till solnedgång, 7 dagar", "reservations": "Bokningar", "reservationsValue": "Upp till 30 dagar i förväg", "dressCode": "Klädkod", "dressCodeValue": "Golfklädsel, mjuka spikar" }, "cta": { "title": "Redo att Slå Ut?", "description": "Boka din golfupplevelse på Lago Bravo.", "bookTee": "Boka Starttid", "lessonInquiry": "Lektionsförfrågan", "bookPackage": "Boka Paket" } },
+  "marina": { "title": "Exklusiv Marina & Yachtklubb", "subtitle": "Lyx på vattnet med privat marina, yachtcharter och Fullmåne-Samlingar.", "heroTitle": "Privat Marina & Yachtklubb", "heroSubtitle": "Exklusiv vattenlyx • Fullmånefiranden", "features": { "fullMoon": { "title": "Fullmåne-Samlingar", "description": "Exklusiva månatliga båtträffar under fullmåne.", "signature": "SIGNATUR-UPPLEVELSE" }, "yachtCharter": { "title": "Yachtcharter", "description": "Lyxyachter med professionell besättning." }, "dining": { "title": "Mat vid Vattnet", "description": "Exklusiv marinarestaurang." }, "waterSports": { "title": "Vattensport", "description": "Jetski, kajaker, paddleboards, dykning." } }, "fullMoonSection": { "title": "Fullmåne Båtsamlingar", "description": "Exklusivt månatligt firande under fullmåne.", "schedule": "2027 kalender tillgänglig", "reserve": "Boka Upplevelse" }, "services": { "title": "Marinatjänster", "yacht": { "name": "Lyxyachtcharter", "description": "60-fots yacht med besättning", "features": ["Professionell kapten", "Gourmetcatering", "Full bar", "12 gäster", "Snorklingsutrustning"] }, "fullMoon": { "name": "Fullmåneupplevelse", "description": "Månatlig exklusiv samling", "features": ["Premium transport", "5-rätters middag", "Livemusik", "Champagneskål", "Fotografering"] }, "sunset": { "name": "Solnedgångskryssning", "description": "Romantisk kvällstur", "features": ["2-timmars kryssning", "Cocktails", "Filtar", "Musik", "För par"] } }, "amenities": { "title": "Marinafaciliteter", "docking": { "title": "Premium Förtöjning", "description": "50 båtplatser med service" }, "fuel": { "title": "Bränsle", "description": "Station och verkstad" }, "concierge": { "title": "Concierge", "description": "Städning och proviantering" }, "events": { "title": "Fullmåneevent", "description": "Månatliga firanden" } }, "cta": { "title": "Segla med Lyx", "description": "Vattenlyx i vår exklusiva marina.", "bookFullMoon": "Boka Fullmåne", "charterYacht": "Chartra Yacht", "bookService": "Boka Service" } },
+  "residences": { "title": "Exklusiva Bostäder", "subtitle": "Övervattenvillor och lagunbostäder med delägarskap.", "villaTitle": "Övervattenvillor", "villaSubtitle": "Flervåningsdesign i kristalllagunen", "comingSoon": "Kommer Snart", "builtInLagoon": "I Lagunen", "fractionalAvailable": "Delägarskap Tillgängligt", "features": { "lagoon": { "title": "I Kristallagunen", "description": "Övervattenvillor." }, "yacht": { "title": "Yachtplats", "description": "Egen plats och marinatillgång." }, "concierge": { "title": "Concierge", "description": "24/7 service." }, "amenities": { "title": "Faciliteter", "description": "Golf, spa, mat, marina." } }, "properties": { "aquaVilla": { "type": "Aqua Villa - Över Vattnet", "signature": "SIGNATURKOLLEKTION", "overwaterDesign": "ÖVERVATTENDESIGN", "area": "220 - 250 m²", "levels": "3 våningar + tak", "bedrooms": "4 sovrum", "features": ["Övervattendesign", "Öppet vardagsrum", "Master + 2 gäst", "Underhållningsrum", "Takpool", "Glasgolv", "Flytande brygga", "Smart hem"] }, "marinaVista": { "type": "Marina Vista - Vid Lagunens Kant", "area": "180 - 200 m²", "levels": "2 våningar + terrass", "bedrooms": "3 sovrum", "features": ["Vid lagunens kant", "Överdäckad terrass", "Balkonger med utsikt", "Privat trädgård", "Simtillgång", "Parkering", "24/7 concierge", "Från 1/8 andelar"] }, "labels": { "area": "Yta", "bedrooms": "Sovrum", "levels": "Våningar", "status": "Status" } }, "conciergeSection": { "title": "Conciergetjänster", "description": "24/7 service för ägare.", "transportation": { "title": "Transport", "description": "Transfers & charter" }, "dining": { "title": "Mat", "description": "Bokningar" }, "events": { "title": "Event", "description": "Privat planering" }, "property": { "title": "Fastighet", "description": "Underhåll" } }, "amenitiesSection": { "title": "Inkluderade Faciliteter", "items": ["Strandklubb", "Golf-prioritet", "Marina & Yachter", "Spa & Wellness", "Restauranger", "Barn", "Fitness & Tennis", "Affärscenter"] }, "investment": { "title": "Investeringsmöjlighet", "description": "Exceptionell potential.", "benefitsTitle": "Fördelar", "benefits": ["8-12% årlig värdeökning", "Uthyrningsprogram", "Full äganderätt", "Bosättningsprogram"] }, "cta": { "title": "Äg Paradiset", "description": "Lyxigt resortliv.", "joinWaitlist": "Gå med i Väntelista", "fractionalInfo": "Delägarskapsinfo" }, "buttons": { "joinWaitlist": "Gå med", "fractionalInfo": "Info" }, "luxury": { "title": "Lyxigt Resortliv", "description": "Integrerad resortlivsstil" }, "marina": { "title": "Marinatillgång", "description": "Privat yachtplats", "privateMarina": "Privat Marina", "yachtServices": "Yachttjänster" } },
+  "accommodations": { "title": "Lyxboende", "subtitle": "Världsklasshotell och exklusiva villor.", "explore": "Utforska", "hotels": { "wedding": { "name": "Bröllopshotell", "subtitle": "Bröllopsplats", "rooms": "120 Rum", "description": "För bröllop och romantiska flykt.", "features": ["Balsalar", "Trädgårdar", "Brudsviter", "Koordinering"] }, "cabana": { "name": "Cabana Village", "subtitle": "Tropiskt Paradis", "rooms": "80 Rum", "description": "Intima cabanor i tropiska trädgårdar.", "features": ["Terrasser", "Trädgårdar", "Strand", "Intimt"] }, "centerParc": { "name": "Center Parc", "subtitle": "Affärer", "rooms": "150 Rum", "description": "Hotell med konferensfaciliteter.", "features": ["Konferenser", "Lounger", "Executive", "Möten"] } } },
+  "weddings": { "title": "Lago Bravo Bröllopscenter", "subtitle": "Ultimat destination för lyxbröllop.", "planning": { "title": "Bröllopsplanering", "description": "Fullservice med koordinatorer.", "features": ["Personlig koordinator", "Leverantörshantering", "Tidsplanering", "Bröllopsdagen"] }, "services": { "title": "Extra Tjänster", "description": "Extratjänster.", "features": ["Underhållning & DJ", "Blommor & dekoration", "Lyxtransport", "Grupp-spa"] }, "packages": { "silver": { "name": "Silver Exklusiv", "guests": "Upp till 150 gäster", "features": ["3-stjärnigt boende", "Basdekoration", "Standardcatering"] }, "gold": { "name": "Guld Premium", "guests": "Upp till 200 gäster", "features": ["4-stjärnigt boende", "Premium dekoration", "Premium catering", "Fotografering"] }, "platinum": { "name": "Platina Elite", "guests": "Upp till 300 gäster", "features": ["5-stjärnigt boende", "Komplett dekoration", "Gourmetcatering", "Foto & video", "Smekmånad"] } }, "cta": { "title": "Planera Ditt Drömbröllop", "description": "Kontakta våra specialister.", "email": "E-post", "button": "Gratis Konsultation" } },
+  "casino": { "title": "Sofistikerat Kasino", "subtitle": "Spelupplevelse med VIP-lounger.", "experience": { "title": "Världsklass Gaming", "tagline": "Där Lycka Möter Lyx" }, "games": { "tableGames": { "title": "Bordsspel", "description": "Blackjack, Poker, Roulette och Baccarat." }, "slots": { "title": "Spelautomater", "description": "Moderna automater." }, "vip": { "title": "VIP-Lounger", "description": "Exklusiva high-limit-områden." }, "responsible": { "title": "Ansvarsfullt Spelande", "description": "Säker miljö." } }, "tables": { "blackjack": { "name": "Blackjack", "count": "12 Bord" }, "roulette": { "name": "Roulette", "count": "8 Bord" }, "poker": { "name": "Poker", "count": "6 Bord" }, "baccarat": { "name": "Baccarat", "count": "4 Bord" } }, "hours": { "title": "Öppettider", "monThu": "Mån-Tor: 18:00 - 02:00", "friSat": "Fre-Lör: 18:00 - 04:00", "sun": "Sön: 18:00 - 00:00" } },
+  "dining": { "title": "Gastronomisk Excellens", "subtitle": "Haute cuisine med berömda kockar.", "village": { "title": "Restaurangby", "tagline": "Kulinarisk Världsresa", "count": "6 Restauranger och Barer" }, "signature": "Signaturrestaurang", "chef": "Kock", "restaurants": { "laPerla": { "name": "La Perla del Mar", "cuisine": "Medelhavs", "chef": "Kock Miguel Santana", "description": "Medelhavskök med havsutsikt.", "features": ["Skaldjur", "Viner", "Privat"] }, "tapas": { "name": "Tapas y Más", "cuisine": "Spanska Tapas", "chef": "Kock Carmen López", "description": "Autentiska tapas.", "features": ["Tapas", "Paella", "Flamenco"] }, "sunset": { "name": "Sunset Terrass", "cuisine": "Internationell Fusion", "chef": "Kock Alessandro Romano", "description": "Modern mat.", "features": ["Fusion", "Solnedgång", "Romantiskt"] }, "beach": { "name": "Beach Bar Oasis", "cuisine": "Cocktails", "chef": "Mixolog David Chen", "description": "Cocktails och sushi.", "features": ["Cocktails", "Sushi", "Strand"] }, "bodega": { "name": "La Bodega", "cuisine": "Viner", "chef": "Sommelier Elena Ricci", "description": "Viner och ostar.", "features": ["Provningar", "Ostar", "Utbildning"] }, "grill": { "name": "Grill & Chill", "cuisine": "Grill", "chef": "Kock Marcus Thompson", "description": "Premium kött.", "features": ["Grill", "Sallader", "Familj"] } }, "cta": { "title": "Bokningar", "description": "Boka ditt bord.", "reserve": "Boka", "viewMenus": "Se Menyer", "reserveTable": "Boka Bord", "viewMenu": "Se Meny" } },
+  "events": { "title": "Sport & Evenemang", "subtitle": "Konserter, sport och shower.", "arena": { "title": "Världsklassarena", "tagline": "Internationella Event", "capacity": "Kapacitet: 5 000" }, "featured": "UTVALT EVENT", "getTickets": "Köp Biljetter", "categories": { "concerts": "KONSERTER", "sports": "SPORT", "shows": "SHOWER" }, "upcoming": { "jazz": { "title": "Jazzfestival", "description": "Jazzartister under stjärnorna" }, "boxing": { "title": "Mästerskapsboxning", "description": "Titelmatch" }, "flamenco": { "title": "Flamenco", "description": "Traditionell flamenco" }, "electronic": { "title": "Elektronisk Musik", "description": "Elektrofestival" }, "tennis": { "title": "Tennisuppvisning", "description": "Världsmästare" }, "cirque": { "title": "Cirkus", "description": "Häpnadsväckande akrobatik" } } },
+  "nightlife": { "title": "Exklusivt Nattliv", "subtitle": "Elegans och spänning i exklusiva lokaler.", "venues": { "vip": { "name": "VIP Lounge", "subtitle": "Exklusiv Klubb", "description": "Ultra-exklusiv upplevelse.", "features": ["VIP-service", "Premium cocktails", "Live-DJ", "Exklusiv tillgång"] }, "nightclub": { "name": "Sofistikerad Nattklubb", "subtitle": "Premium Klubb", "description": "Världsklass-DJs.", "features": ["Världsklass-DJs", "Premium ljud", "Elegant design", "VIP-bord"] } }, "events": { "title": "Veckovisa Event", "saturday": { "title": "Lördagskvällsfeber", "schedule": "Lördagar • 22:00 - 04:00 • 21+", "description": "Internationella DJs." }, "sunset": { "title": "Solnedgångssessioner", "schedule": "Dagligen • 18:00 - 24:00 • 18+", "description": "Cocktails och musik." }, "midnight": { "title": "Midnattselegans", "schedule": "Fre & Lör • 23:00 - 05:00 • 25+", "description": "Exklusiv klubb." } }, "features": { "cocktails": { "title": "Cocktails", "description": "Mästermixologer." }, "djs": { "title": "Internationella DJs", "description": "Musikupplevelser." }, "vip": { "title": "VIP-Upplevelse", "description": "Exklusiva områden." }, "atmosphere": { "title": "Elegant Atmosfär", "description": "Sofistikerad design." } }, "buttons": { "reserveVip": "Boka VIP", "guestList": "Gästlista" } },
+  "contact": { "title": "Kontakta Lago Bravo", "subtitle": "Planera din flykt.", "getInTouch": "Kontakta Oss", "email": { "title": "E-post", "value": "info@lagobravo.com", "description": "För förfrågningar och bokningar" }, "location": { "title": "Globala Destinationer", "value": "Lyx Väntar", "description": "Exklusiva vattenlägen" }, "form": { "title": "Gör Bokning", "firstName": "Förnamn", "firstNamePlaceholder": "Ditt förnamn", "lastName": "Efternamn", "lastNamePlaceholder": "Ditt efternamn", "email": "E-post", "emailPlaceholder": "email@exempel.se", "phone": "Telefon", "phonePlaceholder": "+46 (0)70 123 4567", "checkIn": "Incheckning", "checkOut": "Utcheckning", "specialRequests": "Särskilda Önskemål", "specialRequestsPlaceholder": "Dina preferenser...", "submit": "Skicka Förfrågan", "submitting": "Skickar...", "confirmation": "Vi kontaktar dig inom 24h." }, "messages": { "success": { "title": "Förfrågan Skickad", "description": "Vi kontaktar dig inom 24h." }, "error": { "title": "Fel", "description": "Försök igen." }, "missing": { "title": "Saknad Information", "description": "Fyll i alla fält." } } },
+  "footer": { "contact": "Kontakt", "privacy": "Integritet", "terms": "Villkor", "copyright": "© 2025 Lago Bravo Integrated Resorts. Alla rättigheter förbehållna." },
+  "common": { "learnMore": "Läs Mer", "bookNow": "Boka", "contactUs": "Kontakta Oss", "viewDetails": "Se Detaljer" }
 }
