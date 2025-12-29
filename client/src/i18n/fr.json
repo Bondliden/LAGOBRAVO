@@ -16,6 +16,36 @@
     "bookNow": "Réserver"
   },
   "home": { "hero": { "title": "Lago Bravo Integrated Resorts", "subtitle": "Resort de Luxe avec Golf et Marina", "cta": "Explorer", "golf": "Golf Championship", "book": "Réservez Votre Séjour" } },
+  "about": {
+    "title": "À Propos de Lago Bravo",
+    "description": "Une destination de resort de luxe intégré avec les plus grandes lagunes cristallines du monde, divertissement de classe mondiale, vie nocturne exclusive et hospitalité incomparable.",
+    "imageAlt": "Intérieur élégant du hall de l'hôtel",
+    "stats": {
+      "premium": { "value": "Premium", "label": "Accès Aéroport" },
+      "global": { "value": "Global", "label": "Destinations" },
+      "exclusive": { "value": "Exclusif", "label": "Accès Front de Mer" }
+    },
+    "features": {
+      "lagoons": { "title": "Technologie Crystal Lagoons", "description": "Les plus grandes lagunes artificielles aux eaux cristallines du monde avec plages de sable blanc." },
+      "resort": { "title": "Destination Resort Intégré", "description": "Expérience de luxe complète avec hôtels, villas, casino, gastronomie et divertissement." },
+      "porcelanosa": { "title": "Finitions PORCELANOSA", "description": "Finitions intérieures et meubles de cuisine par PORCELANOSA PARTNERS." }
+    }
+  },
+  "experiences": {
+    "title": "Découvrez Nos Expériences",
+    "subtitle": "Explorez les meilleures offres en hospitalité de luxe, divertissement et style de vie",
+    "bookExperience": "Réservez Votre Expérience",
+    "hotels": { "title": "Hôtels de Luxe", "description": "Palace 5 étoiles, resort casino Vegas et cabanes Tulum" },
+    "golf": { "title": "Golf de Championnat", "description": "Parcours 18 trous avec vues spectaculaires" },
+    "marina": { "title": "Marina Exclusive", "description": "Club de yachts privé et expériences Pleine Lune" },
+    "residences": { "title": "Résidences de Luxe", "description": "Villas sur lagon cristallin et condominiums" },
+    "accommodations": { "title": "Hébergement", "description": "Suites d'hôtel et villas de classe mondiale" },
+    "weddings": { "title": "Mariages de Rêve", "description": "Cérémonies inoubliables au paradis" },
+    "casino": { "title": "Casino Sophistiqué", "description": "Jeux de classe mondiale et salons VIP" },
+    "dining": { "title": "Haute Gastronomie", "description": "Restaurants de chefs célèbres" },
+    "events": { "title": "Sports et Événements", "description": "Concerts, sports et divertissement" },
+    "nightlife": { "title": "Vie Nocturne Vibrante", "description": "Clubs exclusifs et fêtes sur la plage" }
+  },
   "golf": {
     "title": "Parcours de Golf Championship",
     "subtitle": "Golf de classe mondiale sur notre parcours 18 trous avec vues sur l'océan.",

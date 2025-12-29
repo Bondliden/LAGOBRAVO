@@ -24,6 +24,36 @@
       "book": "Reserve su Estancia"
     }
   },
+  "about": {
+    "title": "Sobre Lago Bravo",
+    "description": "Un destino de resort de lujo integrado con las lagunas cristalinas más grandes del mundo, entretenimiento de clase mundial, vida nocturna exclusiva y hospitalidad incomparable.",
+    "imageAlt": "Interior elegante del vestíbulo del hotel",
+    "stats": {
+      "premium": { "value": "Premium", "label": "Acceso al Aeropuerto" },
+      "global": { "value": "Global", "label": "Destinos" },
+      "exclusive": { "value": "Exclusivo", "label": "Acceso Frente al Mar" }
+    },
+    "features": {
+      "lagoons": { "title": "Tecnología Crystal Lagoons", "description": "Las lagunas artificiales de aguas cristalinas más grandes del mundo con playas de arena blanca." },
+      "resort": { "title": "Destino Resort Integrado", "description": "Experiencia de lujo completa con hoteles, villas, casino, gastronomía y entretenimiento." },
+      "porcelanosa": { "title": "Acabados PORCELANOSA", "description": "Acabados interiores y muebles de cocina de PORCELANOSA PARTNERS." }
+    }
+  },
+  "experiences": {
+    "title": "Descubra Nuestras Experiencias",
+    "subtitle": "Explore las mejores ofertas en hospitalidad de lujo, entretenimiento y estilo de vida",
+    "bookExperience": "Reserve su Experiencia",
+    "hotels": { "title": "Hoteles de Lujo", "description": "Palacio 5 estrellas, resort casino Vegas y cabañas Tulum" },
+    "golf": { "title": "Golf de Campeonato", "description": "Campo de 18 hoyos con vistas impresionantes" },
+    "marina": { "title": "Marina Exclusiva", "description": "Club de yates privado y experiencias Luna Llena" },
+    "residences": { "title": "Residencias de Lujo", "description": "Villas en laguna cristalina y condominios" },
+    "accommodations": { "title": "Alojamiento", "description": "Suites de hotel y villas de clase mundial" },
+    "weddings": { "title": "Bodas de Ensueño", "description": "Ceremonias inolvidables en el paraíso" },
+    "casino": { "title": "Casino Sofisticado", "description": "Juegos de clase mundial y salones VIP" },
+    "dining": { "title": "Alta Gastronomía", "description": "Restaurantes de chefs famosos" },
+    "events": { "title": "Deportes y Eventos", "description": "Conciertos, deportes y entretenimiento" },
+    "nightlife": { "title": "Vida Nocturna Vibrante", "description": "Clubes exclusivos y fiestas en la playa" }
+  },
   "golf": {
     "title": "Campo de Golf de Campeonato",
     "subtitle": "Experimente golf de clase mundial en nuestro campo de campeonato de 18 hoyos, con impresionantes vistas al océano y fairways meticulosamente mantenidos.",

@@ -24,6 +24,36 @@
       "book": "Book Your Stay"
     }
   },
+  "about": {
+    "title": "About Lago Bravo",
+    "description": "A premier integrated luxury resort destination featuring the world's largest Crystal Lagoons, offering world-class entertainment, exclusive nightlife, and unparalleled hospitality across stunning global locations.",
+    "imageAlt": "Elegant hotel lobby interior",
+    "stats": {
+      "premium": { "value": "Premium", "label": "Airport Access" },
+      "global": { "value": "Global", "label": "Destinations" },
+      "exclusive": { "value": "Exclusive", "label": "Waterfront Access" }
+    },
+    "features": {
+      "lagoons": { "title": "Crystal Lagoons Technology", "description": "Experience the world's largest man-made crystal clear lagoons with pristine turquoise waters and white sand beaches." },
+      "resort": { "title": "Integrated Resort Destination", "description": "A complete luxury experience featuring hotels, villas, casino, dining, and entertainment in one spectacular location." },
+      "porcelanosa": { "title": "PORCELANOSA Finishes", "description": "All interior finishes and kitchen furniture crafted by PORCELANOSA PARTNERS, ensuring the highest quality luxury." }
+    }
+  },
+  "experiences": {
+    "title": "Discover Our Experiences",
+    "subtitle": "Explore the finest offerings in luxury hospitality, entertainment, and lifestyle",
+    "bookExperience": "Book Your Experience",
+    "hotels": { "title": "Luxury Hotels", "description": "5-star palace, Vegas casino resort & Tulum cabanas" },
+    "golf": { "title": "Championship Golf", "description": "18-hole championship course with stunning views" },
+    "marina": { "title": "Exclusive Marina", "description": "Private yacht club and Full Moon experiences" },
+    "residences": { "title": "Luxury Residences", "description": "Crystal lagoon villas and condominiums" },
+    "accommodations": { "title": "Accommodations", "description": "World-class hotel suites and villas" },
+    "weddings": { "title": "Dream Weddings", "description": "Unforgettable ceremonies in paradise" },
+    "casino": { "title": "Sophisticated Casino", "description": "World-class gaming and VIP lounges" },
+    "dining": { "title": "Fine Dining", "description": "Celebrity chef restaurants and cuisine" },
+    "events": { "title": "Sports & Events", "description": "Concerts, sports, and entertainment" },
+    "nightlife": { "title": "Vibrant Nightlife", "description": "Exclusive clubs and beach parties" }
+  },
   "golf": {
     "title": "Championship Golf Course",
     "subtitle": "Experience world-class golf at our signature 18-hole championship course, featuring breathtaking ocean views and meticulously maintained fairways designed for players of all skill levels.",

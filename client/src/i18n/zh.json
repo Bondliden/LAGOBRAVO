@@ -1,6 +1,36 @@
 {
   "nav": { "home": "首页", "golf": "高尔夫", "marina": "游艇码头", "residences": "住宅", "hotel": "酒店", "dining": "餐饮", "spa": "水疗中心", "meetings": "会议活动", "accommodations": "住宿", "weddings": "婚礼", "casino": "赌场", "events": "活动", "nightlife": "夜生活", "bookNow": "立即预订" },
   "home": { "hero": { "title": "Lago Bravo Integrated Resorts", "subtitle": "豪华高尔夫和游艇码头度假村", "cta": "探索", "golf": "锦标赛高尔夫", "book": "预订入住" } },
+  "about": {
+    "title": "关于Lago Bravo",
+    "description": "一个综合性豪华度假胜地，拥有世界上最大的水晶泻湖、世界级娱乐、独家夜生活和无与伦比的待客之道。",
+    "imageAlt": "优雅的酒店大堂内景",
+    "stats": {
+      "premium": { "value": "尊享", "label": "机场通道" },
+      "global": { "value": "全球", "label": "目的地" },
+      "exclusive": { "value": "独家", "label": "滨水通道" }
+    },
+    "features": {
+      "lagoons": { "title": "水晶泻湖技术", "description": "世界上最大的人工水晶清澈泻湖，配有白色沙滩。" },
+      "resort": { "title": "综合度假胜地", "description": "完整的豪华体验，包括酒店、别墅、赌场、美食和娱乐。" },
+      "porcelanosa": { "title": "PORCELANOSA装修", "description": "PORCELANOSA PARTNERS提供的室内装修和厨房家具。" }
+    }
+  },
+  "experiences": {
+    "title": "探索我们的体验",
+    "subtitle": "探索豪华酒店、娱乐和生活方式的最佳选择",
+    "bookExperience": "预订您的体验",
+    "hotels": { "title": "豪华酒店", "description": "五星级宫殿、维加斯赌场度假村和图卢姆小屋" },
+    "golf": { "title": "锦标赛高尔夫", "description": "18洞球场，景色壮观" },
+    "marina": { "title": "专属游艇码头", "description": "私人游艇俱乐部和满月体验" },
+    "residences": { "title": "豪华住宅", "description": "水晶泻湖别墅和公寓" },
+    "accommodations": { "title": "住宿", "description": "世界级酒店套房和别墅" },
+    "weddings": { "title": "梦想婚礼", "description": "天堂般的难忘婚礼" },
+    "casino": { "title": "精致赌场", "description": "世界级博彩和VIP贵宾室" },
+    "dining": { "title": "高级餐饮", "description": "名厨餐厅" },
+    "events": { "title": "体育与活动", "description": "音乐会、体育和娱乐" },
+    "nightlife": { "title": "活力夜生活", "description": "独家俱乐部和沙滩派对" }
+  },
   "golf": { "title": "锦标赛高尔夫球场", "subtitle": "在我们的18洞锦标赛球场体验世界级高尔夫，拥有壮丽海景。", "heroTitle": "18洞锦标赛球场", "heroSubtitle": "由Tom Doak设计 • 标准杆72 • 7,200码", "features": { "championship": { "title": "18洞锦标赛球场", "description": "由著名高尔夫建筑师Tom Doak设计。" }, "instruction": { "title": "PGA专业教学", "description": "认证专业人士私人课程。" }, "practice": { "title": "高级练习设施", "description": "练习场、果岭和短杆区。" }, "clubhouse": { "title": "专属会所", "description": "豪华会所配有专卖店和美食。" } }, "packages": { "title": "高尔夫套餐", "getaway": { "name": "高尔夫假期", "description": "高尔夫爱好者专属", "features": ["2晚豪华住宿", "无限高尔夫", "含球车", "欢迎礼包", "练习设施"] }, "master": { "name": "高尔夫大师体验", "description": "终极高尔夫假期", "popular": "最受欢迎", "features": ["3晚高级套房", "无限高尔夫", "PGA私人课程", "锦标赛特权", "VIP通道", "设备租赁"] }, "corporate": { "name": "企业高尔夫", "description": "商务活动专属", "features": ["团体住宿", "私人锦标赛", "会议室", "团队建设", "颁奖晚宴"] } }, "info": { "title": "球场信息", "par": "标准杆72", "parLabel": "锦标赛球场", "yards": "7,200", "yardsLabel": "总码数", "holes": "18", "holesLabel": "锦标赛洞", "rating": "五星级", "ratingLabel": "高尔夫文摘评级", "hours": "营业时间", "hoursValue": "日出至日落，每周7天", "reservations": "预订", "reservationsValue": "提前30天预订", "dressCode": "着装要求", "dressCodeValue": "高尔夫着装，软钉鞋" }, "cta": { "title": "准备开球？", "description": "在Lago Bravo预订您的高尔夫体验。", "bookTee": "预订开球时间", "lessonInquiry": "课程咨询", "bookPackage": "预订套餐" } },
   "marina": { "title": "专属游艇码头和游艇俱乐部", "subtitle": "水上奢华体验，私人码头、游艇包租和满月聚会。", "heroTitle": "私人游艇码头和俱乐部", "heroSubtitle": "专属水上奢华 • 满月庆典", "features": { "fullMoon": { "title": "满月聚会", "description": "满月下的专属月度游船聚会。", "signature": "招牌体验" }, "yachtCharter": { "title": "游艇包租", "description": "配有专业船员的豪华游艇。" }, "dining": { "title": "水滨美食", "description": "专属码头餐厅。" }, "waterSports": { "title": "水上运动", "description": "摩托艇、皮划艇、桨板、潜水。" } }, "fullMoonSection": { "title": "满月游船聚会", "description": "满月下的专属月度庆典。", "schedule": "2027年日程已发布", "reserve": "预订体验" }, "services": { "title": "码头服务", "yacht": { "name": "豪华游艇包租", "description": "60英尺游艇配船员", "features": ["专业船长", "美食餐饮", "全套酒吧", "12位宾客", "浮潜设备"] }, "fullMoon": { "name": "满月体验", "description": "月度专属聚会", "features": ["高级接送", "五道式晚餐", "现场音乐", "香槟祝酒", "专业摄影"] }, "sunset": { "name": "日落巡游", "description": "浪漫夜游", "features": ["2小时巡游", "鸡尾酒", "毛毯", "音乐", "情侣专属"] } }, "amenities": { "title": "码头设施", "docking": { "title": "高级泊位", "description": "50个配套泊位" }, "fuel": { "title": "燃油", "description": "加油站和维修" }, "concierge": { "title": "礼宾服务", "description": "清洁和补给" }, "events": { "title": "满月活动", "description": "月度庆典" } }, "cta": { "title": "奢华启航", "description": "在我们专属码头体验水上奢华。", "bookFullMoon": "预订满月", "charterYacht": "包租游艇", "bookService": "预订服务" } },
   "residences": { "title": "专属住宅", "subtitle": "水上别墅和泻湖住宅，分时产权。", "villaTitle": "水上别墅", "villaSubtitle": "水晶泻湖多层设计", "comingSoon": "即将推出", "builtInLagoon": "泻湖内", "fractionalAvailable": "分时产权可用", "features": { "lagoon": { "title": "水晶泻湖内", "description": "水上别墅。" }, "yacht": { "title": "游艇泊位", "description": "专属泊位和码头通道。" }, "concierge": { "title": "礼宾服务", "description": "24/7服务。" }, "amenities": { "title": "设施", "description": "高尔夫、水疗、餐饮、码头。" } }, "properties": { "aquaVilla": { "type": "水上别墅 - 水上设计", "signature": "签名系列", "overwaterDesign": "水上设计", "area": "220 - 250 平方米", "levels": "3层 + 屋顶", "bedrooms": "4卧室", "features": ["水上设计", "开放客厅", "主卧 + 2客卧", "娱乐室", "屋顶泳池", "玻璃地板", "浮动码头", "智能家居"] }, "marinaVista": { "type": "Marina Vista - 泻湖边缘", "area": "180 - 200 平方米", "levels": "2层 + 露台", "bedrooms": "3卧室", "features": ["泻湖边缘", "有顶露台", "景观阳台", "私人花园", "游泳通道", "停车位", "24/7礼宾", "1/8份额起"] }, "labels": { "area": "面积", "bedrooms": "卧室", "levels": "层数", "status": "状态" } }, "conciergeSection": { "title": "礼宾服务", "description": "业主24/7服务。", "transportation": { "title": "交通", "description": "接送和包机" }, "dining": { "title": "餐饮", "description": "预订" }, "events": { "title": "活动", "description": "私人策划" }, "property": { "title": "物业", "description": "维护" } }, "amenitiesSection": { "title": "包含设施", "items": ["海滩俱乐部", "高尔夫优先", "码头和游艇", "水疗中心", "餐厅", "儿童", "健身和网球", "商务中心"] }, "investment": { "title": "投资机会", "description": "卓越潜力。", "benefitsTitle": "优势", "benefits": ["8-12%年增值", "租赁计划", "完全产权", "居留计划"] }, "cta": { "title": "拥有天堂", "description": "豪华度假村生活。", "joinWaitlist": "加入候补", "fractionalInfo": "分时产权信息" }, "buttons": { "joinWaitlist": "加入", "fractionalInfo": "信息" }, "luxury": { "title": "豪华度假村生活", "description": "综合度假村生活方式" }, "marina": { "title": "码头通道", "description": "私人游艇泊位", "privateMarina": "私人码头", "yachtServices": "游艇服务" } },
