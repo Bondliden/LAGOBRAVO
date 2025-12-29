@@ -22,75 +22,279 @@
       "cta": "Explore",
       "golf": "Championship Golf",
       "book": "Book Your Stay"
-    },
-    "features": {
-      "golf": "Championship Golf Course",
-      "marina": "World-Class Marina",
-      "residences": "Luxury Residences",
-      "hotel": "5-Star Hotels"
     }
   },
   "golf": {
     "title": "Championship Golf Course",
-    "description": "Experience world-class golfing on our championship 18-hole course",
+    "subtitle": "Experience world-class golf at our signature 18-hole championship course, featuring breathtaking ocean views and meticulously maintained fairways designed for players of all skill levels.",
+    "heroTitle": "18-Hole Championship Course",
+    "heroSubtitle": "Designed by Tom Doak • Par 72 • 7,200 yards",
     "features": {
-      "holes": "18 Championship Holes",
-      "design": "Award-Winning Design",
-      "facilities": "Pro Shop & Practice Facilities"
+      "championship": {
+        "title": "Championship 18-Hole Course",
+        "description": "Designed by renowned golf architect Tom Doak, featuring stunning ocean views and challenging play for all skill levels."
+      },
+      "instruction": {
+        "title": "PGA Professional Instruction",
+        "description": "Private lessons and group clinics with certified PGA professionals to improve your game."
+      },
+      "practice": {
+        "title": "Premium Practice Facilities",
+        "description": "Driving range, putting greens, and short game area with top-tier equipment and amenities."
+      },
+      "clubhouse": {
+        "title": "Exclusive Clubhouse",
+        "description": "Luxury clubhouse with pro shop, fine dining, and panoramic course views."
+      }
+    },
+    "packages": {
+      "title": "Golf Packages",
+      "getaway": {
+        "name": "Golf Getaway",
+        "description": "Perfect for golf enthusiasts",
+        "features": ["Luxury accommodation for 2 nights", "Unlimited golf on championship course", "Cart rental included", "Welcome golf package", "Access to practice facilities"]
+      },
+      "master": {
+        "name": "Golf Master Experience",
+        "description": "Ultimate golf vacation",
+        "popular": "MOST POPULAR",
+        "features": ["Premium suite for 3 nights", "Unlimited championship golf", "Private golf lesson with PGA pro", "Tournament entry privileges", "VIP clubhouse access", "Golf equipment rental"]
+      },
+      "corporate": {
+        "name": "Corporate Golf Retreat",
+        "description": "Perfect for business events",
+        "features": ["Group accommodation", "Private tournament setup", "Meeting room access", "Team building activities", "Awards ceremony dinner"]
+      }
+    },
+    "info": {
+      "title": "Course Information",
+      "par": "Par 72",
+      "parLabel": "Championship Course",
+      "yards": "7,200",
+      "yardsLabel": "Total Yards",
+      "holes": "18",
+      "holesLabel": "Championship Holes",
+      "rating": "5-Star",
+      "ratingLabel": "Golf Digest Rating",
+      "hours": "Operating Hours",
+      "hoursValue": "Sunrise to Sunset, 7 days a week",
+      "reservations": "Reservations",
+      "reservationsValue": "Book up to 30 days in advance",
+      "dressCode": "Dress Code",
+      "dressCodeValue": "Golf attire required, soft spikes only"
+    },
+    "cta": {
+      "title": "Ready to Tee Off?",
+      "description": "Book your golf experience at Lago Bravo's championship course and discover why Golf Digest rated us among the world's finest resort courses.",
+      "bookTee": "Book Tee Time",
+      "lessonInquiry": "Golf Lesson Inquiry",
+      "bookPackage": "Book Golf Package"
     }
   },
   "marina": {
-    "title": "World-Class Marina",
-    "description": "State-of-the-art marina facilities for yachts up to 300 feet",
+    "title": "Exclusive Marina & Yacht Club",
+    "subtitle": "Experience luxury on the water with our private marina featuring yacht charters, waterside dining, and our signature Full Moon Gatherings - monthly celebrations under the stars.",
+    "heroTitle": "Private Marina & Yacht Club",
+    "heroSubtitle": "Exclusive waterfront luxury • Full Moon celebrations",
     "features": {
-      "slips": "200+ Marina Slips",
-      "services": "Full Service Marina",
-      "amenities": "Premium Amenities"
+      "fullMoon": {
+        "title": "Full Moon Gatherings",
+        "description": "Exclusive monthly boat gatherings under the full moon with live music, premium dining, and celestial views.",
+        "signature": "SIGNATURE EXPERIENCE"
+      },
+      "yachtCharter": {
+        "title": "Private Yacht Charters",
+        "description": "Luxury yacht rentals with professional crew for day trips, sunset cruises, and multi-day adventures."
+      },
+      "dining": {
+        "title": "Waterfront Dining",
+        "description": "Exclusive marina restaurant with fresh seafood, craft cocktails, and panoramic ocean views."
+      },
+      "waterSports": {
+        "title": "Water Sports Center",
+        "description": "Complete water sports facility with jet skis, kayaks, paddleboards, and diving equipment."
+      }
+    },
+    "fullMoonSection": {
+      "title": "Full Moon Boat Gatherings",
+      "description": "Join our exclusive monthly celebration under the full moon. Each gathering features luxury boat transportation, gourmet dining, live music, and the magic of moonlight reflecting on the water.",
+      "schedule": "Full year 2027 schedule available • Monthly celebrations throughout the year",
+      "reserve": "Reserve Full Moon Experience"
+    },
+    "services": {
+      "title": "Marina Services",
+      "yacht": {
+        "name": "Luxury Yacht Charter",
+        "description": "60-foot luxury yacht with crew",
+        "features": ["Professional captain and crew", "Gourmet catering available", "Full bar and entertainment system", "Up to 12 guests", "Snorkeling and fishing equipment"]
+      },
+      "fullMoon": {
+        "name": "Full Moon Experience",
+        "description": "Monthly exclusive gathering",
+        "features": ["Premium boat transportation", "5-course gourmet dinner", "Live acoustic music", "Champagne toast at moonrise", "Professional photography"]
+      },
+      "sunset": {
+        "name": "Sunset Cruise",
+        "description": "Romantic evening cruise",
+        "features": ["2-hour sunset cruise", "Cocktails and appetizers", "Blankets and seating", "Music and entertainment", "Perfect for couples"]
+      }
+    },
+    "amenities": {
+      "title": "Marina Amenities",
+      "docking": { "title": "Premium Docking", "description": "50 luxury boat slips with full utilities" },
+      "fuel": { "title": "Fuel & Maintenance", "description": "Full-service fuel dock and repair facility" },
+      "concierge": { "title": "Concierge Services", "description": "Boat cleaning, provisioning, and trip planning" },
+      "events": { "title": "Full Moon Events", "description": "Monthly exclusive gatherings and celebrations" }
+    },
+    "cta": {
+      "title": "Set Sail in Luxury",
+      "description": "Experience the ultimate in waterfront luxury at our exclusive marina. From yacht charters to our magical Full Moon Gatherings, create unforgettable memories on the water.",
+      "bookFullMoon": "Book Full Moon Experience",
+      "charterYacht": "Charter a Yacht",
+      "bookService": "Book Marina Service"
     }
   },
   "residences": {
-    "title": "Luxury Residences",
-    "description": "Exclusive waterfront living with unparalleled views",
+    "title": "Exclusive Resort Residences",
+    "subtitle": "Architecturally inspired multi-level overwater villas and lagoon-edge residences, featuring innovative designs built directly in and around our pristine crystal lagoon with fractional ownership opportunities.",
+    "villaTitle": "Architectural-Inspired Overwater Villas",
+    "villaSubtitle": "Multi-level designs built directly in crystal lagoon waters with exclusive marina access",
+    "comingSoon": "Coming Soon",
+    "builtInLagoon": "Built in Lagoon",
+    "fractionalAvailable": "Fractional Available",
     "features": {
-      "views": "Panoramic Views",
-      "design": "Contemporary Design",
-      "amenities": "Resort Amenities"
+      "lagoon": { "title": "Built in Crystal Lagoon", "description": "Exclusive overwater villas constructed directly in the crystal-clear lagoon waters." },
+      "yacht": { "title": "Private Yacht Docking", "description": "Each villa includes dedicated boat slip and direct marina access for your vessels." },
+      "concierge": { "title": "Concierge Services", "description": "24/7 dedicated concierge team for all villa and condominium residents." },
+      "amenities": { "title": "Resort Amenities", "description": "Full access to all resort facilities including golf, spa, dining, and marina." }
+    },
+    "properties": {
+      "aquaVilla": {
+        "type": "Aqua Villa - Overwater Crystal Lagoon",
+        "signature": "SIGNATURE COLLECTION",
+        "overwaterDesign": "OVERWATER DESIGN"
+      },
+      "marinaVista": {
+        "type": "Marina Vista - Lagoon Edge Residence"
+      },
+      "labels": {
+        "area": "Area",
+        "bedrooms": "Bedrooms",
+        "levels": "Levels",
+        "status": "Status"
+      }
+    },
+    "conciergeSection": {
+      "title": "Exclusive Concierge Services",
+      "description": "Every villa and condominium owner enjoys 24/7 dedicated concierge service, ensuring every aspect of resort living exceeds your expectations.",
+      "transportation": { "title": "Transportation", "description": "Airport transfers & charters" },
+      "dining": { "title": "Dining", "description": "Restaurant reservations" },
+      "events": { "title": "Events", "description": "Private event planning" },
+      "property": { "title": "Property", "description": "Maintenance & housekeeping" }
+    },
+    "amenitiesSection": {
+      "title": "Included Resort Amenities",
+      "items": ["Private Beach Club", "Residents' Golf Priority", "Marina & Yacht Services", "Spa & Wellness Center", "Fine Dining Restaurants", "Children's Activities", "Fitness & Tennis Club", "Business Center"]
+    },
+    "investment": {
+      "title": "Investment Opportunity",
+      "description": "Lago Bravo Integrated Resorts offers exceptional investment potential in one of the world's most desirable luxury resort destinations.",
+      "benefitsTitle": "Key Investment Benefits",
+      "benefits": ["Projected 8-12% annual appreciation", "Optional rental program with guaranteed returns", "Freehold ownership rights", "Residency qualification programs available"]
+    },
+    "cta": {
+      "title": "Own Paradise",
+      "description": "Discover the ultimate in luxury resort living with our exclusive crystal lagoon villas and condominiums. Schedule a private viewing and experience the Lago Bravo lifestyle.",
+      "joinWaitlist": "Join Exclusive Waitlist",
+      "fractionalInfo": "Fractional Ownership Info"
+    },
+    "buttons": {
+      "joinWaitlist": "Join Waitlist",
+      "fractionalInfo": "Fractional Info"
+    },
+    "luxury": {
+      "title": "Luxury Resort Living",
+      "description": "Experience the ultimate in integrated resort lifestyle"
+    },
+    "marina": {
+      "title": "Exclusive Marina Access",
+      "description": "Private yacht docking and luxury waterfront living",
+      "privateMarina": "Private Marina",
+      "yachtServices": "Yacht Services"
     }
   },
-  "hotel": {
-    "title": "Luxury Hotel Collection",
-    "palace": {
-      "name": "The Lago Bravo Palace",
-      "stars": "5 Stars - Super Luxury",
-      "description": "The pinnacle of luxury with 150 suites offering butler service, private terraces, infinity pools, and Michelin-starred dining."
-    },
-    "resort": {
-      "name": "The Marina Resort",
-      "stars": "4 Stars - Premium",
-      "description": "Modern comfort with 200 rooms, direct marina views, rooftop pool, spa, and gourmet restaurants."
-    },
-    "club": {
-      "name": "The Golf Club Hotel",
-      "stars": "4 Stars - Sport & Leisure",
-      "description": "Perfect for golf enthusiasts with 180 rooms, golf course access, driving range, and casual dining."
+  "accommodations": {
+    "title": "Luxury Accommodations",
+    "subtitle": "Choose from our collection of world-class hotels and exclusive villas, each offering unique experiences and unparalleled luxury.",
+    "explore": "Explore",
+    "hotels": {
+      "wedding": {
+        "name": "Wedding Hotel",
+        "subtitle": "Luxury Wedding Venue",
+        "rooms": "120 Rooms",
+        "description": "Elegant accommodations designed specifically for weddings and romantic getaways, featuring exquisite ballrooms and ceremony spaces.",
+        "features": ["Luxury ballrooms", "Ceremony gardens", "Bridal suites", "Wedding coordination services"]
+      },
+      "cabana": {
+        "name": "Cabana Village",
+        "subtitle": "Tropical Paradise",
+        "rooms": "80 Rooms",
+        "description": "Intimate cabana-style accommodations nestled in lush tropical gardens, perfect for a private retreat.",
+        "features": ["Private terraces", "Tropical gardens", "Beach access", "Intimate setting"]
+      },
+      "centerParc": {
+        "name": "Center Parc",
+        "subtitle": "Business & Conference",
+        "rooms": "150 Rooms",
+        "description": "Modern business hotel with state-of-the-art conference facilities and executive amenities.",
+        "features": ["Conference centers", "Business lounges", "Executive floors", "Meeting facilities"]
+      }
     }
+  },
+  "weddings": {
+    "title": "Dream Weddings",
+    "subtitle": "Create unforgettable moments at our stunning wedding venues with personalized service and breathtaking settings."
+  },
+  "casino": {
+    "title": "World-Class Casino",
+    "subtitle": "Experience the thrill of gaming in our elegant casino with table games, slots, and VIP lounges."
   },
   "dining": {
-    "title": "Dining Excellence",
-    "description": "World-class culinary experiences"
+    "title": "Culinary Excellence",
+    "subtitle": "Savor world-class cuisine at our collection of restaurants featuring international and local flavors."
   },
-  "spa": {
-    "title": "Spa & Wellness",
-    "description": "Rejuvenate your mind and body"
+  "events": {
+    "title": "Events & Celebrations",
+    "subtitle": "Host your special occasions in our stunning venues with world-class service and amenities."
   },
-  "meetings": {
-    "title": "Meetings & Events",
-    "description": "Premier venues for any occasion"
+  "nightlife": {
+    "title": "Vibrant Nightlife",
+    "subtitle": "Experience the energy of our clubs, bars, and entertainment venues."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Reach out for reservations, inquiries, or any questions.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "checkIn": "Check-in Date",
+      "checkOut": "Check-out Date",
+      "specialRequests": "Special Requests",
+      "submit": "Submit Inquiry"
+    }
   },
   "footer": {
     "contact": "Contact",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyright": "© 2025 Lago Bravo Integrated Resorts. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "contactUs": "Contact Us",
+    "viewDetails": "View Details"
   }
 }
