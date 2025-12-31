@@ -32,7 +32,7 @@ export default function Nightlife() {
         <SectionHeading
           title={t('nightlife.title')}
           subtitle={t('nightlife.subtitle')}
-          className="text-white"
+          dark
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
