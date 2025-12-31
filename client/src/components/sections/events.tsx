@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import SectionHeading from "@/components/ui/section-heading";
 import { useLanguage } from "@/i18n";
+import beachClubImage from "@assets/generated_images/luxury_beach_club_resort.png";
 
 export default function Events() {
   const { t } = useLanguage();
@@ -10,7 +11,7 @@ export default function Events() {
     { key: "jazz", date: "Thu, Aug 14, 2025", time: "20:00", venue: "Arena", categoryKey: "concerts", categoryColor: "lago-accent", image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80", featured: true },
     { key: "boxing", date: "Thu, Aug 21, 2025", time: "21:00", venue: "Arena", categoryKey: "sports", categoryColor: "lago-orange", image: "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80", featured: true },
     { key: "flamenco", date: "Wed, Aug 27, 2025", time: "19:30", venue: "Arena", categoryKey: "shows", categoryColor: "lago-teal", image: "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" },
-    { key: "electronic", date: "Thu, Sep 4, 2025", time: "22:00", venue: "Beach Club", categoryKey: "concerts", categoryColor: "lago-accent", image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80", featured: true },
+    { key: "electronic", date: "Thu, Sep 4, 2025", time: "22:00", venue: "Beach Club", categoryKey: "concerts", categoryColor: "lago-accent", image: beachClubImage, featured: true },
     { key: "tennis", date: "Thu, Sep 11, 2025", time: "16:00", venue: "Arena", categoryKey: "sports", categoryColor: "lago-orange", image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" },
     { key: "cirque", date: "Wed, Sep 17, 2025", time: "20:30", venue: "Arena", categoryKey: "shows", categoryColor: "lago-teal", image: "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" }
   ];
