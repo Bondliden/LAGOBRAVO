@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import lagobravoLogoPath from "@assets/Lago Bravo_1753205553192.png";
+import heroVideoPath from "@assets/1231_1767173951160.mp4";
 import { useLanguage } from "@/i18n";
 
 export default function Hero() {
@@ -8,14 +9,16 @@ export default function Hero() {
   
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden mb-0">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')",
-        }}
-      />
+      {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src={heroVideoPath} type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 text-center text-white px-4 max-w-5xl">
