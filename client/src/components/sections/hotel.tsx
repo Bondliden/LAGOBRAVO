@@ -161,16 +161,16 @@ export default function Hotel() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-red-900 to-purple-900 rounded-2xl p-8 md:p-12 text-white">
+            <div className="bg-gradient-to-r from-red-900 to-purple-900 rounded-2xl p-8 md:p-12 text-white shadow-2xl">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="bg-red-500 px-4 py-1 rounded-full text-sm font-bold">VEGAS STYLE</span>
-                    <span className="bg-white/20 backdrop-blur-sm px-4 py-1 rounded-full text-sm">300 Rooms</span>
+                    <span className="bg-red-500 px-4 py-1 rounded-full text-sm font-bold shadow-lg">VEGAS STYLE</span>
+                    <span className="bg-white/20 backdrop-blur-md px-4 py-1 rounded-full text-sm border border-white/10">300 Rooms</span>
                   </div>
-                  <h4 className="text-3xl font-serif font-bold mb-4">Where Fortune Meets Luxury</h4>
-                  <p className="text-lg text-white/90">
-                    Experience the thrill of Las Vegas in paradise. From high-stakes gaming to spectacular shows, enjoy 24/7 entertainment with premium accommodations and world-class dining.
+                  <h4 className="text-3xl font-serif font-bold mb-4 drop-shadow-md">Sophisticated Casino</h4>
+                  <p className="text-lg text-white/95 leading-relaxed drop-shadow-sm">
+                    Sophisticated gaming experience with VIP lounges and professional dealers. Experience the thrill of Las Vegas in paradise with high-stakes gaming and spectacular shows.
                   </p>
                 </div>
                 <div className="grid grid-cols-3 gap-4">

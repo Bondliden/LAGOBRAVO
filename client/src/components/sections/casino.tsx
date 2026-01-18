@@ -10,7 +10,7 @@ export default function Casino() {
         <SectionHeading
           title={t('casino.title')}
           subtitle={t('casino.subtitle')}
-          className="text-white"
+          dark
         />
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
